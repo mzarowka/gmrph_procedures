@@ -1,14 +1,15 @@
 ---
 editor: visual
 format:
- html:
-  toc: true
-  toc-title: Etapy
- docx: default
- pdf:
-  geometry: 
-   - top=30mm
-   - left=30mm
+  html:
+    toc: true
+    toc-title: Etapy
+    embed-resources: true
+  pdf:
+    geometry: 
+    - top=30mm
+    - left=30mm
+  docx: default
 ---
 
 # Skanowanie hiperspektralne
@@ -17,11 +18,15 @@ format:
 
 Rdzenie muszą zostać oczyszczone i w miarę możliwości wyrównane. Należy usunąć wierzchnią warstwę osadu, starając się nie powodować powstawania linii po wyrównywaniu. Szczególnie istotne w przypadku drobnej laminacji. Woda i wilgoć na powierzchni rdzeni, oraz świeże, ciemne osady utrudniają analizę spektralną. Po oczyszczeniu rdzenie należy zabezpieczyć i pozostawić w ciemnym pomieszczeniu do czasu wyschnięcia powierzchni. Rdzenie przechowywać w ciemnym miejscu w celu uniknięcia **fotodegradacji**. Rdzeni nie należy pozostawiać do wyschnięcia na długo, ponieważ zaczną pękać. Najlepiej przygotować je po południu i sprawdzić na drugi dzień. Jeśli rdzeń jest wyrównany, ale jedna ze stron się zapada, można zastosować podkładkę w celu wyrównania poziomu.
 
+## Przygotowanie do pracy
+
+### Wybór ustawień
+
 -   Wąskie rdzenie (≈ Φ 63 mm): obiektyw 50.0 mm razem z aluminiową podkładką pod rdzeń.
 
 -   Szerokie rdzenie (≈ Φ 90 mm): obiektyw 18.5 mm.
 
-## Przygotowanie do pracy
+### Przygotowanie stanowiska
 
 -   Włączyć zasilacz awaryjny UPS pod stołem.
 
