@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.269">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>hyperspectral-scanning-pl</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="hyperspectral-scanning-pl_files/libs/clipboard/clipboard.min.js"></script>
+<script src="hyperspectral-scanning-pl_files/libs/quarto-html/quarto.js"></script>
+<script src="hyperspectral-scanning-pl_files/libs/quarto-html/popper.min.js"></script>
+<script src="hyperspectral-scanning-pl_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="hyperspectral-scanning-pl_files/libs/quarto-html/anchor.min.js"></script>
+<link href="hyperspectral-scanning-pl_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="hyperspectral-scanning-pl_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="hyperspectral-scanning-pl_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="hyperspectral-scanning-pl_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="hyperspectral-scanning-pl_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Etapy</h2>
+   
+  <ul>
+  <li><a href="#skanowanie-hiperspektralne" id="toc-skanowanie-hiperspektralne" class="nav-link active" data-scroll-target="#skanowanie-hiperspektralne">Skanowanie hiperspektralne</a>
+  <ul class="collapse">
+  <li><a href="#przygotowanie-rdzeni" id="toc-przygotowanie-rdzeni" class="nav-link" data-scroll-target="#przygotowanie-rdzeni"><strong>Przygotowanie rdzeni</strong></a></li>
+  <li><a href="#przygotowanie-do-pracy" id="toc-przygotowanie-do-pracy" class="nav-link" data-scroll-target="#przygotowanie-do-pracy">Przygotowanie do pracy</a></li>
+  <li><a href="#oprogramowanie-lumo-scanner" id="toc-oprogramowanie-lumo-scanner" class="nav-link" data-scroll-target="#oprogramowanie-lumo-scanner">Oprogramowanie „Lumo Scanner”</a>
+  <ul class="collapse">
+  <li><a href="#zakładka-setup" id="toc-zakładka-setup" class="nav-link" data-scroll-target="#zakładka-setup">Zakładka „Setup”</a></li>
+  <li><a href="#zakładka-adjust" id="toc-zakładka-adjust" class="nav-link" data-scroll-target="#zakładka-adjust">Zakładka „Adjust”</a></li>
+  <li><a href="#zakładka-capture" id="toc-zakładka-capture" class="nav-link" data-scroll-target="#zakładka-capture">Zakładka „Capture”</a></li>
+  </ul></li>
+  <li><a href="#zakończenie-pracy" id="toc-zakończenie-pracy" class="nav-link" data-scroll-target="#zakończenie-pracy">Zakończenie pracy</a></li>
+  <li><a href="#rejestr-zmian" id="toc-rejestr-zmian" class="nav-link" data-scroll-target="#rejestr-zmian">Rejestr zmian</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+
+
+<section id="skanowanie-hiperspektralne" class="level1">
+<h1>Skanowanie hiperspektralne</h1>
+<section id="przygotowanie-rdzeni" class="level2">
+<h2 class="anchored" data-anchor-id="przygotowanie-rdzeni"><strong>Przygotowanie rdzeni</strong></h2>
+<p>Rdzenie muszą zostać oczyszczone i w miarę możliwości wyrównane. Należy usunąć wierzchnią warstwę osadu, starając się nie powodować powstawania linii po wyrównywaniu. Szczególnie istotne w przypadku drobnej laminacji. Woda i wilgoć na powierzchni rdzeni, oraz świeże, ciemne osady utrudniają analizę spektralną. Po oczyszczeniu rdzenie należy zabezpieczyć i pozostawić w ciemnym pomieszczeniu do czasu wyschnięcia powierzchni. Rdzenie przechowywać w ciemnym miejscu w celu uniknięcia <strong>fotodegradacji</strong>. Rdzeni nie należy pozostawiać do wyschnięcia na długo, ponieważ zaczną pękać. Najlepiej przygotować je po południu i sprawdzić na drugi dzień. Jeśli rdzeń jest wyrównany, ale jedna ze stron się zapada, można zastosować podkładkę w celu wyrównania poziomu.</p>
+<ul>
+<li><p>Wąskie rdzenie (≈ Φ 63 mm): obiektyw 50.0 mm razem z aluminiową podkładką pod rdzeń.</p></li>
+<li><p>Szerokie rdzenie (≈ Φ 90 mm): obiektyw 18.5 mm.</p></li>
+</ul>
+</section>
+<section id="przygotowanie-do-pracy" class="level2">
+<h2 class="anchored" data-anchor-id="przygotowanie-do-pracy">Przygotowanie do pracy</h2>
+<ul>
+<li><p>Włączyć zasilacz awaryjny UPS pod stołem.</p></li>
+<li><p>Włączyć komputer (przełączniki od dołu do góry).</p></li>
+<li><p>Włączyć iluminator (przełącznik z przodu urządzenia).</p></li>
+<li><p>Upewnić się, że włączony jest tryb VNIR (przełącznik z przodu urządzenia).</p></li>
+<li><p>Ostrożnie usunąć osłonę obiektywu.</p></li>
+<li><p>Ułożyć rdzeń na prowadnicy, stropem do góry.</p></li>
+<li><p>Ustawić stolik ze wzorcem bieli oraz <strong>focus grid</strong> na równi z powierzchnią rdzenia.</p></li>
+<li><p>Ustawić miarkę na równi z rdzeniem, możliwie równolegle. W miarę konieczności ułożyć miarę na rdzeniu, równoległe ułożenie jest priorytetem.</p></li>
+<li><p>Ostrożnie umieścić wzorzec bieli na stoliku (sztabka BaSO<sub>4</sub>) – deliaktnie usunąć kurz, łapać tylko za boki.</p></li>
+</ul>
+</section>
+<section id="oprogramowanie-lumo-scanner" class="level2">
+<h2 class="anchored" data-anchor-id="oprogramowanie-lumo-scanner">Oprogramowanie „Lumo Scanner”</h2>
+<section id="zakładka-setup" class="level3">
+<h3 class="anchored" data-anchor-id="zakładka-setup">Zakładka „Setup”</h3>
+<ul>
+<li><p>Pole <code>Camera</code>, wybrać odpowiednią kamerę – <code>Connect</code>.</p></li>
+<li><p>Pole <code>calibration pack</code> wybrać odpowiedni plik kalibracyjny, zależny od obiektywu.</p>
+<ul>
+<li><p>Obiektyw 18.5 mm</p>
+<p><em>Specim\Documents\Calibration\560025_20211124_OLE18.5_calpack.scp</em></p></li>
+<li><p>Obiektyw 50.0 mm</p>
+<p><em>Specim\Documents\Calibration\560025_20211124_OL50_calpack.scp</em></p></li>
+</ul></li>
+<li><p>Zmiana obiektywu wymaga ponownego uruchomienia programu i połączenia z kamerą.</p></li>
+<li><p>Pole <code>Motor 1</code>: połączyć program z napędem skanera – <code>Connect</code>.</p></li>
+<li><p>Pole <code>Capture folder</code>: wybrać folder, w którym będą zapisywane dane.</p></li>
+<li><p>Pole <code>Dataset prefix</code>: wspólny przedrostek (<em>prefix</em>) zbioru danych (np. GOR-20).</p></li>
+</ul>
+</section>
+<section id="zakładka-adjust" class="level3">
+<h3 class="anchored" data-anchor-id="zakładka-adjust">Zakładka „Adjust”</h3>
+<ul>
+<li><p>Pole <code>Spectral binning</code>: 2</p>
+<p>W przypadku skanowania tylko w celu wykonania dokumentacji fotograficznej można zmienić wartość na 1.</p></li>
+<li><p>Pole <code>Spatial binning</code>: 1</p>
+<p>Ta wartość ma charakter stały, nie należy jej zmieniać.</p></li>
+<li><p>Ustawić kamerę na takiej wysokości, aby objęła cały rdzeń razem z miarą oraz niewielkim zapasem (około 1 cm) z obu stron. Rdzeń można przesuwać do przodu i do tyłu odpowiednimi przyciskami w polu <code>Motor</code>. Przy podglądzie należy upewnić się, że widać całość rejestrowanego przez kamerę obrazu.</p></li>
+<li><p>Po wybraniu odpowiedniej wysokości należy ustawić skaner na obszar <strong>focus grid</strong> w polu <code>Sensor 1</code> position – <code>Go</code>.</p>
+<h4 id="ekspozycja" class="anchored">Ekspozycja</h4></li>
+<li><p>W panelu <code>Spectral Camera sCMOS</code> ustawić opcje ekspozycji.</p>
+<p>Celem jest zmaksymalizowanie jasności bez osiągnięcia nadmiernej ekspozycji (<em>overexposure</em>) widocznej jako czerwone piksele na podglądzie.</p></li>
+<li><p>W panelu <code>detector</code> (lewy górny wykres) przesunąć białą linię nad środek białego pola <strong>focus grid</strong> możliwie blisko środka pola <code>focus grid</code> (centralnie pod obiektywem).</p>
+<p>Wartości rejestrowane na linii widoczne są w panelu Wavelenght (dolny lewy wykres). Celem jest osiągnięcie maksymalnej wartości dla białej krzywej bez przekroczenia maksymalnych wartości na osi Y (osiągnąć powyżej 80%, ale pozostawić pewien zapas). Zwiększenie jasności polega na zwiększeniu wartości czasu ekspozycji (<em>exposure time</em>, ET). ET zmienia się odwrotnie do częstotliwości wyświetlania klatek (<em>frame rate</em>, FR).</p></li>
+<li><p>Metodą prób i błędów ustawić FR (frame rate), zastosować wartość – <code>Apply</code>, ustawić maksymalną możliwą ekspozycję, zastosować wartość – <code>Apply</code>. Sprawdzić wykres w panelu <code>Wavelenght</code> (lewy dolny wykres), w miarę konieczności skorygować, za każdym razem ustawiając wartość – <code>Apply</code>.</p>
+<p>Każda zmiana wysokości stolika lub kamery (dystansu optycznego) wymaga korekty jasności i zastosowania nowych wartości.</p>
+<h4 id="ostrość" class="anchored">Ostrość</h4></li>
+<li><p>Po uzyskaniu właściwej jasności należy dokonać korekty ostrości w oparciu o wykresy: <code>Waterfall</code> (prawy górny wykres) oraz <code>Pixels</code> (prawy dolny wykres). Pomoc stanowi również prawy panel <code>Focusing</code>.</p></li>
+<li><p>Należy obracać obiektywem tak aby osiągnąć możliwe wyraźne białe i czarne pasy na wykresie <code>Waterfall</code> oraz możliwie ostre, spłaszczone piki na wykresie <code>Pixels</code>. Wykres <code>Waterfall</code> można przybliżyć i oddalić menu prawego przycisku myszy, po odznaczeniu opcji <code>fit to window</code>. Ostre krawędzie na wykresie <code>Pixels</code> oznaczają wysoki kontrast między czarnymi i białymi pasami pola <strong>focus grid</strong>. Kolor paska w panelu <code>Focusing</code> należy traktować jako wskazówkę. Metodą prób i błędów, przez przekroczenie ostrości w obu kierunkach zawęzić pole wyostrzania w celu osiągnięcia możliwie ostrego obrazu. Dobry obraz jest wyraźny na wykresie <code>Waterfall</code>, „kanciasty” na wykresie <code>Pixels</code> a panel <code>Focusing</code> pokazuje pomarańczowy lub zielony pasek.</p>
+<h4 id="prędkość-skanowania" class="anchored">Prędkość skanowania</h4></li>
+<li><p>Prędkość skanowania należy ocenić na podstawie pola widzenia kamery (<em>field of view</em>, FOV).</p></li>
+<li><p>Najpierw w zakładce „Adjust” przesunąć zdecydowanie rdzeń przyciskami w panelu motor, aby oszacować zakres pola widzenia.</p></li>
+<li><p>Przejść do zakładki „Capture”</p></li>
+<li><p>Upewnić się, że widoczny jest cały obraz z kamery. Wykres można przybliżyć i oddalić menu prawego przycisku myszy, po odznaczeniu opcji <code>fit to window</code>.</p></li>
+<li><p>W panelu <code>Motor</code> przesuwać rdzeń do przodu, tak aby pojawiła się poprzeczna miara poprzedzająca strop.</p></li>
+<li><p>Wykonać zrzut ekranu, wkleić na przykład do <strong>MS Paint</strong> i dokładnie odczytać wartość na miarce, wyrażoną w mm. Należy upewnić się, że wyświetlany obraz to cały obraz rejestrowany przez kamerę. Podgląd ma tendencję do przybliżania środka kadru.</p></li>
+<li><p>Wrócić do zakładki „Adjust”. W panelu <code>Scanning speed calculation</code> wybrać opcję <strong>Field of view</strong>. Wprowadzić odczytaną wartość FOV wyrażoną w mm.</p></li>
+<li><p>Alternatywnie można wykonać krótki skan i odczytać wartość z wygenerowanego pliku.</p>
+<h4 id="długość-skanowania" class="anchored">Długość skanowania</h4></li>
+<li><p>Panel <code>Sensor 1 positions</code>.</p>
+<ul>
+<li><p>Pole <code>Target start</code>: 250 mm. Wartość stała.</p></li>
+<li><p>Pole <code>Target stop</code>: ≈ długość rdzenia (mm) + 300 mm.</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="zakładka-capture" class="level3">
+<h3 class="anchored" data-anchor-id="zakładka-capture">Zakładka „Capture”</h3>
+<ul>
+<li><p>Upewnić się, czy na dysku jest wolne miejsce.</p>
+<p>W dolna części okna widoczne jest <strong>Free disk space</strong>. Musi mieć wartość minimum 10 minut.</p></li>
+<li><p>Sprawdzić Traffic lights.</p>
+<p>Wszystko powinno być zielone poza <strong>Trigger mode</strong>, które pokazuje się na czerwonym tle jako <strong>internal</strong>. <strong>Sensor temp</strong> (Temperatura kamery), może być wyświetlona na pomarańczowym tle, ale nie należy zostawiać urządzenia włączonego bezczynnie, tak aby się nie przegrzało.</p></li>
+<li><p>Uzupełnić dane w panelu <code>Metadata</code>:</p>
+<ul>
+<li><p>Pole <code>Dataset name</code>: kod rdzenia</p>
+<p>Jeśli <strong>Dataset prefix</strong> to GOR-20, wtedy <strong>Dataset name</strong> to np. 01 dla rdzenia GOR-20/01.</p></li>
+<li><p>Jeśli rdzeń wykracza poza miarę, należy zeskanować go dwukrotnie, od stropu i od spągu.</p>
+<p>W takim przypadku do <strong>Dataset name</strong> dodać podkreślenie i przyrostek (<em>sufix</em>) <strong>front</strong> lub <strong>rear</strong> (np. 01_front). W ten sposób skanowanie od strony stropu jest zawsze sortowane leksykalnie przed skanowaniem od strony spągu.</p></li>
+<li><p>Właściwy <strong>Dataset name</strong> powinien mieć następującą formę:</p>
+<ul>
+<li><p>01 – skanowanie całego rdzenia.</p></li>
+<li><p>01_front – skanowanie rdzenia od stropu.</p></li>
+<li><p>01_rear– skanowanie rdzenia od spągu.</p></li>
+</ul></li>
+</ul></li>
+<li><p>Pole <code>Operator</code>: inicjały osoby wykonującej skanowanie.</p>
+<ul>
+<li>Dopuszczalne: MZ, JP, MK.</li>
+</ul></li>
+<li><p>Wyłączyć monitor, zgasić światła w pomieszczeniu, zamknąć drzwi i wywiesić kartkę informującą o skanowaniu.</p></li>
+<li><p>Połączyć się z komputerem korzystając ze zdalnego pulpitu.</p></li>
+<li><p>Rozpocząć skanowanie guzikiem <code>Record</code>.</p></li>
+</ul>
+</section>
+</section>
+<section id="zakończenie-pracy" class="level2">
+<h2 class="anchored" data-anchor-id="zakończenie-pracy">Zakończenie pracy</h2>
+<p>Jeśli nie została przekroczona pojemność dysku skanowanie powinno zakończyć się bez błędów.</p>
+<ul>
+<li><p>Poczekać aż szyna wraz ze rdzeniem wróci na pozycję początkową (komunikat <em>Homing</em>).</p>
+<p>Nigdy nie przesuwać szyny ręcznie przy włączonym silniku.</p></li>
+<li><p>Wyłączyć kamerę i iluminator z przodu urządzenia.</p></li>
+<li><p>W zakładce „Setup” w użyć przycisków <code>Disconnect</code> w polach <code>Camera</code> oraz <code>Motor 1</code>.</p></li>
+<li><p>Zamknąć oprogramowanie Lumo Scanner.</p></li>
+<li><p>Przenieść zgromadzone dane na serwer Zakładu.</p>
+<p>Ze względu na duży rozmiar danych można pozostawić proces na noc.</p></li>
+<li><p>Zamknąć system Windows (<code>Windows</code> – <code>Shut down</code>).</p></li>
+<li><p>Po zamknięciu systemu wyłączyć zasilanie w kolejności od góry do dołu.</p></li>
+<li><p>Wyłączyć zasilacz awaryjny UPS.</p></li>
+<li><p>Schować wzorzec bieli, chwytając tylko za boki.</p></li>
+<li><p>Ostrożnie założyć osłonę obiektywu.</p></li>
+<li><p>Wyczyścić miejsce pracy.</p></li>
+</ul>
+</section>
+<section id="rejestr-zmian" class="level2">
+<h2 class="anchored" data-anchor-id="rejestr-zmian">Rejestr zmian</h2>
+<p>16.11.2022, MZ – wersja inicjalna.</p>
+<p>17.11.2022, MZ – pierwsze poprawki.</p>
+<p>30.11.2022, MZ – kolejne poprawki. Pierwsza wersja Quarto.</p>
+<p>Maurycy Żarczyński 2022-11-30</p>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
