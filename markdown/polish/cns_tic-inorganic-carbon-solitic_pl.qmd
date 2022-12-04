@@ -1,0 +1,195 @@
+---
+editor: visual
+format:
+  html:
+    toc: true
+    toc-title: Etapy
+    toc-depth: 4
+    embed-resources: true
+  pdf:
+    geometry: 
+    - top=20mm
+    - left=20mm
+    - bottom=20mm
+    - right=20mm
+  docx: default
+  gfm: default
+---
+
+[![](images/log-ug_pl.png){fig-alt="Logo: Uniwersytet Gdański" fig-align="left" width="150"}](https://geomorfologia.ug.edu.pl)
+
+Zakład Geomorfologii i Geologii Czwartorzędu — PROCEDURA
+
+------------------------------------------------------------------------
+
+# Analiza TIC: całkowity węgiel nieorganiczny (*total inorganic carbon*)
+
+## Dzień pierwszy
+
+### Przygotowanie do pracy
+
+-   Uzupełnić kwas, **5% HCl** jeśli to konieczne.
+
+-   Wymienić osuszki jeśli to konieczne.
+
+-   Wymienić miedź i wełnę mosiężną w U-rurce jeśli to konieczne.
+
+-   Umyć reaktor jeśli to konieczne.
+
+### Praca z urządzeniem
+
+#### Przygotowanie do pracy
+
+-   Włączyć SoliTIC pomarańczowym włącznikiem z prawej strony urządzenia.
+
+-   Założyć owiewkę wyprowadzającą gorące powietrze z tyłu Vario El Cube.
+
+-   Włączyć Vario El Cube zielonym guzikiem z prawej strony urządzenia.
+
+-   Włączyć program Vario El Cube.
+
+    Skrót znajduje się na pasku zadań.
+
+-   Poczekać aż się detektor (TCD) osiągnie temperaturę roboczą.
+
+    Pole TCD powinno przestać migać i pokazywać wartość powinna wynosić około **60 °C**.
+
+    | W czasie rozgrzewania urządzenia gazy techniczne powinny pozostać zakręcone.
+
+-   Odkręcić hel:
+
+    -   Czarny zawór na butli.
+
+    -   Skrajny biały zawór po lewej stronie reduktora.
+
+    -   Zamknąć odpływ z reaktora SoliTIC, zablokować zawór.
+
+    TCD flow powinno pokazywać około **230 ml**.
+
+    Press **1200 mbar** i stabilne.
+
+-   Po stabilizacji TC detect wyzerować system:
+
+    | `System > Autozero`
+
+-   Kliknąć `ON`.
+
+-   `Single analysis > OK`.
+
+-   Kolejność prób:
+
+    -   **Rozruch**: kilka prób z samą wodą, aż **TIC area** się ustabilizuje.
+
+    -   **Blnk**: próby ślepe (też sama woda): 2.
+
+    -   **Standars** (s. peaty, s. chalky, s. sandy): 2.
+
+    -   **RunIn** (KOS--13): 2.
+
+#### Analiza próbki
+
+-   W łódeczce umieścić **10--15** mg osadu.
+
+    | Masa osadu ustalona dla przeważnie analizowanej gytii jeziornej. W przypadku innych osadów należy najpierw wykonać oznaczenia testowe na reprezentatywnych próbkach.
+
+-   W tabeli wpisać nazwę próbki, wybrać metodę oraz wprowadzić dane z wagi na komputer (jeśli dioda `On/Off` świeci się).
+
+-   Kliknąć `ON`.
+
+-   Rozpoczyna się tworzenie linii bazowej (*base line*): zawór pozostaje zamknięty.
+
+-   Wyświetla się okienko podawania próbki.
+
+-   Przy **zamkniętym** zaworze:
+
+    -   Odkręcić reaktor.
+
+    -   Wlać niewielką ilość wody dejonizowanej.
+
+    -   Umieścić lejek dłuższym końcem do dołu, uważając na rurkę wewnątrz.
+
+    -   Wsypać próbkę.
+
+    -   Spłukać resztki osadu z łódeczki i z lejka wodą dejonizowaną.
+
+    -   Zakręcić reaktor.
+
+    -   Wcisnąć `Enter` lub kliknąć `Continue`.
+
+-   Podawany jest kwas.
+
+    Na tym etapie należy upewnić się, czy pompa perystaltyczna podaje kwas.
+
+-   Po zakończeniu pomiaru wyświetlone zostanie okno usuwania próbki i czyszczenia reaktora:
+
+    -   Otworzyć zawór i spuścić wodę z reaktora.
+
+    -   Zamknąć zawór.
+
+    -   Odkręcić korek reaktora.
+
+    -   Spłukać zdecydowanie reaktor wodą.
+
+    -   Odczekać chwilę przy otwartym korku
+
+        Jest to niezbędny element analizy.
+
+    -   Zakręcić korek reaktora.
+
+    -   Poczekać aż ciśnienie ponownie wzrośnie do około **1000 mbar**.
+
+    -   Otworzyć zawór i spuścić wodę z reaktora.
+
+-   Wysuszyć łódeczkę sprężonym powietrzem.
+
+#### Analiza kolejnej próbki
+
+Przed kolejną analizą urządzenie musi się ustabilizować.
+
+-   TC detect musi być poniżej **500**.
+
+-   TCD flow i He flow około **300 ml**.
+
+#### Zakończenie dnia pracy
+
+-   Na koniec dnia uśpić urządzenie: `ikonka księżyca`.
+
+-   **Nie zaznaczać** temperatury na piecu ponieważ CNS zacznie się nagrzewać.
+
+-   Zakręcić hel (czarny zawór na butli i biały zawór po lewej stronie reduktora).
+
+#### Następny dzień
+
+-   Zapisać plik z poprzedniego dnia.
+
+-   Skopiować pierwsze wiersze (do `RunIn` włącznie, tylko 4 pierwsze kolumny).
+
+-   Otworzyć nowy arkusz.
+
+-   Wkleić skopiowane wartości.
+
+-   Zapisać jako nowy plik.
+
+-   Uzupełnić nazwy prób.
+
+-   Wybudzić urządzenie: `ikonka budzika`.
+
+-   Dolać kwasu, 5% HCl.
+
+-   Poczekać aż temperatura ustabilizuje się około **60 °C**.
+
+-   Odkręcić hel (czarny zawór na butli i biały zawór po lewej stronie reduktora).
+
+-   Poczekać aż TC detect i ciśnienie się ustabilizują (TC detect przestanie spadać, ale musi być poniżej **1000**, Press **1200 mbar** i stabilne).
+
+-   Po stabilizacji TC detect wyzerować system:
+
+    | `System > Autozero`
+
+-   Rozruch z użyciem wody.
+
+## Rejestr zmian
+
+01.12.2022, MZ -- wersja inicjalna Quarto. Rozwinięcie treści.
+
+Karolina Molisak, Joanna Piłczyńska, Maurycy Żarczyński `r Sys.Date()`

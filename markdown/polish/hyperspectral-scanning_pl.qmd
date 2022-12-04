@@ -8,15 +8,17 @@ format:
     embed-resources: true
   pdf:
     geometry: 
-    - top=30mm
-    - left=30mm
+    - top=20mm
+    - left=20mm
+    - bottom=20mm
+    - right=20mm
   docx: default
   gfm: default
 ---
 
-[![](images/Asset%201@8x.png){fig-alt="Logo: Uniwersytet Gdański" fig-align="left" width="150"}](https://geomorfologia.ug.edu.pl)
+[![](images/log-ug_pl.png){fig-alt="Logo: Uniwersytet Gdański" fig-align="left" width="150"}](https://geomorfologia.ug.edu.pl)
 
-Zakład Geomorfologii i Geologii Czwartorzędu
+Zakład Geomorfologii i Geologii Czwartorzędu — PROCEDURA
 
 ------------------------------------------------------------------------
 
@@ -54,7 +56,9 @@ Jeśli rdzeń jest wyrównany, ale jedna ze stron się zapada, można zastosowa�
 
 -   Ustawić stolik ze wzorcem bieli oraz **focus grid** na równi z powierzchnią rdzenia.
 
--   Ustawić miarkę na równi z rdzeniem, możliwie równolegle. W miarę konieczności ułożyć miarę na rdzeniu, równoległe ułożenie jest priorytetem.
+-   Ustawić miarkę na równi z rdzeniem, możliwie równolegle.
+
+    W miarę konieczności ułożyć miarę na rdzeniu, **równoległe** ułożenie jest **priorytetem**. Lepszy wynik osiągnie się przy minimalnie różnym poziomie między miarą a osadem, ale przy zachowaniu równoległego ułożenia. Wzrost **kąta** między osią miary i rdzenia skutkuje **zniekształceniem** na etapie przetwarzania danych.
 
 -   Ostrożnie umieścić wzorzec bieli na stoliku (sztabka BaSO~4~); delikatnie usunąć kurz, łapać tylko za boki.
 
