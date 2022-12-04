@@ -18,56 +18,289 @@ format:
 
 [![](images/log-ug_pl.png){fig-alt="Logo: Uniwersytet Gdański" fig-align="left" width="150"}](https://geomorfologia.ug.edu.pl)
 
-Zakład Geomorfologii i Geologii Czwartorzędu — PROCEDURA
+Zakład Geomorfologii i Geologii Czwartorzędu --- PROCEDURA
 
 ------------------------------------------------------------------------
 
-# CNS: Przygotowanie próbek
+# CNS: Procedura (pełna)
 
--   Włączyć wagę analityczną.
+## Przygotowanie do pracy
 
-    Waga powinna zostać włączona przynajmniej godzinę przed przewidywaną pracą.
+-   Wymienić osuszki jeśli to konieczne.
 
--   Włączyć komputer.
+-   Wymienić wypełnienie lub całą rurę spalań jeśli to konieczne.
+
+-   Wymienić miedź i wełnę mosiężną lub srebrną w rurze redukcyjnej.
+
+-   Wymienić tygiel popiołów jeśli to konieczne.
+
+-   Sprawdzić lancę tlenową.
+
+    | Musi być widoczny prześwit, lanca nie może być zatkana. Do zatkania może dojść jeśli w tyglu popiołów zgromadzi się zbyt dużo materiału.
+
+-   Sprawdzić połączenia między elementami aparatu.
+
+-   Sprawdzić wszystkie inne niezbędne elementy urządzenia i ich stan.
+
+## Standardowe czynności
+
+### Rozruch urządzenia
+
+-   Założyć owiewkę wyprowadzającą gorące powietrze z tyłu Vario El Cube.
+
+-   Włączyć Vario El Cube zielonym guzikiem z prawej strony urządzenia.
 
 -   Włączyć program Vario El Cube.
 
-    Skrót znajduje się na pasku zadań.
+    | Skrót znajduje się na pasku zadań.
 
--   Otworzyć plik z danymi. Uzupełnić nazwę próbki oraz symbol rynienki.
+-   Ruch referencyjny.
 
--   Pobrać kapsułkę cynową. Ustawić na wadze i wytarować.
+    Tylko na **pustej karuzeli**. Potwierdzić, że opróżniona.
 
--   Umieścić kapsułkę w metalowej formie, lekko docisnąć, można ewentualnie odgiąć boki, celem łatwiejszego nakładania próbki.
+-   Włączyć oprogramowanie.
 
--   Mikrołyżeczką nabrać osad i wsypać odpowiednią ilość, około 20 mg ± 3 mg.
+-   Busy/Standby -- aparatura skomunikowana.
 
-    | Masa osadu ustalona dla przeważnie analizowanej gytii jeziornej. W przypadku innych osadów należy najpierw wykonać oznaczenia testowe na reprezentatywnych próbkach.
+-   Włączyć gazy techniczne.
 
--   Sprawdzić masę próbki.
+-   Ustawienie opcji spalania:
 
-    | Przed włożeniem do wagi lekko obstukać kapsułkę, aby usunąć ewentualny osad znajdujący się na zewnątrz.
+    | `Options > Settings > Parameters`:
 
--   Zapakować próbkę. Zacisnąć od góry pęsetą, pozbywając się jak największej ilości powietrza. Następnie specjalnym narzędziem docisnąć próbkę kilkukrotnie.
+    -   **Combustion** tube: **1150 °C**.
 
-    | Obecność powietrze wpływa na wyniki analizy, zwłaszcza oznaczenia koncentracji azotu.
+    -   **Reduction** tube: **850 °C**.
 
--   Zawinąć brzegi próbki dwukrotnie.
+-   Gazy techniczne należy zakręcić jeśli aparatura dopiero się rozgrzewa.
 
--   Uformować za pomocą pęset sześcian.
+-   Poczekać aż się detektor (TCD) osiągnie temperaturę roboczą.
 
--   Przed włożeniem do wagi sprawdzić czy osad nie wysypuje się z próbki. Obstukać sześcian.
+Pole TCD powinno przestać migać i pokazywać wartość powinna wynosić około **60 °C**.
 
-    | Jeżeli nie dochodzi do wysypywania, można przystąpić do ważenia. Jeżeli osad się wysypuje, próbkę należy przygotować ponownie.
+| W czasie rozgrzewania urządzenia gazy techniczne powinny pozostać zakręcone.
 
--   Zważyć próbkę i nacisnąć ikonę druku, wówczas waga prześle masę do komputera.
+-   Ciśnienie robocze gazów:
 
--   Umieścić sześcian w odpowiedniej rynience w pojemniku.
+    -   **O~2~**: **2 bar**.
 
--   Wyczyścić narzędzia alkoholem.{{< pagebreak >}}
+    -   **He**: **1.2 bar** (1200 mbar).
+
+### Przygotowanie do pracy
+
+-   W nowym pliku:
+
+    -   **1** × **blank O~2~**.
+
+    -   **2--3** × **blank bez O~2~**.
+
+        | W ślepej próbie najważniejsze jest pole piku. Pustą kapsułkę zwijamy, należy pozbyć się powietrza.
+
+    -   **2--3** × próbki stabilizujące (**RunIn**).
+
+        | Próbki powinny być możliwie blisko spodziewanego zakresu analitycznego.
+
+    -   2--3 × wzorzec jako **day factor**.
+
+-   Wybór metody **dozowania O~2~**:
+
+    -   **2 mg 70 s**.
+
+    -   2 mg 80 s.
+
+    -   5 mg 90 s.
+
+    -   10 mg 120 s.
+
+| Należy wykorzystywać metodą skutkującą najniższym dozowaniem prowadzącym do pełnego spalenia próbki.
+| Im wyższa naważka, lub spodziewana zawartość węgla tym dłuższe dozowanie tlenu niezbędne do całkowitego spalenia próbki.
+
+-   Można załadować maksymalnie **79** próbek na początku.
+
+    | **80**. i kolejne można dołożyć w trakcie, analizator będzie je doliczał. Należy mieć na uwadze maksymalne wypełnienie tygla popiołów.
+
+### Pomiar
+
+| Można użyć wartości **blank** i **day factor** do korekty wyników.
+
+### Wyłączenie
+
+-   Wystudzenie urządzenia:
+
+    | `Options > Settings > Parameters`:
+
+    -   **Combustion** tube: **0 °C**.
+
+    -   **Reduction** tube: **0 °C**.
+
+-   Zakręcić gazy techniczne, przekręcić zawory do oporu.
+
+-   Wyłączenie aparatury poniżej **150 °C**
+
+    Ostudzenie do tej temperatury zajmuje około **3 godziny**.
+
+-   Wyłączyć oprogramowanie.
+
+-   Wyłączyć Vario El Cube zielonym guzikiem z prawej strony urządzenia.
+
+## Diagnostyka urządzenia
+
+### Test szczelności
+
+-   Urządzenie **musi** być rozgrzane lub wystudzone.
+
+    | Nie pracować w trakcie grzania lub schładzania. Stała temperatura. Preferowane prowadzenie testów na zimnym urządzeniu.
+
+-   Włączyć program Vario El Cube.
+
+    | Skrót znajduje się na pasku zadań.
+
+-   Ruch referencyjny.
+
+    | Tylko na **pustej karuzeli**. Potwierdzić, że opróżniona.
+
+-   Przy dużej nieszczelności lub zatkaniu układu widać zakłócenia przypływu.
+
+    | Wykonywanie testów szczelności wymaga schłodzenia kolumn.
+
+-   Nieszczelność układu:
+
+    -   TCD flow bardzo niski.
+
+    -   He flow bardzo wysoki.
+
+    -   Ciśnienie spada.
+
+-   Zatkanie układu:
+
+    -   Oba przepływy niskie.
+
+    -   Ciśnienie wysokie.
+
+-   Wykonywanie ogólnego testu szczelności (*raw leak test*):
+
+    | `Options > Diagnostic - Raw leak test > Ok.`
+
+-   Oprogramowanie pokazuje schemat urządzenia oraz informuje co zrobić oraz z jakich elementów zestawu testowego skorzystać. Zakręcić zawór tlenu.
+
+    | `Start.`
+    | Przebieg testów i informacje o aktualnym ciśnieniu.
+    | Po zakończeniu można odkręcić gazy techniczne.
+
+-   Wykonanie szczegółowych testów szczelności (*fine leak test*):
+
+    | 0 (zerowy) jest tożsamy z *Raw leak tes*t.
+
+-   Day factor.
+
+    | Mierzenie wzorca każdego dnia analiz. Stosunek pomiaru do teorii. Day factor informuje o korekcie względem faktycznego pomiaru a oczekiwanej wartości.
+
+## Inne
+
+-   **Świeżo** zasypane kolumny będą skutkować **wzrostem wartości ślepych** przy pierwszych próbkach -- musi się przepalić (**3--4** × **blank**).
+
+-   Dla próbek **ślepych** wprowadzamy **1.000**.
+
+-   **Method** (parametry dozowania tlenu):
+
+    Zdefiniowane. `Options > Settings > Methods`.
+
+-   Próbki ślepe (**Blnk**):
+
+    -   **With O~2~**: próbka spalana z tlenem.
+
+    -   **Without O~2~**: próbka spalana bez tlenu.
+
+    | W większości przypadków stosujemy **próbki ślepe bez tlenu**. Ale na świeżych zasypach i po zmianach w urządzeniu należy wykonać **1--2** × **Blnk z tlenem**.
+
+-   Wybór metody dozowania tlenu:
+
+    | Bierzemy próbkę i kilka podobnych naważek z innymi czasami dozowania O~2~ (im mniej tym lepiej). Dopracowujemy dla pewnego rodzaju osadu w wybranych warunkach.
+
+-   Wstawienie wiersza w arkuszu: `Insert line`.
+
+-   Zamiana próbek w arkuszu: `Swap`.
+
+-   Wstawienie znacznika stop w wybranym miejscu: `Stop tag`.
+
+-   Zaznaczenie aktualnie analizowanej próbki: `Current sample`.
+
+    | Zielone cieniowanie wiersza.
+
+-   Zaznaczenie wiersza, do którego zostanie wpisana waga próbki: `Current weight`.
+
+    | Żółte cieniowanie wiersza.
+
+-   Zatrzymanie analizy przed jej końcem: zielony pasek nie przeskoczy.
+
+    | Autosampler czeka gotowy do następnej próbki ale trzeba przestawić **current sample** o **jedno** miejsce.
+
+-   Przesunięcie **autosamplera** (karuzeli): `System – carousel position`.
+
+    Konieczne jest usunięcie wszystkich próbek.
+
+-   Jeśli chcemy przeanalizować próbkę **N** trzeba zadać pozycję **autosamplera** **N-1** (jedną wstecz). `Current sample` jako N.
+
+-   Zmiana trybu pracy: `Mode`.
+
+-   Zmiana stylu standardów: `Math`.
+
+-   Po otwarciu gazów pozwolić urządzeniu na kilka minut swobodnej pracy
+
+    | Przedmuchanie układu.
+
+-   Tryby analizy:
+
+    -   `Auto`: pracuje próbka po próbce do **ostatniej próbki** lub **stop tag**.
+
+        Zależnie od ustawień, po zakończeniu analizy może nastąpić uśpienie urządzenia.
+
+    -   `Single`: pracuje w trybie pojedynczej próbki. Czeka po każdej próbce w trybie *standby* (oczekiwanie).
+
+-   Usypianie urządzenia: `Sleep (ikonka księżyca).`
+
+    Urządzenie zrealizuje zadane warunki.
+
+    `Options > Settings > Sleep/Wake Up`
+
+    -   **Combustion** tube: **900 °C**.
+
+    -   **Reduction** tube: **700 °C**.
+
+    | Przy krótkiej przerwie w pracy nie należy schładzać rur.
+
+-   Urządzenie najlepiej **wybudzać ręczni**e, tak aby nie pozostawiać go bez nadzoru.
+
+-   Interwały zużycia elementów: `Intervals`.
+
+-   Wymiana elementów: `Replace part`; przy otwarciu układu gazowego.
+
+    Odcina dostęp gazu do urządzenia. Czekać aż ciśnienie spadnie.
+
+    -   Po zamknięciu układu:
+
+        | `Finished`.
+
+-   Regulacja **zaworu kulowego**: `Adjust ball valve`.
+
+-   Regulacja **autosamplera** (karuzeli): `Adjust carousell`.
+
+-   **Wygrzewanie** **kolumn** adsorpcyjnych **CO~2~** i **SO~2~**:
+
+    -   Po wymianie kolumny.
+
+    -   Przy podejrzeniu zanieczyszczenia.
+
+        | `Colum heatout`.
+
+        | Czynność zajmuje około 30 minut.
+
+-   Sterowanie indywidualnymi elementami urządzenia: `System test`.
+
+-   Dziennik i wyjaśnienie błędów: `Error buffer`.{{< pagebreak >}}
 
 ## Rejestr zmian
 
-01.12.2022, MZ -- wersja inicjalna Quarto. Rozwinięcie treści.
+04.12.2022, MZ -- wersja inicjalna Quarto. Rozwinięcie treści.
 
-Karolina Molisak, Maurycy Żarczyński `r Sys.Date()`
+Maurycy Żarczyński `r Sys.Date()`
