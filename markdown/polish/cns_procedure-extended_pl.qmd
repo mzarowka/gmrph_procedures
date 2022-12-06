@@ -14,6 +14,9 @@ format:
     - right=20mm
   docx: default
   gfm: default
+theme:
+  light: flatly
+  dark: darkly
 ---
 
 [![](images/log-ug_pl.png){fig-alt="Logo: Uniwersytet Gdański" fig-align="left" width="150"}](https://geomorfologia.ug.edu.pl)

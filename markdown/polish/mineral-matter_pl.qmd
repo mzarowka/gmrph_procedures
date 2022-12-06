@@ -14,11 +14,14 @@ format:
     - right=20mm
   docx: default
   gfm: default
+theme:
+  light: flatly
+  dark: darkly
 ---
 
 [![](images/log-ug_pl.png){fig-alt="Logo: Uniwersytet Gdański" fig-align="left" width="150"}](https://geomorfologia.ug.edu.pl)
 
-Zakład Geomorfologii i Geologii Czwartorzędu — PROCEDURA
+Zakład Geomorfologii i Geologii Czwartorzędu --- PROCEDURA
 
 ------------------------------------------------------------------------
 
@@ -40,9 +43,8 @@ Zakład Geomorfologii i Geologii Czwartorzędu — PROCEDURA
 
 -   Zaprogramować piec laboratoryjny na prażenie w temperaturze **550 °C** przez **4 godziny**.
 
-```{=html}
 <!-- -->
-```
+
 -   Wstawić przygotowane próbki do pieca i uruchomić program.
 
     | Po upłynięciu zadanego czasu piec automatycznie wyłączy się.
@@ -89,8 +91,7 @@ Zakład Geomorfologii i Geologii Czwartorzędu — PROCEDURA
 
     | Uważać, żeby nie zaciągnąć osadu.
 
--   Pod digestorium: pozostałą zawartość zlewek przesączyć na lejku przez sączek
-    ilościowy. Przepłukać zlewkę i sączek kilkukrotnie **HCl 10 %**.
+-   Pod digestorium: pozostałą zawartość zlewek przesączyć na lejku przez sączek ilościowy. Przepłukać zlewkę i sączek kilkukrotnie **HCl 10 %**.
 
 -   Na koniec dokładnie spłukać zlewkę wodą destylowaną w celu całkowitego wypłukania osadu (w szczególności materii mineralnej).
 
@@ -102,14 +103,12 @@ Zakład Geomorfologii i Geologii Czwartorzędu — PROCEDURA
 
 -   Umieścić sączki w tyglach.
 
-```{=html}
 <!-- -->
-```
+
 -   Zaprogramować piec laboratoryjny na prażenie w temperaturze **550 °C przez 4 godziny**.
 
-```{=html}
 <!-- -->
-```
+
 -   Wstawić przygotowane próbki do pieca i uruchomić program.
 
     | Po upłynięciu zadanego czasu piec automatycznie wyłączy się.

@@ -1,0 +1,180 @@
+
+<div fig-alt="Logo: Uniwersytet Gdański" fig-align="left">
+
+[<img src="images/log-ug_pl.png" width="150" />](https://geomorfologia.ug.edu.pl)
+
+</div>
+
+Zakład Geomorfologii i Geologii Czwartorzędu — PROCEDURA
+
+------------------------------------------------------------------------
+
+# Dane batymetryczne (Humminbird 385ci)
+
+## Praca z echosondą
+
+- Włożyć kartę pamięci SD (SanDisk 16GB w standardzie **HC1** i z
+  systemem plików **FAT32**).
+
+  Karta znajduje się u pracownika technicznego w szufladzie biurka.
+
+- Włączyć echosondę.
+
+- Sonda po znalezieniu pozycji GPS (diagnostyka GPS jest dostępna w
+  odpowiednim widoku, klawisz `View`) rejestruje ślad cały czas, ale
+  **nie zapisuje** go automatycznie na stałe.
+
+- Przed wyłączeniem sondy wejść w `Menu` i zapisać bieżący ślad (nawet
+  jeśli konieczny jest na przykład restart w trakcie pomiarów) – bez
+  tego ślad zostanie utracony. Menu dostępne np. w widoku mapy (klawisz
+  `View`).
+
+- Po zapisaniu bieżącego śladu w menu wyeksportować wszystkie dane
+  nawigacyjne na kartę SD `Menu` dostępne np. w widoku mapy (klawisz
+  `View`).
+
+- Wyjąć kartę SD z echosondy.
+
+## Praca z danymi
+
+### Import danych
+
+#### Dane z karty SD
+
+- Podłączyć kartę SD do komputera:
+
+  - Czytnik kart SD w laptopie.
+
+  - Zewnętrzny czytnik kart SD USB.
+
+  - Przez aparat fotograficzny (np. NIKON na stanie Zakładu).
+
+- Włączyć oprogramowanie HumminbirdPC.
+
+  Instalator dostępny w lokalizacji: *Public\Sprzęt i
+  programy\Software\Humminbird*
+
+- W ustawieniach programu wybrać odpowiednie jednostki:
+
+  - Głębokość = **metry**
+
+  - Współrzędne = **stopnie** **z rozwinięciem dziesiętnym**.
+
+- W ustawieniach programu sprawdzić i ustawić odpowiedni katalog
+  eksportu plików `.gpx`.
+
+- Przy ikonie karty kliknąć strzałkę opisaną jako `download data`.
+
+#### Dane na dysku
+
+- `File` – `Open`: znaleźć odpowiedni plik `.gpx`
+
+### Praca z HumminbirdPC
+
+- Rozwinąć drzewko pliku `.gpx`.
+
+- Rozwinąć `Tracks` (ślady).
+
+- Wybrać odpowiedni ślad.
+
+- Zaznaczyć pierwszy wiersz:
+
+  - `CTRL+A` (zaznaczyć wszystko).
+
+  - `CTRL+C` (skopiować do schowka).
+
+### Praca z Microsoft Excel
+
+- Otworzyć nowy arkusz.
+
+- Zaznaczyć trzy kolumny i ustawić format komórek: **Tekstowe**.
+
+- W pierwszym wierszu ustawić odpowiednie nagłówki:
+
+  - Kolumna **A**: latitude.
+
+  - Kolumna **B**: longitude.
+
+  - Kolumna **C**: depth.
+
+- Wkleić z opcją `Uwzględnij formatowanie docelowe`.
+
+- Skopiować symbol stopni „**°**” z dowolnej komórki.
+
+- Zaznaczyć kolumny **A** i **B**.
+
+- `Znajdź i zaznacz` - `Zamień`:
+
+  - Usuwanie znaku stopni:
+
+    - Znajdź: °.
+
+    - Zamień: pozostawić puste.
+
+    - `Zamień wszystko`.
+
+  - Usuwanie symbolu szerokości geograficznej:
+
+    - Znajdź: N.
+
+    - Zamień: pozostawić puste.
+
+    - `Zamień wszystko`.
+
+  - Usuwanie symbolu długości geograficznej:
+
+    - Znajdź: E.
+
+    - Zamień: pozostawić puste.
+
+    - `Zamień wszystko`.
+
+  - Dla kolumny **longitude** (**B**) usunąć poprzedzające zero:
+
+    - Znajdź: 014 (albo inna wartość, zależnie od stopni).
+
+    - Zamień: 14 (albo inna wartość, zależnie od stopni).
+
+    - `Zamień wszystko`.
+
+  - Dla wszystkich kolumn (**ABC**):
+
+    - Znajdź: .
+
+    - Zamień: ,
+
+    - `Zamień wszystko`.
+
+- Utworzyć arkusz META.
+
+  Zapisać metadane dotyczące echosondy, daty pomiarów, osób prowadzących
+  badania i wszystkich innych istotnych informacji.
+
+- Zapisać plik `.xlsx` z odpowiednią nazwą.
+
+  *RRRR-MM-DD_bathymetry-JJJ-humminbird.xlsx*
+
+- Skopiować wyeksportowany wcześniej plik `.gpx` z odpowiednią nazwą.
+
+  *RRRR-MM-DD_bathymetry-JJJ-humminbird.gpx*
+
+  Kod jeziora musi tożsamy z kodami wykorzystywanymi do opisu rdzeni.
+
+  Tab. 1. Opis oznaczeń wykorzystywanych w nazwie pliku.
+
+  |  id | kod                   | znaczenie |
+  |----:|-----------------------|-----------|
+  |   1 | RRRR                  | rok       |
+  |   2 | MM                    | miesiąc   |
+  |   3 | DD                    | dzień     |
+  |   4 | JJJ (dowolna długość) | jezioro   |
+
+- Skopiować pliki na serwer.
+
+  *ECRLab\Data\lake_bathymetry\\**JJJ***
+
+## Rejestr zmian
+
+01.12.2022, MZ – wersja inicjalna Quarto.
+
+Maurycy Żarczyński 2022-12-06

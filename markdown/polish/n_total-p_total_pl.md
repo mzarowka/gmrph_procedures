@@ -1,0 +1,99 @@
+
+<div fig-alt="Logo: Uniwersytet Gdański" fig-align="left">
+
+[<img src="images/log-ug_pl.png" width="150" />](https://geomorfologia.ug.edu.pl)
+
+</div>
+
+Zakład Geomorfologii i Geologii Czwartorzędu — PROCEDURA
+
+------------------------------------------------------------------------
+
+# Analiza zawartości azotu i fosforu całkowitego
+
+## Przygotowanie próbek
+
+- Przygotować odkręcane probówki. Po jednej na azot oraz fosfor.
+
+- Próbki wody dokładnie wymieszać.
+
+- Odmierzyć po 10 ml próbki na każdą z analiz.
+
+- Przygotować termoreaktor.
+
+## Fosfor całkowity (P<sub>tot</sub>)
+
+### Wstępne przygotowanie: CrackSet10
+
+- Do próbki dodać 1 kroplę odczynnika **R-1**, wymieszać.
+
+- Dodać porcję odczynnika **R-2**, wymieszać.
+
+- Próbki należy ogrzewać w termoreaktorze w temperaturze 120 °C przez 1
+  godzinę.
+
+- Odstawić próbki do chłodni na około 15 minut w celu ostudzenia.
+
+- Po ochłodzeniu dodać 3 krople odczynnika **R-3**, wymieszać.
+
+- Sprawdzić pH, wymagane 3 lub wyższe.
+
+### Oznaczanie zawartości fosforu całkowitego
+
+- Do wstępnie przygotowanej próbki dodać 10 kropli odczynnika **P-1A**,
+  wymieszać.
+
+- Dodać 2 mikrołyżeczki odczynnika **P-2A**, zamknąć szczelnie, mieszać
+  energicznie do całkowitego rozpuszczenia się odczynnika.
+
+- Odstawić na 5 minut, czas zajścia reakcji.
+
+- Przelać próbkę do kuwety **50 mm**.
+
+- Wykonać pomiar zadając metodę poprzez umieszczenie kodu kreskowego w
+  spektrofotometrze.
+
+## Azot całkowity (N<sub>tot</sub>)
+
+### Wstępne przygotowanie: CrackSet20
+
+- Do próbki dodać 1 łyżeczkę (niebieską) odczynnika **R-1**, rozpuścić.
+
+- Dodać 6 kropli odczynnika **R-2**, zakręcić i wymieszać.
+
+- Próbki należy ogrzewać w termoreaktorze w temperaturze 120 °C przez 1
+  godzinę.
+
+- Odstawić próbki do chłodni na około 15 minut w celu ostudzenia.
+
+### Oznaczanie zawartości azotu całkowitego
+
+- Przygotować puste próbówki.
+
+- W próbówce umieścić odczynnik **NO3-1A** (pierwszy poziom niebieskiej
+  mikrołyżeczki).
+
+- Dodać 5 ml odczynnika **NO3-2A**. Mieszać do momentu rozpuszczenia się
+  odczynnika **NO3-1A**.
+
+- Dodać 1.5 ml wstępnie przygotowanej próbki do odczynnika wlewając
+  pipetą po ściankach przechylonej próbówki. Po dodaniu próbki
+  **natychmiast** intensywnie wymieszać trzymając probówkę za górną jej
+  część ponieważ próbka w trakcie reakcji zrobi się **gorąca**.
+
+  W trakcie tych czynność użytkownik powinien mieć nałożone rękawice i
+  okulary ochronne.
+
+- Odstawić gorący roztwór na 10 minut, czas zajścia reakcji. **Nie
+  chłodzić zimną wodą**.
+
+- Przelać próbkę do kuwety **10 mm**.
+
+- Wykonać pomiar zadając metodę poprzez umieszczenie kodu kreskowego w
+  spektrofotometrze.
+
+## Rejestr zmian
+
+01.12.2022, MZ – wersja inicjalna Quarto. Rozwinięcie treści.
+
+Karolina Molisak, Maurycy Żarczyński 2022-12-06

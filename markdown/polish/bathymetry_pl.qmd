@@ -14,15 +14,18 @@ format:
     - right=20mm
   docx: default
   gfm: default
+theme:
+  light: flatly
+  dark: darkly
 ---
 
 [![](images/log-ug_pl.png){fig-alt="Logo: Uniwersytet Gdański" fig-align="left" width="150"}](https://geomorfologia.ug.edu.pl)
 
-Zakład Geomorfologii i Geologii Czwartorzędu — PROCEDURA
+Zakład Geomorfologii i Geologii Czwartorzędu --- PROCEDURA
 
 ------------------------------------------------------------------------
 
-# Dane batymetryczne (echosonda Humminbird 385ci)
+# Dane batymetryczne (Humminbird 385ci)
 
 ## Praca z echosondą
 
@@ -32,7 +35,7 @@ Zakład Geomorfologii i Geologii Czwartorzędu — PROCEDURA
 
 -   Włączyć echosondę.
 
--   Sonda po znalezieniu pozycji GPS (diagnostyka GPS jest dostępna w odpowiednim widoku, klawisz `View`) rejestruje ślad cały czas, ale **nie zapisuje** go autoamtycznie na stałe.
+-   Sonda po znalezieniu pozycji GPS (diagnostyka GPS jest dostępna w odpowiednim widoku, klawisz `View`) rejestruje ślad cały czas, ale **nie zapisuje** go automatycznie na stałe.
 
 -   Przed wyłączeniem sondy wejść w `Menu` i zapisać bieżący ślad (nawet jeśli konieczny jest na przykład restart w trakcie pomiarów) -- bez tego ślad zostanie utracony. Menu dostępne np. w widoku mapy (klawisz `View`).
 
@@ -56,8 +59,7 @@ Zakład Geomorfologii i Geologii Czwartorzędu — PROCEDURA
 
 -   Włączyć oprogramowanie HumminbirdPC.
 
-    Instalator dostępny w lokalizacji: *Public\\Sprzęt i programy\\Software\\Humminbird*
-    {{< pagebreak >}}
+    Instalator dostępny w lokalizacji: *Public\\Sprzęt i programy\\Software\\Humminbird*{{< pagebreak >}}
 
 -   W ustawieniach programu wybrać odpowiednie jednostki:
 
@@ -176,7 +178,7 @@ Zakład Geomorfologii i Geologii Czwartorzędu — PROCEDURA
 
     *ECRLab\\Data\\lake_bathymetry\\**JJJ***
 
-## Rejestr zmian
+## {{< pagebreak >}}Rejestr zmian
 
 01.12.2022, MZ -- wersja inicjalna Quarto.
 
