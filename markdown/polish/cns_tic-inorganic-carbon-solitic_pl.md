@@ -194,4 +194,4 @@ Przed kolejną analizą urządzenie musi się ustabilizować.
 
 01.12.2022, MZ – wersja inicjalna Quarto. Rozwinięcie treści.
 
-Karolina Molisak, Joanna Piłczyńska, Maurycy Żarczyński 2022-12-06
+Karolina Molisak, Joanna Piłczyńska, Maurycy Żarczyński 2022-12-08

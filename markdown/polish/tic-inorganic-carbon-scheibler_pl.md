@@ -188,7 +188,7 @@ i ciśnieniu[^3] (wg. Scheiblera); Myślińska 2001.
 
 01.12.2022, MZ – wersja inicjalna Quarto. Rozwinięcie treści.
 
-Piotr Paweł Woźniak, Karolina Molisak, Maurycy Żarczyński 2022-12-06
+Piotr Paweł Woźniak, Karolina Molisak, Maurycy Żarczyński 2022-12-08
 
 [^1]: Należy wziąć pod uwagę, że współczesne badania wskazują, że węglan
     wapnia (CaCO<sub>3</sub>) nie jest jedynym węglanem tworzącym osady.

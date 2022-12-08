@@ -78,6 +78,6 @@ gdzie:
 
 01.12.2022, MZ – wersja inicjalna Quarto. Rozwinięcie treści.
 
-Karolina Molisak, Maurycy Żarczyński 2022-12-06
+Karolina Molisak, Maurycy Żarczyński 2022-12-08
 
 [^1]: Zależnie od ilości osadu objętość może ulec zmianie.

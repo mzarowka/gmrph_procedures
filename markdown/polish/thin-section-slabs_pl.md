@@ -215,4 +215,4 @@ przy przygotowywaniu sztabek osadów. Masa wyrażona w g.
 
 01.12.2022, MZ – wersja inicjalna Quarto. Rozwinięcie treści.
 
-Maurycy Żarczyński 2022-12-06
+Maurycy Żarczyński 2022-12-08

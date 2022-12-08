@@ -91,4 +91,4 @@ Zakład Geomorfologii i Geologii Czwartorzędu — PROCEDURA
 
 01.12.2022, MZ – wersja inicjalna Quarto. Rozwinięcie treści.
 
-Joanna Piłczyńska, Maurycy Żarczyński 2022-12-06
+Joanna Piłczyńska, Maurycy Żarczyński 2022-12-08
