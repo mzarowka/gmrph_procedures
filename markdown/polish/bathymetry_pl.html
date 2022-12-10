@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>sequential-extraction_pl</title>
+<title>bathymetry_pl</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -2546,17 +2546,19 @@ vertical-align: -.125em;
     <h2 id="toc-title">Etapy</h2>
    
   <ul>
-  <li><a href="#ekstrakcja-sekwencyjna" id="toc-ekstrakcja-sekwencyjna" class="nav-link active" data-scroll-target="#ekstrakcja-sekwencyjna">Ekstrakcja sekwencyjna</a>
+  <li><a href="#dane-batymetryczne-humminbird-385ci" id="toc-dane-batymetryczne-humminbird-385ci" class="nav-link active" data-scroll-target="#dane-batymetryczne-humminbird-385ci">Dane batymetryczne (Humminbird 385ci)</a>
   <ul>
-  <li><a href="#roztwory-ekstrahujące" id="toc-roztwory-ekstrahujące" class="nav-link" data-scroll-target="#roztwory-ekstrahujące">Roztwory ekstrahujące</a></li>
-  <li><a href="#ekstrakcja-sekwencyjna-1" id="toc-ekstrakcja-sekwencyjna-1" class="nav-link" data-scroll-target="#ekstrakcja-sekwencyjna-1">Ekstrakcja sekwencyjna</a>
+  <li><a href="#praca-z-echosondą" id="toc-praca-z-echosondą" class="nav-link" data-scroll-target="#praca-z-echosondą">Praca z echosondą</a></li>
+  <li><a href="#praca-z-danymi" id="toc-praca-z-danymi" class="nav-link" data-scroll-target="#praca-z-danymi">Praca z danymi</a>
   <ul class="collapse">
-  <li><a href="#frakcja-i" id="toc-frakcja-i" class="nav-link" data-scroll-target="#frakcja-i">Frakcja I</a></li>
-  <li><a href="#frakcja-ii" id="toc-frakcja-ii" class="nav-link" data-scroll-target="#frakcja-ii">Frakcja II</a></li>
-  <li><a href="#frakcja-iii" id="toc-frakcja-iii" class="nav-link" data-scroll-target="#frakcja-iii">Frakcja III</a></li>
-  <li><a href="#frakcja-iv" id="toc-frakcja-iv" class="nav-link" data-scroll-target="#frakcja-iv">Frakcja IV</a></li>
+  <li><a href="#import-danych" id="toc-import-danych" class="nav-link" data-scroll-target="#import-danych">Import danych</a>
+  <ul class="collapse">
+  <li><a href="#dane-z-karty-sd" id="toc-dane-z-karty-sd" class="nav-link" data-scroll-target="#dane-z-karty-sd">Dane z karty SD</a></li>
+  <li><a href="#dane-na-dysku" id="toc-dane-na-dysku" class="nav-link" data-scroll-target="#dane-na-dysku">Dane na dysku</a></li>
   </ul></li>
-  <li><a href="#oznaczenie-koncentracji-w-osadach" id="toc-oznaczenie-koncentracji-w-osadach" class="nav-link" data-scroll-target="#oznaczenie-koncentracji-w-osadach">Oznaczenie koncentracji w osadach</a></li>
+  <li><a href="#praca-z-humminbirdpc" id="toc-praca-z-humminbirdpc" class="nav-link" data-scroll-target="#praca-z-humminbirdpc">Praca z HumminbirdPC</a></li>
+  <li><a href="#praca-z-microsoft-excel" id="toc-praca-z-microsoft-excel" class="nav-link" data-scroll-target="#praca-z-microsoft-excel">Praca z Microsoft Excel</a></li>
+  </ul></li>
   <li><a href="#pagebreak-rejestr-zmian" id="toc-pagebreak-rejestr-zmian" class="nav-link" data-scroll-target="#pagebreak-rejestr-zmian"><div style="page-break-after: always;"></div>Rejestr zmian</a></li>
   </ul></li>
   </ul>
@@ -2573,114 +2575,159 @@ vertical-align: -.125em;
 </div>
 <p>Zakład Geomorfologii i Geologii Czwartorzędu — PROCEDURA</p>
 <hr>
-<section id="ekstrakcja-sekwencyjna" class="level1">
-<h1>Ekstrakcja sekwencyjna</h1>
-<section id="roztwory-ekstrahujące" class="level2">
-<h2 class="anchored" data-anchor-id="roztwory-ekstrahujące">Roztwory ekstrahujące</h2>
-<p><span class="smallcaps">Wszystkie odczynniki o czystości analitycznej (<em>Ultrapure</em>, cz. d. a.).</span></p>
+<section id="dane-batymetryczne-humminbird-385ci" class="level1">
+<h1>Dane batymetryczne (Humminbird 385ci)</h1>
+<section id="praca-z-echosondą" class="level2">
+<h2 class="anchored" data-anchor-id="praca-z-echosondą">Praca z echosondą</h2>
 <ul>
-<li><p>Roztwór <strong>A</strong>: <strong>0.11 mol CH<sub>3</sub>COOH</strong></p>
-<blockquote class="blockquote">
-<p><strong>25.0 cm<sup>3</sup></strong> <strong>lodowatego kwasu octowego (CH<sub>3</sub>COOH<sub>bezw.</sub>)</strong> dodać do <strong>500.0 cm<sup>3</sup> wody redestylowanej (<em>MilliQ</em>)</strong> i dopełnić do <strong>1000.0 cm<sup>3</sup></strong>, wymieszać (<strong>C = 0.43 mol/dm<sup>3</sup></strong>). Następnie rozcieńczyć go czterokrotnie (<strong>4</strong>). Otrzymany roztwór o stężeniu <strong>C = 0.11 mol/dm<sup>3</sup></strong> wykorzystać do ekstrakcji.</p>
-</blockquote></li>
-<li><p>Roztwór <strong>B</strong>: <strong>0.05 mol NH<sub>2</sub>OH·HCl</strong></p>
-<blockquote class="blockquote">
-<p>Rozpuścić <strong>6.95 g chlorowodorku hydroksyloaminy (NH<sub>2</sub>OH·HCl)</strong> w <strong>900.0 cm<sup>3</sup></strong> <strong>wody redestylowanej (<em>MilliQ</em>)</strong> i zakwasić <strong>stężonym kwasem azotowym (V)</strong> do <strong>pH = 2</strong>. Dopełnić do <strong>1000.0 cm<sup>3</sup></strong> i wymieszać.</p>
-</blockquote></li>
-<li><p>Roztwór <strong>C</strong>: <strong>8.8 mol H<sub>2</sub>O<sub>2</sub> (30%)</strong></p>
-<blockquote class="blockquote">
-<p>Roztwór <strong>H<sub>2</sub>O<sub>2</sub></strong> o stężeniu <strong>8.8 mol/dm<sup>3</sup></strong> (dostępny w handlu jako roztwór o stężeniu <strong>30%</strong>).</p>
-</blockquote></li>
-<li><p>Roztwór <strong>D</strong>: <strong>1 mol CH<sub>3</sub>COONH<sub>2</sub></strong></p>
-<blockquote class="blockquote">
-<p>Rozpuścić <strong>77.1 g octanu amonu (CH<sub>3</sub>COONH<sub>4</sub>)</strong> w <strong>900.0 cm<sup>3</sup></strong> <strong>wody redestylowanej (<em>MilliQ</em>)</strong> i zakwasić <strong>stężonym kwasem azotowym (V)</strong> do <strong>pH = 2</strong>. Dopełnić do <strong>1000.0 cm<sup>3</sup></strong> i wymieszać.</p>
-</blockquote></li>
-<li><p>Roztwory do frakcji metali, związanych z glinokrzemianami:</p>
+<li><p>Włożyć kartę pamięci SD (SanDisk 16GB w standardzie <strong>HC1</strong> i z systemem plików <strong>FAT32</strong>).</p>
+<p>Karta znajduje się u pracownika technicznego w szufladzie biurka.</p></li>
+<li><p>Włączyć echosondę.</p></li>
+<li><p>Sonda po znalezieniu pozycji GPS (diagnostyka GPS jest dostępna w odpowiednim widoku, klawisz <code>View</code>) rejestruje ślad cały czas, ale <strong>nie zapisuje</strong> go automatycznie na stałe.</p></li>
+<li><p>Przed wyłączeniem sondy wejść w <code>Menu</code> i zapisać bieżący ślad (nawet jeśli konieczny jest na przykład restart w trakcie pomiarów) – bez tego ślad zostanie utracony. Menu dostępne np. w widoku mapy (klawisz <code>View</code>).</p></li>
+<li><p>Po zapisaniu bieżącego śladu w menu wyeksportować wszystkie dane nawigacyjne na kartę SD <code>Menu</code> dostępne np. w widoku mapy (klawisz <code>View</code>).</p></li>
+<li><p>Wyjąć kartę SD z echosondy.</p></li>
+</ul>
+</section>
+<section id="praca-z-danymi" class="level2">
+<h2 class="anchored" data-anchor-id="praca-z-danymi">Praca z danymi</h2>
+<section id="import-danych" class="level3">
+<h3 class="anchored" data-anchor-id="import-danych">Import danych</h3>
+<section id="dane-z-karty-sd" class="level4">
+<h4 class="anchored" data-anchor-id="dane-z-karty-sd">Dane z karty SD</h4>
 <ul>
-<li><p>Stężony <strong>kwas azotowy (V) (HNO<sub>3</sub>)</strong>.</p></li>
-<li><p>Stężony <strong>kwas fluorowodorowy (HF)</strong>.</p></li>
-<li><p>Roztwór <strong>kwasu azotowego (V)</strong> o stężeniu <strong>C = 0.1 mol/dm<sup>3</sup></strong>.</p></li>
+<li><p>Podłączyć kartę SD do komputera:</p>
+<ul>
+<li><p>Czytnik kart SD w laptopie.</p></li>
+<li><p>Zewnętrzny czytnik kart SD USB.</p></li>
+<li><p>Przez aparat fotograficzny (np. NIKON na stanie Zakładu).</p></li>
+</ul></li>
+<li><p>Włączyć oprogramowanie HumminbirdPC.</p>
+<p>Instalator dostępny w lokalizacji: <em>Public\Sprzęt i programy\Software\Humminbird</em></p><div style="page-break-after: always;"></div><p></p></li>
+<li><p>W ustawieniach programu wybrać odpowiednie jednostki:</p>
+<ul>
+<li><p>Głębokość = <strong>metry</strong></p></li>
+<li><p>Współrzędne = <strong>stopnie</strong> <strong>z rozwinięciem dziesiętnym</strong>.</p></li>
+</ul></li>
+<li><p>W ustawieniach programu sprawdzić i ustawić odpowiedni katalog eksportu plików <code>.gpx</code>.</p></li>
+<li><p>Przy ikonie karty kliknąć strzałkę opisaną jako <code>download data</code>.</p></li>
+</ul>
+</section>
+<section id="dane-na-dysku" class="level4">
+<h4 class="anchored" data-anchor-id="dane-na-dysku">Dane na dysku</h4>
+<ul>
+<li><code>File</code> – <code>Open</code>: znaleźć odpowiedni plik <code>.gpx</code></li>
+</ul>
+</section>
+</section>
+<section id="praca-z-humminbirdpc" class="level3">
+<h3 class="anchored" data-anchor-id="praca-z-humminbirdpc">Praca z HumminbirdPC</h3>
+<ul>
+<li><p>Rozwinąć drzewko pliku <code>.gpx</code>.</p></li>
+<li><p>Rozwinąć <code>Tracks</code> (ślady).</p></li>
+<li><p>Wybrać odpowiedni ślad.</p></li>
+<li><p>Zaznaczyć pierwszy wiersz:</p>
+<ul>
+<li><p><code>CTRL+A</code> (zaznaczyć wszystko).</p></li>
+<li><p><code>CTRL+C</code> (skopiować do schowka).</p></li>
 </ul></li>
 </ul>
 </section>
-<section id="ekstrakcja-sekwencyjna-1" class="level2">
-<h2 class="anchored" data-anchor-id="ekstrakcja-sekwencyjna-1">Ekstrakcja sekwencyjna</h2>
+<section id="praca-z-microsoft-excel" class="level3">
+<h3 class="anchored" data-anchor-id="praca-z-microsoft-excel">Praca z Microsoft Excel</h3>
 <ul>
-<li><p>Odważyć z dokładnością <strong>0.001 g</strong>, około <strong>1.0 lub 0.5 g</strong> osadu (w przeliczeniu na suchą masę).</p></li>
-<li><p>Osad przenieść do próbówki <strong>teflonowej</strong>.</p></li>
-<li><p>W każdej serii przygotować co najmniej <strong>jedną próbę ślepą</strong> z wykorzystaniem pustej próbówki.</p></li>
-<li><p><strong>Natychmiast</strong> po ukończeniu jednego etapu należy przystąpić do kolejnego etapu ekstrakcji. Ekstrakcję próbek osadu i zawiesin dla uzyskania każdej z frakcji przeprowadza się w temperaturze pokojowej w ciągu <strong>16 godzin</strong>.</p></li>
-</ul>
-<section id="frakcja-i" class="level3">
-<h3 class="anchored" data-anchor-id="frakcja-i">Frakcja I</h3>
-<p><strong>Jony metali zaadsorbowane na powierzchni osadu</strong></p>
+<li><p>Otworzyć nowy arkusz.</p></li>
+<li><p>Zaznaczyć trzy kolumny i ustawić format komórek: <strong>Tekstowe</strong>.</p></li>
+<li><p>W pierwszym wierszu ustawić odpowiednie nagłówki:</p>
 <ul>
-<li><p>Dodać <strong>10.0 cm<sup>3</sup>roztworu A</strong>.</p></li>
-<li><p>Wytrząsać przez <strong>16 godzin</strong>.</p></li>
-<li><p>Odwirować przez <strong>15 minut</strong> w wirówce typu <strong>MPW-340</strong> przy <strong>3500 RPM</strong>.</p></li>
-<li><p>Roztwór zdekantować i przenieść do opisanych <strong>próbówek polietylenowych</strong> (PE).</p></li>
-<li><p>Do przygotowanego roztworu <strong>frakcji I</strong> dodać <strong>100 μl</strong> stężonego <strong>kwasu azotowego (V)</strong>.</p></li>
-<li><p>Przechowywać w lodówce do czasu analizy.</p></li>
-</ul>
-</section>
-<section id="frakcja-ii" class="level3">
-<h3 class="anchored" data-anchor-id="frakcja-ii">Frakcja II</h3>
-<p><strong>Jony metali związane z tlenkami i wodorotlenkami żelaza (III) i manganu (IV)</strong></p>
-<ul>
-<li><p>Pozostały w próbówce osad przemyć <strong>wodą redestylowaną (<em>MilliQ</em>)</strong>, zdekantować i odrzucić roztwór wodny.</p></li>
-<li><p>Dodać <strong>10.0 cm<sup>3</sup>roztworu B</strong> (przygotowanego <strong>w dniu ekstrakcji</strong>).</p></li>
-<li><p>Wytrząsać przez <strong>16 godzin</strong>.</p></li>
-<li><p>Odwirować przez <strong>15 minut</strong> w wirówce typu <strong>MPW-340</strong> przy <strong>3500 RPM</strong>.</p></li>
-<li><p>Roztwór zdekantować i przenieść do opisanych <strong>próbówek polietylenowych</strong> (PE).</p></li>
-<li><p>Do przygotowanego roztworu <strong>frakcji II</strong> dodać <strong>100 μl</strong> stężonego <strong>kwasu azotowego (V)</strong>.</p></li>
-<li><p>Przechowywać w lodówce do czasu analizy.</p></li>
-</ul>
-</section>
-<section id="frakcja-iii" class="level3">
-<h3 class="anchored" data-anchor-id="frakcja-iii">Frakcja III</h3>
-<p><strong>Jony metali związane z materią organiczną</strong></p>
-<ul>
-<li><p>Pozostały w próbówce osad przemyć <strong>wodą redestylowaną (<em>MilliQ</em>)</strong>, zdekantować i odrzucić roztwór wodny.</p></li>
-<li><p>Dodawać powoli, małymi porcjami <strong>roztwór C</strong>.</p>
-<blockquote class="blockquote">
-<p>Reakcja zachodzi <strong>wyjątkowo</strong> <strong>burzliwie</strong>. Próbówka może wymagać wielokrotnego obstukiwania w celu zagaszenia gwałtownej reakcji. Do momentu uspokojenia reakcji należy <strong>obserwować</strong> i <strong>kontrolować</strong> próbówki.</p>
-</blockquote></li>
-<li><p>Pozostawić na dobę <strong>w temperaturze pokojowej</strong>.</p></li>
-<li><p>Ogrzewać w bloku grzewczym przez <strong>1 godzinę</strong> w temperaturze <strong>85 °C</strong>.</p></li>
-<li><p>Odparować roztwór.</p></li>
-<li><p>Do pozostałości dodać <strong>10.0 cm<sup>3</sup>roztworu D.</strong></p></li>
-<li><p>Wytrząsać przez <strong>16 godzin</strong>.</p></li>
-<li><p>Odwirować przez <strong>15 minut</strong> w wirówce typu <strong>MPW-340</strong> przy <strong>3500 RPM</strong>.</p></li>
-<li><p>Roztwór zdekantować i przenieść do opisanych <strong>próbówek polietylenowych</strong> (PE).</p></li>
-<li><p>Do przygotowanego roztworu <strong>frakcji III</strong> dodać <strong>100 μl</strong> stężonego <strong>kwasu azotowego (V)</strong>.</p></li>
-<li><p>Przechowywać w lodówce do czasu analizy.</p></li>
-</ul>
-</section>
-<section id="frakcja-iv" class="level3">
-<h3 class="anchored" data-anchor-id="frakcja-iv">Frakcja IV</h3>
-<p><strong>Jony wbudowane w siatkę krystaliczną glinokrzemianów; frakcja rezydualna</strong></p>
-<ul>
-<li><p>Pozostały w próbówce osad przemyć <strong>wodą redestylowaną (<em>MilliQ</em>)</strong>, zdekantować i odrzucić roztwór wodny.</p></li>
-<li><p>Do pozostałości dodać:</p>
-<ul>
-<li><p><strong>3 cm<sup>3</sup></strong> stężonego <strong>kwasu azotowego (V)</strong>.</p></li>
-<li><p><strong>3 cm<sup>3</sup></strong> stężonego <strong>kwasu fluorowodorowego</strong>.</p></li>
+<li><p>Kolumna <strong>A</strong>: latitude.</p></li>
+<li><p>Kolumna <strong>B</strong>: longitude.</p></li>
+<li><p>Kolumna <strong>C</strong>: depth.</p></li>
 </ul></li>
-<li><p>Ogrzewać w bloku grzewczym przez <strong>4 godziny</strong> w temperaturze <strong>120 °C</strong>.</p></li>
-<li><p>Odparować do sucha.</p></li>
-<li><p>Suchą pozostałość przenieść ilościowo do probówki polietylenowej przy pomocy <strong>kwasu azotowego o stężeniu C = 0.1 mol/dm<sup>3</sup></strong>.</p></li>
-<li><p>Przechowywać w lodówce do czasu analizy.</p></li>
+<li><p>Wkleić z opcją <code>Uwzględnij formatowanie docelowe</code>.</p></li>
+<li><p>Skopiować symbol stopni „<strong>°</strong>” z dowolnej komórki.</p></li>
+<li><p>Zaznaczyć kolumny <strong>A</strong> i <strong>B</strong>.</p></li>
+<li><p><code>Znajdź i zaznacz</code> - <code>Zamień</code>:</p>
+<ul>
+<li><p>Usuwanie znaku stopni:</p>
+<ul>
+<li><p>Znajdź: °.</p></li>
+<li><p>Zamień: pozostawić puste.</p></li>
+<li><p><code>Zamień wszystko</code>.</p></li>
+</ul></li>
+<li><p>Usuwanie symbolu szerokości geograficznej:</p>
+<ul>
+<li><p>Znajdź: N.</p></li>
+<li><p>Zamień: pozostawić puste.</p></li>
+<li><p><code>Zamień wszystko</code>.</p></li>
+</ul></li>
+<li><p>Usuwanie symbolu długości geograficznej:</p>
+<ul>
+<li><p>Znajdź: E.</p></li>
+<li><p>Zamień: pozostawić puste.</p></li>
+<li><p><code>Zamień wszystko</code>.</p></li>
+</ul></li>
+<li><p>Dla kolumny <strong>longitude</strong> (<strong>B</strong>) usunąć poprzedzające zero:</p>
+<ul>
+<li><p>Znajdź: 014 (albo inna wartość, zależnie od stopni).</p></li>
+<li><p>Zamień: 14 (albo inna wartość, zależnie od stopni).</p></li>
+<li><p><code>Zamień wszystko</code>.</p></li>
+</ul></li>
+<li><p>Dla wszystkich kolumn (<strong>ABC</strong>):</p>
+<ul>
+<li><p>Znajdź: .</p></li>
+<li><p>Zamień: ,</p></li>
+<li><p><code>Zamień wszystko</code>.</p></li>
+</ul></li>
+</ul></li>
+<li><p>Utworzyć arkusz META.</p>
+<p>Zapisać metadane dotyczące echosondy, daty pomiarów, osób prowadzących badania i wszystkich innych istotnych informacji.</p></li>
+<li><p>Zapisać plik <code>.xlsx</code> z odpowiednią nazwą.</p>
+<p><em>RRRR-MM-DD_bathymetry-JJJ-humminbird.xlsx</em></p></li>
+<li><p>Skopiować wyeksportowany wcześniej plik <code>.gpx</code> z odpowiednią nazwą.</p>
+<p><em>RRRR-MM-DD_bathymetry-JJJ-humminbird.gpx</em></p>
+<p>Kod jeziora musi tożsamy z kodami wykorzystywanymi do opisu rdzeni.</p>
+<p>Tab. 1. Opis oznaczeń wykorzystywanych w nazwie pliku.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: right;">id</th>
+<th>kod</th>
+<th>znaczenie</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">1</td>
+<td>RRRR</td>
+<td>rok</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2</td>
+<td>MM</td>
+<td>miesiąc</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3</td>
+<td>DD</td>
+<td>dzień</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">4</td>
+<td>JJJ (dowolna długość)</td>
+<td>jezioro</td>
+</tr>
+</tbody>
+</table></li>
+<li><p>Skopiować pliki na serwer.</p>
+<p><em>ECRLab\Data\lake_bathymetry\<strong>JJJ</strong></em></p></li>
 </ul>
 </section>
-</section>
-<section id="oznaczenie-koncentracji-w-osadach" class="level2">
-<h2 class="anchored" data-anchor-id="oznaczenie-koncentracji-w-osadach">Oznaczenie koncentracji w osadach</h2>
-<p>Stężenia metali w poszczególnych frakcjach oznacza się metodą <strong>Absorbcyjnej spektrometrii atomowej</strong> (ASA; <em>Atomic absorption spectroscopy (AAS)</em>). We współpracy z IO PAN w Sopocie wykorzystujemy spektrometr AA-6800 (Shimadzu) z podajnikiem próbek ASC-6100. AAS stosuje się technikę płomieniową (płomień: acetylen-powietrze) oraz system korekcji tła (lampę deuterową). Przed rozpoczęciem oznaczania stężeń roztwory odpowiednio rozcieńczono, przygotowując do właściwych pomiarów absorbancji na AAS.</p>
 </section>
 <section id="pagebreak-rejestr-zmian" class="level2">
 <h2 class="anchored" data-anchor-id="pagebreak-rejestr-zmian"><div style="page-break-after: always;"></div>Rejestr zmian</h2>
-<p>08.12.2022, MZ – wersja inicjalna Quarto. Rozwinięcie treści.</p>
-<p>za: Jolanta Walkusz-Miotk 2022-12-09</p>
+<p>01.12.2022, MZ – wersja inicjalna Quarto.</p>
+<p>Maurycy Żarczyński 2022-12-09</p>
 </section>
 </section>
 

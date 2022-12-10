@@ -58,4 +58,4 @@ gdzie:
 
 07.12.2022, MZ – wersja inicjalna Quarto. Rozwinięcie treści.
 
-Alicja Bonk, Maurycy Żarczyński 2022-12-08
+Alicja Bonk, Maurycy Żarczyński 2022-12-09

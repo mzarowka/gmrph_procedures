@@ -91,4 +91,4 @@ drzwiach pomieszczenia i przy zgaszonym świetle.</span>
 
 08.12.2022, MZ – wersja inicjalna Quarto. Rozwinięcie treści.
 
-Maurycy Żarczyński 2022-12-08
+Maurycy Żarczyński 2022-12-09

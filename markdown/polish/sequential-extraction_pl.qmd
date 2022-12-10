@@ -33,11 +33,11 @@ Zakład Geomorfologii i Geologii Czwartorzędu --- PROCEDURA
 
 -   Roztwór **A**: **0.11 mol CH~3~COOH**
 
-    > **25.0 cm^3^** **lodowatego kwasu octowego (CH~3~COOH~bezw.~)** dodać do **500.0 cm^3^ wody redestylowanej (*MiliQ*)** i dopełnić do **1000.0 cm^3^**, wymieszać (**C = 0.43 mol/dm^3^**). Następnie rozcieńczyć go czterokrotnie (**4**). Otrzymany roztwór o stężeniu **C = 0.11 mol/dm^3^** wykorzystać do ekstrakcji.
+    > **25.0 cm^3^** **lodowatego kwasu octowego (CH~3~COOH~bezw.~)** dodać do **500.0 cm^3^ wody redestylowanej (*MilliQ*)** i dopełnić do **1000.0 cm^3^**, wymieszać (**C = 0.43 mol/dm^3^**). Następnie rozcieńczyć go czterokrotnie (**4**). Otrzymany roztwór o stężeniu **C = 0.11 mol/dm^3^** wykorzystać do ekstrakcji.
 
 -   Roztwór **B**: **0.05 mol NH~2~OH·HCl**
 
-    > Rozpuścić **6.95 g chlorowodorku hydroksyloaminy (NH~2~OH·HCl)** w **900.0 cm^3^** **wody redestylowanej (*MiliQ*)** i zakwasić **stężonym kwasem azotowym (V)** do **pH = 2**. Dopełnić do **1000.0 cm^3^** i wymieszać.
+    > Rozpuścić **6.95 g chlorowodorku hydroksyloaminy (NH~2~OH·HCl)** w **900.0 cm^3^** **wody redestylowanej (*MilliQ*)** i zakwasić **stężonym kwasem azotowym (V)** do **pH = 2**. Dopełnić do **1000.0 cm^3^** i wymieszać.
 
 -   Roztwór **C**: **8.8 mol H~2~O~2~ (30%)**
 
@@ -45,7 +45,7 @@ Zakład Geomorfologii i Geologii Czwartorzędu --- PROCEDURA
 
 -   Roztwór **D**: **1 mol CH~3~COONH~2~**
 
-    > Rozpuścić **77.1 g octanu amonu (CH~3~COONH~4~)** w **900.0 cm^3^** **wody redestylowanej (*MiliQ*)** i zakwasić **stężonym kwasem azotowym (V)** do **pH = 2**. Dopełnić do **1000.0 cm^3^** i wymieszać.
+    > Rozpuścić **77.1 g octanu amonu (CH~3~COONH~4~)** w **900.0 cm^3^** **wody redestylowanej (*MilliQ*)** i zakwasić **stężonym kwasem azotowym (V)** do **pH = 2**. Dopełnić do **1000.0 cm^3^** i wymieszać.
 
 -   Roztwory do frakcji metali, związanych z glinokrzemianami:
 
@@ -69,7 +69,7 @@ Zakład Geomorfologii i Geologii Czwartorzędu --- PROCEDURA
 
 **Jony metali zaadsorbowane na powierzchni osadu**
 
--   Dodać **10.0 cm^3^****roztworu A**.
+-   Dodać **10.0 cm^3^roztworu A**.
 
 -   Wytrząsać przez **16 godzin**.
 
@@ -85,9 +85,9 @@ Zakład Geomorfologii i Geologii Czwartorzędu --- PROCEDURA
 
 **Jony metali związane z tlenkami i wodorotlenkami żelaza (III) i manganu (IV)**
 
--   Pozostały w próbówce osad przemyć **wodą redestylowaną (*MiliQ*)**, zdekantować i odrzucić roztwór wodny.
+-   Pozostały w próbówce osad przemyć **wodą redestylowaną (*MilliQ*)**, zdekantować i odrzucić roztwór wodny.
 
--   Dodać **10.0 cm^3^****roztworu B** (przygotowanego **w dniu ekstrakcji**).
+-   Dodać **10.0 cm^3^roztworu B** (przygotowanego **w dniu ekstrakcji**).
 
 -   Wytrząsać przez **16 godzin**.
 
@@ -103,7 +103,7 @@ Zakład Geomorfologii i Geologii Czwartorzędu --- PROCEDURA
 
 **Jony metali związane z materią organiczną**
 
--   Pozostały w próbówce osad przemyć **wodą redestylowaną (*MiliQ*)**, zdekantować i odrzucić roztwór wodny.
+-   Pozostały w próbówce osad przemyć **wodą redestylowaną (*MilliQ*)**, zdekantować i odrzucić roztwór wodny.
 
 -   Dodawać powoli, małymi porcjami **roztwór C**.
 
@@ -115,7 +115,7 @@ Zakład Geomorfologii i Geologii Czwartorzędu --- PROCEDURA
 
 -   Odparować roztwór.
 
--   Do pozostałości dodać **10.0 cm^3^****roztworu D.**
+-   Do pozostałości dodać **10.0 cm^3^roztworu D.**
 
 -   Wytrząsać przez **16 godzin**.
 
@@ -131,7 +131,7 @@ Zakład Geomorfologii i Geologii Czwartorzędu --- PROCEDURA
 
 **Jony wbudowane w siatkę krystaliczną glinokrzemianów; frakcja rezydualna**
 
--   Pozostały w próbówce osad przemyć **wodą redestylowaną (*MiliQ*)**, zdekantować i odrzucić roztwór wodny.
+-   Pozostały w próbówce osad przemyć **wodą redestylowaną (*MilliQ*)**, zdekantować i odrzucić roztwór wodny.
 
 -   Do pozostałości dodać:
 

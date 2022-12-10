@@ -78,10 +78,14 @@ zastosować podkładkę w celu wyrównania poziomu rodzenia.
   czynnikiem **krytycznym**.
 
 - Ostrożnie umieścić wzorzec bieli na stoliku (sztabka
-  BaSO<sub>4</sub>); delikatnie usunąć kurz, łapać tylko za boki.
+  BaSO<sub>4</sub>); łapać tylko za boki i delikatnie usunąć kurz (na
+  przykład chusteczkami do obiektywów).
 
 - Jeśli poziom rdzeni jest do siebie **mocno** zbliżony, **nie należy**
   **korygować** ustawień kamery.
+
+- Na stoliku, na części zajętej przez biały plastikowy blok umieścić
+  papierową etykietę z symbolem rdzenia.
 
 ## Oprogramowanie Lumo Scanner
 
@@ -301,7 +305,13 @@ zakończyć się bez błędów.
 
 - Wyczyścić miejsce pracy.
 
-## Rejestr zmian
+# Załącznik 1: etykiety
+
+<img src="images/hsi_labels.jpg" data-fig-align="center" />
+
+*Źródło*: Butz 2016.
+
+## Rejestr zmian
 
 16.11.2022, MZ – wersja inicjalna.
 
@@ -309,4 +319,6 @@ zakończyć się bez błędów.
 
 30.11.2022, MZ – kolejne poprawki. Pierwsza wersja Quarto.
 
-Maurycy Żarczyński 2022-12-08
+09.12.2022, MZ – poprawki, dodano info i wzór etykiet.
+
+Maurycy Żarczyński 2022-12-09

@@ -130,4 +130,4 @@ Zakład Geomorfologii i Geologii Czwartorzędu — PROCEDURA
 01.12.2022, MZ – wersja inicjalna Quarto. Rozwinięcie treści. M
 zamienione na mol zgodnie z wytycznymi SI.
 
-Anna Poraj-Górska, Karolina Molisak, Maurycy Żarczyński 2022-12-08
+Anna Poraj-Górska, Karolina Molisak, Maurycy Żarczyński 2022-12-09

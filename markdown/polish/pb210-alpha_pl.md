@@ -86,4 +86,4 @@ Zakład Geomorfologii i Geologii Czwartorzędu — PROCEDURA
 zamienione na mol zgodnie z wytycznymi SI.
 
 Wojciech Tylmann, Karolina Molisak, Joanna Piłczyńska, Maurycy
-Żarczyński 2022-12-08
+Żarczyński 2022-12-09

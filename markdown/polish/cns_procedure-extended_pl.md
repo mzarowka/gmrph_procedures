@@ -319,4 +319,4 @@ Można użyć wartości **blank** i **day factor** do korekty wyników.
 
 04.12.2022, MZ – wersja inicjalna Quarto. Rozwinięcie treści.
 
-Maurycy Żarczyński 2022-12-08
+Maurycy Żarczyński 2022-12-09

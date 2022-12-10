@@ -20,7 +20,7 @@ Zakład Geomorfologii i Geologii Czwartorzędu — PROCEDURA
 
   > **25.0 cm<sup>3</sup>** **lodowatego kwasu octowego
   > (CH<sub>3</sub>COOH<sub>bezw.</sub>)** dodać do **500.0
-  > cm<sup>3</sup> wody redestylowanej (*MiliQ*)** i dopełnić do
+  > cm<sup>3</sup> wody redestylowanej (*MilliQ*)** i dopełnić do
   > **1000.0 cm<sup>3</sup>**, wymieszać (**C = 0.43
   > mol/dm<sup>3</sup>**). Następnie rozcieńczyć go czterokrotnie
   > (**4**). Otrzymany roztwór o stężeniu **C = 0.11
@@ -30,7 +30,7 @@ Zakład Geomorfologii i Geologii Czwartorzędu — PROCEDURA
 
   > Rozpuścić **6.95 g chlorowodorku hydroksyloaminy
   > (NH<sub>2</sub>OH·HCl)** w **900.0 cm<sup>3</sup>** **wody
-  > redestylowanej (*MiliQ*)** i zakwasić **stężonym kwasem azotowym
+  > redestylowanej (*MilliQ*)** i zakwasić **stężonym kwasem azotowym
   > (V)** do **pH = 2**. Dopełnić do **1000.0 cm<sup>3</sup>** i
   > wymieszać.
 
@@ -43,7 +43,7 @@ Zakład Geomorfologii i Geologii Czwartorzędu — PROCEDURA
 - Roztwór **D**: **1 mol CH<sub>3</sub>COONH<sub>2</sub>**
 
   > Rozpuścić **77.1 g octanu amonu (CH<sub>3</sub>COONH<sub>4</sub>)**
-  > w **900.0 cm<sup>3</sup>** **wody redestylowanej (*MiliQ*)** i
+  > w **900.0 cm<sup>3</sup>** **wody redestylowanej (*MilliQ*)** i
   > zakwasić **stężonym kwasem azotowym (V)** do **pH = 2**. Dopełnić do
   > **1000.0 cm<sup>3</sup>** i wymieszać.
 
@@ -95,7 +95,7 @@ Zakład Geomorfologii i Geologii Czwartorzędu — PROCEDURA
 **Jony metali związane z tlenkami i wodorotlenkami żelaza (III) i
 manganu (IV)**
 
-- Pozostały w próbówce osad przemyć **wodą redestylowaną (*MiliQ*)**,
+- Pozostały w próbówce osad przemyć **wodą redestylowaną (*MilliQ*)**,
   zdekantować i odrzucić roztwór wodny.
 
 - Dodać **10.0 cm<sup>3</sup>roztworu B** (przygotowanego **w dniu
@@ -118,7 +118,7 @@ manganu (IV)**
 
 **Jony metali związane z materią organiczną**
 
-- Pozostały w próbówce osad przemyć **wodą redestylowaną (*MiliQ*)**,
+- Pozostały w próbówce osad przemyć **wodą redestylowaną (*MilliQ*)**,
   zdekantować i odrzucić roztwór wodny.
 
 - Dodawać powoli, małymi porcjami **roztwór C**.
@@ -155,7 +155,7 @@ manganu (IV)**
 **Jony wbudowane w siatkę krystaliczną glinokrzemianów; frakcja
 rezydualna**
 
-- Pozostały w próbówce osad przemyć **wodą redestylowaną (*MiliQ*)**,
+- Pozostały w próbówce osad przemyć **wodą redestylowaną (*MilliQ*)**,
   zdekantować i odrzucić roztwór wodny.
 
 - Do pozostałości dodać:
@@ -189,4 +189,4 @@ pomiarów absorbancji na AAS.
 
 08.12.2022, MZ – wersja inicjalna Quarto. Rozwinięcie treści.
 
-za: Jolanta Walkusz-Miotk 2022-12-08
+za: Jolanta Walkusz-Miotk 2022-12-09

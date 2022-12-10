@@ -76,6 +76,6 @@ Zakład Geomorfologii i Geologii Czwartorzędu — PROCEDURA
 
 01.12.2022, MZ – wersja inicjalna Quarto. Rozwinięcie treści.
 
-Wojciech Tylmann, Karolina Molisak, Maurycy Żarczyński 2022-12-08
+Wojciech Tylmann, Karolina Molisak, Maurycy Żarczyński 2022-12-09
 
 [^1]: Separator dziesiętny to kropka.

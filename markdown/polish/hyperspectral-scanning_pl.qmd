@@ -65,9 +65,11 @@ Jeśli rdzeń jest wyrównany, ale jedna ze stron się zapada, można zastosowa�
 
     | W miarę konieczności ułożyć miarę na rdzeniu, **równoległe** ułożenie miary jest **priorytetem**. Lepszy wynik osiągnie się przy minimalnie różnym poziomie między miarą a osadem, ale przy zachowaniu równoległego ułożenia. Wzrost **kąta** między osią miary i rdzenia skutkuje **zniekształceniem** na etapie przetwarzania danych. Określenie właściwej pozycji **stropu** i **spągu** na mierze jest czynnikiem **krytycznym**.
 
--   Ostrożnie umieścić wzorzec bieli na stoliku (sztabka BaSO~4~); delikatnie usunąć kurz, łapać tylko za boki.
+-   Ostrożnie umieścić wzorzec bieli na stoliku (sztabka BaSO~4~); łapać tylko za boki i delikatnie usunąć kurz (na przykład chusteczkami do obiektywów).
 
 -   Jeśli poziom rdzeni jest do siebie **mocno** zbliżony, **nie należy** **korygować** ustawień kamery.
+
+-   Na stoliku, na części zajętej przez biały plastikowy blok umieścić papierową etykietę z symbolem rdzenia.
 
 ## Oprogramowanie Lumo Scanner
 
@@ -229,12 +231,20 @@ Jeśli nie została przekroczona pojemność dysku skanowanie powinno zakończy�
 
 -   Wyczyścić miejsce pracy.
 
-## Rejestr zmian
+# {{< pagebreak >}}Załącznik 1: etykiety
+
+![](images/hsi_labels.jpg){fig-align="center"}
+
+*Źródło*: Butz 2016.
+
+## {{< pagebreak >}}Rejestr zmian
 
 16.11.2022, MZ -- wersja inicjalna.
 
 17.11.2022, MZ -- pierwsze poprawki.
 
 30.11.2022, MZ -- kolejne poprawki. Pierwsza wersja Quarto.
+
+09.12.2022, MZ -- poprawki, dodano info i wzór etykiet.
 
 Maurycy Żarczyński `r Sys.Date()`
