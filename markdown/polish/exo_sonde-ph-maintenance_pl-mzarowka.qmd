@@ -1,0 +1,98 @@
+---
+editor: visual
+format:
+  html:
+    toc: true
+    toc-title: Etapy
+    toc-depth: 4
+    embed-resources: true
+  pdf:
+    geometry: 
+    - top=20mm
+    - left=20mm
+    - bottom=20mm
+    - right=20mm
+  docx: default
+  gfm: default
+theme:
+  light: flatly
+  dark: darkly
+---
+
+[![](images/log-ug_pl.png){fig-alt="Logo: Uniwersytet Gdański" fig-align="left" width="150"}](https://geomorfologia.ug.edu.pl)
+
+{{< var title.proc-tit >}}
+
+------------------------------------------------------------------------
+
+# EXO2: konserwacja czujnika pH
+
+## Kalibracja czujnika {#kalibracja}
+
+-   W zlewkach przygotować roztwory buforowe o wartościach pH: **4**, **7**, **10**.
+
+-   Przygotować tryskawkę z wodą dejonizowaną.
+
+-   Podłączyć czytnik do sondy.
+
+-   Zdemontować osłonę sondy, a następnie dokładnie opłukać czujniki w wodzie dejonizowanej.
+
+-   Poruszanie się na panelu czytnika następuje z wykorzystaniem `strzałek`.
+
+-   Rozpocząć kalibrację na czytniku:
+
+    | Opcje: `Calibration > pH/ORP > pH`.
+    | `Calibration value`.
+
+-   Wprowadzić 1. punkt kalibracyjny, **pH 4**.
+
+    | Należy wprowadzić wartość pH odpowiednią dla bieżącej temperatury.
+    | Dane znajdują się na butelce lub opakowaniu z roztworem buforowym.
+
+-   W celu rozpoczęcia kalibracji pierwszego punktu sondę należy zanurzyć w roztworze buforowym i nacisnąć `Enter`.
+
+-   Pomiar powinien trwać do momentu ustabilizowania się wartości pH.
+
+    | Zmiana ikony z **żółtego trójkąta** ostrzegawczego na **zielony symbol** zakończenia pomiaru.
+
+-   Zaakceptować wynik kalibracji punktu:
+
+    | `Accept Calibration > Enter`.
+
+-   Należy **powtórzyć** procedurę dla wartości **pH 7** i **10**.
+
+-   Po zakończeniu pomiarów i zaakceptowaniu kalibracji na wyświetlaczu pojawi się raport z kalibracji.
+
+-   W celu sprawdzenia poprawności kalibracji, należy wykonać ponowny pomiar pH roztworów buforowych.
+
+-   Po zakończeniu procesu umyć dokładnie czujniki, zamontować osłonę.
+
+## Czyszczenie czujnika {#czyszczenie}
+
+-   Przygotować roztwór wodny wybielacza w proporcji 1:1.
+
+    | **Tylko wybielacze na bazie podchlorynu sodu NaClO.**
+
+-   Zanurzyć czujnik pH w roztworze wybielacza na **30 minut**.
+
+-   Po upływie wskazanego czasu opłukać dokładnie czujnik pod bieżącą wodą.
+
+-   Przygotować roztwór wodny płynu do naczyń (mocno rozcieńczony).
+
+-   Zanurzyć czujnik pH w przygotowanym roztworze na **30 minut**.
+
+-   Po upływie wskazanego czasu opłukać dokładnie elektrodę pod bieżącą wodą.
+
+-   Przygotować roztwór buforowy **pH 4**.
+
+-   Zanurzyć elektrodę na kilka godzin, **minimum 3 h**, w roztworze buforowym.
+
+-   Po upływie wskazanego czasu opłukać elektrodę wodą dejonizowaną.
+
+-   Sprawdzić wskazania elektrody i przeprowadzić czynności opisane w punkcie [Kalibracja czujnika](#kalibracja) {{< pagebreak >}}
+
+## Rejestr zmian
+
+01.12.2022, MZ -- wersja inicjalna Quarto.
+
+Karolina Molisak, Maurycy Żarczyński `r Sys.Date()`

@@ -1,0 +1,102 @@
+---
+editor: visual
+format:
+  html:
+    toc: true
+    toc-title: Etapy
+    toc-depth: 4
+    embed-resources: true
+  pdf:
+    geometry: 
+    - top=20mm
+    - left=20mm
+    - bottom=20mm
+    - right=20mm
+  docx: default
+  gfm: default
+theme:
+  light: flatly
+  dark: darkly
+---
+
+[![](images/log-ug_pl.png){fig-alt="Logo: Uniwersytet Gdański" fig-align="left" width="150"}](https://geomorfologia.ug.edu.pl)
+
+{{< var title.proc-tit >}}
+
+------------------------------------------------------------------------
+
+# Skanowanie cienkich szlifów
+
+## Przygotowanie do pracy
+
+-   Przygotować szlify do skanowania.
+
+-   Założyć odpowiedni katalog na dysku.
+
+-   Podłączyć skaner do komputera.
+
+-   Włączyć skaner.
+
+## Praca z programem EPSON Scan
+
+-   Włączyć oprogramowanie EPSON Scan.
+
+    Instalator sterowników skanera dostępny w lokalizacji: *Public\\Sprzęt i programy\\Software\\\_Sterowniki\\Epson*
+
+-   Ustawić parametry w programie:
+
+    -   Tryb profesjonalny.
+
+    -   Typ: FILM.
+
+    -   Typ filmu: FILM POZYTYWOWY.
+
+    -   Rozdzielczość: 2400 DPI.
+
+    -   Maska wyostrzająca.
+
+## Obsługa skanera
+
+-   Ściągnąć białą osłonę z pokrywy skanera.
+
+-   Nałożyć uchwyt do filmów i klisz.
+
+-   Ułożyć **pierwszą** folię polaryzacyjną na szybie skanera.
+
+-   Włożyć szlif do dołu skanera (może być w uchwycie).
+
+    **Strop** zawsze w stronę przycisków na obudowie urządzenia.
+
+-   Ułożyć **drugą** folię polaryzacyjną na szlifie, prostopadle do **pierwszej** folii.
+
+-   Surowy obraz zapisać w formacie `.bmp`.
+
+    Nazwa pliku musi odpowiadać oznaczeniu szlifu.
+
+    Dodatkowo, pliki należy numerować. Zależnie od maksymalnej liczby szlifów, numerację zacząć od 1, 01 lub 001, tak aby każda liczba porządkowa miała zawsze rozwinięcie równe liczbie porządkowej ostatniego ze szlifów. Ułatwi to właściwe sortowanie plików przez system i oprogramowanie.
+
+    Przykłady:
+
+    -   Jezioro ABC, **9** szlifów: **1**, 2 ..., **9**.
+
+    -   Jezioro DEF, **10** szlifów: **01**, 02, ..., **10.**
+
+    -   Jezioro GHI: **100** szlifów: **001**, 002, ..., **100**.
+
+-   Skopiować pliki na serwer.
+
+    *Public\\Data\\lake_thin-sections\\**country\\JJJ\\RRRR***
+
+Tab. 1. Opis oznaczeń wykorzystywanych w ścieżce.
+
+|  id | kod                   | znaczenie |
+|----:|-----------------------|-----------|
+|   1 | country               | kraj      |
+|   2 | JJJ (dowolna długość) | jezioro   |
+|   2 | RRRR                  | rok       |
+
+## Rejestr zmian
+
+01.12.2022, MZ -- wersja inicjalna Quarto. Rozwinięcie treści.
+
+Maurycy Żarczyński `r Sys.Date()`

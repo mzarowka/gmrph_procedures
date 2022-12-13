@@ -1,0 +1,114 @@
+---
+editor: visual
+format:
+  html:
+    toc: true
+    toc-title: Etapy
+    toc-depth: 4
+    embed-resources: true
+  pdf:
+    geometry: 
+    - top=20mm
+    - left=20mm
+    - bottom=20mm
+    - right=20mm
+  docx: default
+  gfm: default
+theme:
+  light: flatly
+  dark: darkly
+---
+
+[![](images/log-ug_pl.png){fig-alt="Logo: Uniwersytet Gdański" fig-align="left" width="150"}](https://geomorfologia.ug.edu.pl)
+
+{{< var title.proc-tit >}}
+
+------------------------------------------------------------------------
+
+# Ekstrakcja pigmentów z osadów jeziornych
+
+## Materiały eksploatacyjne i urządzenia
+
+### Odczynniki chemiczne
+
+-   Aceton **100%** (klasa czystości **HPLC**): rozpuszczalnik.
+
+-   Aceton **techniczny**: czyszczenie naczyń i urządzeń.
+
+-   Woda **redestylowana (*MilliQ*)**.
+
+-   Azot.
+
+Urządzenia
+
+-   Wyciąg laboratoryjny.
+
+    | Stężony aceton (C~3~H~6~O) to rozpuszczalnik organiczny, który wymaga pracy pod włączonym **wyciągiem laboratoryjnym**. Aceton jest wysoce **łatwopalny**. Aceton ma silne działanie **drażniące**.
+
+-   Myjka ultradźwiękowa.
+
+-   Wirówka laboratoryjna o parametrach
+
+-   Wytrząsarka typu *Vortex*.
+
+-   Suszarka laboratoryjna.
+
+-   Liofilizator.
+
+-   Szklane cylindry wolumetryczne:
+
+    -   500 ml.
+
+    -   1000 ml.
+
+-   Szklane zlewki.
+
+-   Blok grzewczy.
+
+-   Ewaporator N~2~:
+
+    -   Igły do N~2~.
+
+    -   Metalowy statyw na próbki.
+
+-   Statywy na próbki.
+
+-   Waga analityczna i urządzenie antystatyczne.
+
+### Pozostałe
+
+-   Falkony polietylenowe (PE) **50 ml**.
+
+    | Zwykły plastik reaguje ze stężonym acetonem.
+
+-   Próbówki z brązowego szkła z zakrętkami i membranami.
+
+-   Folia aluminiowa.
+
+## Przygotowanie osadów
+
+-   Suszenie w liofilizatorze.
+
+-   Straty na prażeniu 550 (niekoniecznie, mamy cns?).
+
+-   Umieścić w falkonach (PE).
+
+-   Dodać aceton 100% (czystość HPLC).
+
+-   Wymieszać z użyciem wytrząsarki typu vortex.
+
+-   Umieścić w myjce ultradźwiękowej aby usunąć pęcherzyki powietrza.
+
+-   Odwirować próbki w wirówce:
+
+    -   10 minut.
+
+    -   5000 RPM.
+
+## Ekstrakcja pigmentów
+
+## {{< pagebreak >}}Rejestr zmian
+
+09.12.2022, MZ -- wersja inicjalna Quarto, procedura za: Andrea Sanchini i Giulia Wienhues (Uniwersytet w Bernie).
+
+Maurycy Żarczyński `r Sys.Date()`

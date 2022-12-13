@@ -1,0 +1,94 @@
+
+<div fig-alt="Logo: Uniwersytet Gdański" fig-align="left">
+
+[<img src="images/log-ug_pl.png" width="150" />](https://geomorfologia.ug.edu.pl)
+
+</div>
+
+Zakład Geomorfologii i Geologii Czwartorzędu — PROCEDURA
+
+------------------------------------------------------------------------
+
+# Liofilizacja
+
+## Przygotowanie do pracy
+
+- Odkorkować czarny wężyk i sprawdzić czy nie ma wody.
+
+- Sprawdzić obecność wody na szczycie liofilizatora.
+
+- Sprawdzić suchość uszczelki, a także jej przyleganie.
+
+## Przygotowanie próbki
+
+- Dzień wcześniej zlać wodę znad osadu.
+
+- Zamrozić próbki, a także schłodzić stoliczek w zamrażalniku.
+
+## Praca z liofilizatorem
+
+### Suszenie
+
+- Ustawić próbki na stoliczku, następnie na szczycie liofilizatora.
+
+- Nałożyć pokrywę (łapiąc za plastik).
+
+- Sprawdzić czy wszystkie zawory są zamknięte.
+
+  Przeważnie jeden zawór mógł pozostać otwarty po poprzedniej sesji.
+
+- Sprawdzić czystość oleju w pompie próżniowej.
+
+- Włączyć liofilizator z boku urządzenia czarnym przyciskiem.
+
+- Jeżeli włączy się alarm należy wcisnąć `Menu` w celu sprawdzenia
+  treści.
+
+  Alarm dotyczący interwału pracy pompy i oleju można przeważnie
+  wyczyścić przyciskiem `Select`.
+
+- Liofilizator oferuje dwa programy pracy i odpowiadające im przyciski
+  `AUTO` i `MAN`.
+
+- Wybrać tryb `MAN` i poczekać aż temperatura spadnie do -40 °C.
+
+  Odczekać do zapalenia się wszystkich lampek przy temperaturze.
+
+- Przycisnąć `VACUUM`, sprawdzić czy zawory nie wciągają powietrza.
+
+  Odczekać, aż wszystkie diody w polu VACUUM się zapalą.
+
+- W zależności od ilości materiału suszenie może potrwać około tygodnia.
+
+### Po suszeniu
+
+- Wyłączyć liofilizator w kolejności odwrotnej do włączenia.
+
+- Wyłączyć pompę próżniową.
+
+- Delikatnie otworzyć jeden z zaworów, tak aby nie spowodować
+  gwałtownego wyrównania ciśnienia.
+
+  Zbyt gwałtowne otwarcie zaworu może spowodować przemieszczenie próbek
+  i utratę materiału.
+
+- Zdjąć pokrywę liofilizatora.
+
+- Usunąć próbki razem ze stoliczkiem.
+
+- Pozwolić aby lód stopniał samoczynnie.
+
+- Podstawić zlewkę pod wylot czarnego węża i usunąć korek.
+
+- Zlać wodę z liofilizatora, urządzenie można ostrożnie przechylić.
+
+- Przy otwartym czarnym wężu przedmuchać urządzenie sprężonym
+  powietrzem.
+
+- W pełni wysuszony liofilizator jest gotowy do ponownej pracy.
+
+## Rejestr zmian
+
+01.12.2022, MZ – wersja inicjalna Quarto. Rozwinięcie treści.
+
+Joanna Piłczyńska, Maurycy Żarczyński 2022-12-10
