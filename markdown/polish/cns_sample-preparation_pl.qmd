@@ -12,8 +12,8 @@ format:
     - left=20mm
     - bottom=20mm
     - right=20mm
-  docx: default
-  gfm: default
+
+
 theme:
   light: flatly
   dark: darkly

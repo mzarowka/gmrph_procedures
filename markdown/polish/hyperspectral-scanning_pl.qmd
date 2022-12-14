@@ -12,8 +12,8 @@ format:
     - left=20mm
     - bottom=20mm
     - right=20mm
-  docx: default
-  gfm: default
+
+
 theme:
   light: flatly
   dark: darkly
@@ -39,9 +39,14 @@ Jeśli rdzeń jest wyrównany, ale jedna ze stron się zapada, można zastosowa�
 
 ### Wybór ustawień
 
--   Wąskie rdzenie (**Φ 63 mm**): obiektyw **50.0 mm**; razem z aluminiową szyną.
+-   Wąskie rdzenie (**Φ 63 mm**): obiektywy **50.0 mm** oraz **18.5 mm**; razem z aluminiową szyną.
 
 -   Szerokie rdzenie (**Φ 90 mm**): obiektyw **18.5 mm**; bez aluminiowej szyny.
+
+    | Nie należy wykręcać obiektywu przy poluzowanej obręczy.
+    | Obręcz luzować tylko w czasie ustawiania ostrości.
+
+    | Zdjęcia obiektywów znajdują się w sekcji [Załącznik 1: obiektywy].
 
 ### Przygotowanie stanowiska
 
@@ -55,7 +60,7 @@ Jeśli rdzeń jest wyrównany, ale jedna ze stron się zapada, można zastosowa�
 
 -   Ostrożnie usunąć osłonę obiektywu.
 
-    | Upewnić się, że wybrany jest właściwy obiektyw.
+    | Upewnić się, że wybrany jest właściwy obiektyw ([Załącznik 1: obiektywy]).
 
 -   Ułożyć rdzeń na prowadnicy, stropem do góry.
 
@@ -69,7 +74,7 @@ Jeśli rdzeń jest wyrównany, ale jedna ze stron się zapada, można zastosowa�
 
 -   Jeśli poziom rdzeni jest do siebie **mocno** zbliżony, **nie należy** **korygować** ustawień kamery.
 
--   Na stoliku, na części zajętej przez biały plastikowy blok umieścić papierową etykietę z symbolem rdzenia.
+-   Na stoliku, na części zajętej przez biały plastikowy blok umieścić papierową etykietę z symbolem rdzenia ([Załącznik 2: etykiety]).
 
 ## Oprogramowanie Lumo Scanner
 
@@ -117,7 +122,7 @@ Jeśli rdzeń jest wyrównany, ale jedna ze stron się zapada, można zastosowa�
 
     | Celem jest zmaksymalizowanie jasności bez osiągnięcia nadmiernej ekspozycji (*overexposure*) widocznej jako czerwone piksele na podglądzie.
 
--   W panelu `Detector` (lewy górny wykres) przesunąć białą linię nad środek białego pola **focus grid** możliwie blisko środka pola `focus grid` (centralnie pod obiektywem).
+-   W panelu `Detector` (lewy górny wykres) przesunąć **białą, pionową linię** na środek białego pola **focus grid** możliwie blisko środka pola `focus grid` (centralnie pod obiektywem).
 
     | Wartości rejestrowane na linii widoczne są w panelu `Wavelenght` (dolny lewy wykres). Celem jest osiągnięcie maksymalnej wartości dla białej krzywej bez przekroczenia maksymalnych wartości na osi Y (pozostawić pewien zapas). Zwiększenie jasności polega na zwiększeniu wartości czasu ekspozycji (*exposure time*, ET). ET zmienia się odwrotnie do częstotliwości wyświetlania klatek (*frame rate*, FR).
 
@@ -129,9 +134,9 @@ Jeśli rdzeń jest wyrównany, ale jedna ze stron się zapada, można zastosowa�
 
 -   Po uzyskaniu właściwej jasności należy dokonać korekty ostrości w oparciu o wykresy: `Waterfall` (prawy górny wykres) oraz `Pixels` (prawy dolny wykres). Pomoc stanowi również prawy panel `Focusing`.
 
--   Należy obracać obiektywem tak aby osiągnąć możliwe wyraźne białe i czarne pasy na wykresie `Waterfall` oraz możliwie ostre, spłaszczone piki na wykresie `Pixels`.
+-   Należy obracać obiektywem tak aby osiągnąć możliwe wyraźne białe i czarne pasy na wykresie `Waterfall` oraz możliwie spłaszczone piki, o wyraźnych krawędziach na wykresie `Pixels`.
 
-    | Wykres `Waterfall` można przybliżyć i oddalić menu prawego przycisku myszy, po odznaczeniu opcji `fit to window`. Ostre krawędzie na wykresie `Pixels` oznaczają wysoki kontrast między czarnymi i białymi pasami pola **focus grid**. Kolor paska w panelu `Focusing` należy traktować jako wskazówkę. Metodą prób i błędów, przez przekroczenie ostrości w obu kierunkach zawęzić pole wyostrzania w celu osiągnięcia możliwie ostrego obrazu. Dobry obraz jest wyraźny na wykresie `Waterfall`, „kanciasty" na wykresie `Pixels` a panel `Focusing` pokazuje pomarańczowy lub zielony pasek.
+    | Wykres `Waterfall` można przybliżyć i oddalić menu prawego przycisku myszy, po odznaczeniu opcji `fit to window`. Ostre krawędzie na wykresie `Pixels` oznaczają wysoki kontrast między czarnymi i białymi pasami pola **focus grid**. Kolor paska w panelu `Focusing` należy traktować jako wskazówkę. Metodą prób i błędów, przez przekroczenie ostrości w obu kierunkach zawęzić pole wyostrzania w celu osiągnięcia możliwie ostrego obrazu. Dobry obraz jest wyraźny na wykresie `Waterfall`, „kanciasty" na wykresie `Pixels` a panel `Focusing` pokazuje pomarańczowy lub zielony pasek. Pasek wyświetla się po kliknięciu `Run`.
 
     #### Prędkość skanowania
 
@@ -147,6 +152,8 @@ Jeśli rdzeń jest wyrównany, ale jedna ze stron się zapada, można zastosowa�
 
 -   W panelu `Motor` przesuwać rdzeń do przodu, tak aby pojawiła się poprzeczna miara poprzedzająca strop.
 
+    | Przy przesuwaniu rdzenia obraz jest zniekształcony wzdłuż dłuższej osi, ze względu na stałą prędkość ruchu.
+
 -   Wykonać zrzut ekranu, wkleić na przykład do **MS Paint** i dokładnie odczytać wartość na miarce, wyrażoną w mm.
 
     | Należy upewnić się, że wyświetlany obraz to cały obraz rejestrowany przez kamerę. Podgląd ma tendencję do przybliżania środka kadru.
@@ -159,9 +166,11 @@ Jeśli rdzeń jest wyrównany, ale jedna ze stron się zapada, można zastosowa�
 
 -   Panel `Sensor 1 positions`.
 
-    -   Pole `Target start`: **250 mm**. Wartość stała.
+    -   Pole `Target start`: **180 mm**, tak aby widoczna była etykieta (oryginalnie **250 mm**).
 
-    -   Pole `Target stop`: **długość rdzenia (mm) + 300 mm** -- `Set`.
+        | Wartość stała.
+
+    -   Pole `Target stop`: **długość rdzenia (mm) + 300 mm**.
 
 ### Zakładka Capture
 
@@ -193,11 +202,16 @@ Jeśli rdzeń jest wyrównany, ale jedna ze stron się zapada, można zastosowa�
 
 -   Pole `Operator`: inicjały osoby wykonującej skanowanie.
 
-    | Dopuszczalne: MZ, JP, MK.
-
 -   Wyłączyć monitor, zgasić światła w pomieszczeniu, zamknąć drzwi i wywiesić kartkę informującą o skanowaniu.
 
 -   Połączyć się z komputerem korzystając ze zdalnego pulpitu.
+
+    | Odpowiedni plik `*.vnc` znajduje się na serwerze:
+    | *Public\\Sprzęt i programu\\Network\\B106_HSI.vnc*
+
+    | Połączenie VNC możliwe z użyciem programów:
+    | **TightVNC**: https://www.tightvnc.com/download.php
+    | **RealVNC**: https://www.realvnc.com/en/connect/download/viewer/
 
 -   Rozpocząć skanowanie guzikiem `Record`.
 
@@ -231,13 +245,23 @@ Jeśli nie została przekroczona pojemność dysku skanowanie powinno zakończy�
 
 -   Wyczyścić miejsce pracy.
 
-# {{< pagebreak >}}Załącznik 1: etykiety
+{{< pagebreak >}}
 
-![](images/hsi_labels.jpg){fig-align="center"}
+## Załącznik 1: obiektywy
 
-*Źródło*: Butz 2016.
+![Obiektyw 18.5 mm](images/specim-18.5.png){alt="Obiektyw 18.5 mm" width="25%"}
 
-## {{< pagebreak >}}Rejestr zmian
+![Obiektyw 50.0 mm](images/specim-50.0.png){alt="Obiektyw 50.0 mm" width="25%"}
+
+{{< pagebreak >}}
+
+## Załącznik 2: etykiety
+
+![Wzór etykiet jednorazowych (źródło: Butz 2016)](images/hsi_labels.jpg){fig-align="center" width="60%"}
+
+{{< pagebreak >}}
+
+## Rejestr zmian
 
 16.11.2022, MZ -- wersja inicjalna.
 
@@ -246,5 +270,7 @@ Jeśli nie została przekroczona pojemność dysku skanowanie powinno zakończy�
 30.11.2022, MZ -- kolejne poprawki. Pierwsza wersja Quarto.
 
 09.12.2022, MZ -- poprawki, dodano info i wzór etykiet.
+
+14.12.2022, MZ -- poprawki, dodano informacje i fotografie obiektywów.
 
 Maurycy Żarczyński `r Sys.Date()`

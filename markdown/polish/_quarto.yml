@@ -1,5 +1,15 @@
-project:
-  title: "polish"
-
-
-
+format:
+  html:
+    toc: true
+    toc-title: Etapy
+    toc-depth: 4
+    embed-resources: true
+  pdf:
+    geometry: 
+    - top=20mm
+    - left=20mm
+    - bottom=20mm
+    - right=20mm
+theme:
+  light: flatly
+  dark: darkly
