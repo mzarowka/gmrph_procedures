@@ -207,9 +207,8 @@ Jeśli rdzeń jest wyrównany, ale jedna ze stron się zapada, można zastosowa�
 -   Połączyć się z komputerem korzystając ze zdalnego pulpitu.
 
     | Odpowiedni plik `*.vnc` znajduje się na serwerze:
-    | *Public\\Sprzęt i programu\\Network\\B106_HSI.vnc*
+    | *Public\\Sprzęt i programy\\Network\\B106_HSI.vnc*
 
-    | Połączenie VNC możliwe z użyciem programów:
     | **TightVNC**: https://www.tightvnc.com/download.php
     | **RealVNC**: https://www.realvnc.com/en/connect/download/viewer/
 
