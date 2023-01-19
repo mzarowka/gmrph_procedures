@@ -93,26 +93,16 @@ Zakład Geomorfologii i Geologii Czwartorzędu --- PROCEDURA
 
 -   Wysuszyć próbki w liofilizatorze.
 
--   Naważyć do
-
--   Umieścić w falkonach (PE).
-
--   Dodać aceton 100% (czystość HPLC).
-
--   Wymieszać z użyciem wytrząsarki typu vortex.
-
--   Umieścić w myjce ultradźwiękowej aby usunąć pęcherzyki powietrza.
-
 -   Odwirować próbki w wirówce:
 
     -   10 minut.
 
     -   5000 RPM.
 
-## Ekstrakcja pigmentów
+## Ekstrakcja krzemionki
 
 ## {{< pagebreak >}}Rejestr zmian
 
-09.12.2022, MZ -- wersja inicjalna Quarto, procedura za: Andrea Sanchini i Giulia Wienhues (Uniwersytet w Bernie).
+15.01.2023, MZ -- wersja inicjalna Quarto, procedura za Sedimentary Records of Environmental Change Laboratory, Northern Arizona University
 
 Maurycy Żarczyński `r Sys.Date()`
