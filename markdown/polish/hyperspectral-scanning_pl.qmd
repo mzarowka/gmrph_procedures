@@ -94,11 +94,19 @@ Jeśli rdzeń jest wyrównany, ale jedna ze stron się zapada, można zastosowa�
 
         *Specim\\Documents\\Calibration\\560025_20211124_OL50_calpack.scp*
 
--   Zmiana obiektywu wymaga ponownego uruchomienia programu i połączenia z kamerą.
+    | Zmiana obiektywu wymaga ponownego uruchomienia programu i połączenia z kamerą.
 
 -   Pole `Capture folder`: wybrać folder, w którym będą zapisywane dane.
 
 -   Pole `Dataset prefix`: wspólny przedrostek (*prefix*) zbioru danych (np. **GOR-20**).
+
+-   Podgląd rdzenia:
+
+    -   Red band: Band 207: 653.61 nm.
+
+    -   Green band: Band 127: 552.41 nm.
+
+    -   Blue band: Band 46: 452.7 nm.
 
 -   Pole `Motor 1`: połączyć program z napędem skanera -- `Connect`.
 

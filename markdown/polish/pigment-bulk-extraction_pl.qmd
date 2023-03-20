@@ -1,5 +1,6 @@
 ---
 editor: visual
+lang: pl
 format:
   html:
     toc: true
@@ -12,8 +13,6 @@ format:
     - left=20mm
     - bottom=20mm
     - right=20mm
-
-
 theme:
   light: flatly
   dark: darkly
@@ -37,9 +36,13 @@ Zakład Geomorfologii i Geologii Czwartorzędu --- PROCEDURA
 
 -   Woda **redestylowana (*MilliQ*)**.
 
--   Azot.
+-   Azot techniczny.
 
-Urządzenia
+-   Neodisher Laboclean.
+
+    | Neodisher LaboClean FLA: płynny, wysoko-alkaliczny środek o wysokim działaniu dyspergującym.
+
+### Urządzenia
 
 -   Wyciąg laboratoryjny.
 
@@ -47,9 +50,11 @@ Urządzenia
 
 -   Myjka ultradźwiękowa.
 
--   Wirówka laboratoryjna o parametrach
+-   Wirówka laboratoryjna.
 
 -   Wytrząsarka typu *Vortex*.
+
+-   Piec laboratoryjny do wypiekania szkła laboratoryjnego.
 
 -   Suszarka laboratoryjna.
 
@@ -57,58 +62,209 @@ Urządzenia
 
 -   Szklane cylindry wolumetryczne:
 
-    -   500 ml.
+    -   **500 ml**.
 
-    -   1000 ml.
+    -   **1000 ml**.
 
--   Szklane zlewki.
+-   Szklane zlewki do pipetowania acetonu.
+
+-   Pipeta do acetonu **1000 µL** i końcówki (odpowiednie do acetonu).
 
 -   Blok grzewczy.
 
--   Ewaporator N~2~:
+-   Ewaporator (parownik azotowy) N~2~.
 
-    -   Igły do N~2~.
+    -   Igły do ewaporatora N~2~.
 
-    -   Metalowy statyw na próbki.
+    -   Metalowy statyw na próbki w brązowych fiolkach.
+
+    | Np. urządzenie *Turbovap*.
 
 -   Statywy na próbki.
 
--   Waga analityczna i urządzenie antystatyczne.
+-   Waga analityczna i urządzenie antystatyczne, mikrołyżeczka.
+
+-   Łaźnia lodowa.
+
+    | Taca wypełniona wkładami chłodzącymi.
 
 ### Pozostałe
 
--   Falkony polietylenowe (PE) **50 ml**.
+-   Falkony polipropylenowe (PP) **25 ml** lub **50 ml** Corning™.
 
     | Zwykły plastik reaguje ze stężonym acetonem.
+    | Jednorazowe.
 
--   Próbówki z brązowego szkła z zakrętkami i membranami.
+-   Fiolki z brązowego szkła z zakrętkami **25 ml** lub **50 ml**.
+
+    | Etykiety przyklejone taśmą.
 
 -   Folia aluminiowa.
 
+-   Długie, szklane pipety Pasteura.
+
+    | Jednorazowe.
+
+-   Smoczek silikonowy do pipet.
+
+## Czyszczenie
+
+Szkło laboratoryjne musi zostać wypieczone w piecu (**500 °C**, **12 h**) lub wyczyszczone acetonem (**5 razy**).
+
+### Fiolki brązowe
+
+-   Namaczać przez kilka godzin w wodzie z dodatkiem Neodisher Laboclean.
+
+-   Umyć w zmywarce laboratoryjnej.
+
+    | Program do mycia szkła i Neodisher Laboclean.
+
+-   Wysuszyć w suszarce.
+
+-   Zabezpieczyć folią aluminiową
+
+    | Uprzednio wyczyszczona acetonem lub wypalona.
+
+-   Wypiec w piecu w temperaturze **500 °C**.
+
+    | Minimum **12 h**.
+
+### Zakrętki do fiolek brązowych
+
+-   Przemyć wodą z kranu.
+
+-   Umieścić w zlewce wypełnionej mieszanką **acetonu technicznego** i wody **redestylowanej (MilliQ)** w stosunku **1:1**.
+
+    -   Umieścić zlewkę w myjce ultradźwiękowej na **10 minut**.
+
+-   Umieścić w zlewce wypełnionej **acetonem technicznym**.
+
+    -   Umieścić zlewkę w myjce ultradźwiękowej na **10 minut**.
+
+-   Wysuszyć w suszarce.
+
+    | Odczynniki wykorzystane do mycia można wykorzystać ponownie, po zabezpieczeniu w szklanych butelkach.
+
+### Igły do ewaporatora {#sec-igły-do-ewaporatora}
+
+-   Umieścić igły w zlewce wypełnionej acetonem technicznym.
+
+-   Umieścić w myjce ultradźwiękowej na **3 × 10 minut**.
+
+### Utylizacja
+
+-   Aceton zgodnie z wymogami.
+
+-   Falkony i szklane pipety Pasteura muszą zostać dokładnie umyte i wyrzucone do recyclingu.
+
 ## Przygotowanie osadów
 
--   Suszenie w liofilizatorze.
+-   Próbki wysuszyć w liofilizatorze.
 
--   Straty na prażeniu 550 (niekoniecznie, mamy cns?).
+    | Wysoka temperatura przy suszeniu w suszarce prowadzi do degradacji pigmentów.
+    | Jeśli ekstrakcja wykonana zostanie w ciągu tygodnia, próbki można przechowywać w eksykatorze. Dłuższej przechowywanie wymaga zamrożenia próbek i ich ponownego dosuszenia.
 
--   Umieścić w falkonach (PE).
+-   Na osobnej części osadów dokonać analizy metodą strat na prażeniu **550 °C**.
 
--   Dodać aceton 100% (czystość HPLC).
+    | Laboratorium PRL: obliczenie koncentracji materii organicznej na podstawie wyników **CNS**.
 
--   Wymieszać z użyciem wytrząsarki typu vortex.
+-   Naważyć **0.5 g** zhomogenizowanego osadu do falkonów polipropylenowych (PP) **25 ml**.
 
--   Umieścić w myjce ultradźwiękowej aby usunąć pęcherzyki powietrza.
+    | Czyścić narzędzia acetonem technicznym, korzystać z urządzenia antystatycznego.
+    | W szczególnych przypadkach masa osadu może wynosić poniżej **0.50 g**, nie mniej niż **0.25 g**.
+    | Przy wysokiej zawartości OM **0.25 g** do **0.50 g**, w przypadku osadów klastycznych **1.00 g**.
 
--   Odwirować próbki w wirówce:
-
-    -   10 minut.
-
-    -   5000 RPM.
+-   Oznaczyć falkon oraz nakrętkę symbolem próbki.
 
 ## Ekstrakcja pigmentów
+
+-   Przygotować stanowisko pracy, przykryć powierzchnie pod wyciągiem laboratoryjnym folią aluminiową, która uprzednio została wyczyszczona acetonem.
+
+-   W miarę możliwości wyłączyć zbędne oświetlenie.
+
+-   Przykrywać próbki folią aluminiową.
+
+-   Wypełnić zlewkę szklaną acetonem 100%.
+
+    | Nie pipetować bezpośrednio z butelki.
+
+-   Nabrać acetonu do pipety w celu wypłukania.
+
+    | Zużyty aceton pipetować do osobnej zlewki.
+
+-   Dodać 5 ml acetonu do falkona.
+
+    | Zwrócić uwagę na poprawne pipetowanie, w pipecie nie powinno być pęcherzyków powietrza.
+
+-   Wymieszać na Vortexie przez **1 minutę**.
+
+-   Umieścić w myjce ultradźwiękowej na **1 minutę**.
+
+-   Odwirować.
+
+    -   **10 minut**.
+
+    -   **5000 rpm**.
+
+    | Ten krok należy dostosować do możliwości wirówki. Niższe obroty wymagają dłuższego wirowania.
+
+-   Sprawdzić czy supernatant jest czysty po odwirowaniu.
+
+    | Jeśli w rozpuszczalniku widoczna jest zawiesina należy powtórzyć wirowanie. Ciecz może być zabarwiona.
+
+-   Usunąć supernatant z użyciem długiej szklanej pipety Pasteura i przenieść do brązowej fiolki.
+
+    | Fiolka musi mieć odpowiednią etykietę.
+    | Upewnić się, że cały supernatant został przeniesiony z falkona.
+
+-   Powtórzyć ekstrakcję dwukrotnie z użyciem **5 ml** acetonu.
+
+-   Odpowiednio oznaczone szklane pipety Pasteura pomiędzy cyklami przechowywać w szklanej zlewce.
+
+    | Każdej brązowej fiolce i falkonowi odpowiada jedna szklana pipeta Pasteura.
+
+-   Brązowe fiolki pomiędzy etapami ekstrakcji zakryć przed światłem i przechowywać w łaźni lodowej.
+
+    | Jeśli supernatant **po trzecim cyklu** ekstrakcji nadal jest **wyraźnie zabarwiony** należy kontynuować ekstrakcję do osiągnięcia **czystego ekstraktu**.
+    | Istotne aby wszystkie próbki w danej serii przeszły **taki sam proces ekstrakcji**.
+    | Tak przygotowane ekstrakty można przechowywać w temperaturze **-20 °C** do okoła **1 miesiąca**. Wypełnienie probówki **N~2~** lub **Ar** i usunięcie **O~2~** pozytywnie wpływa na zachowanie pigmentów.
+
+## Koncentracja i rekonstytucja roztworów
+
+### Odparowanie
+
+-   Ustawić blok grzewczy i ewaporator azotowy.
+
+-   Z użyciem ewaporatora azotowego odparować próbki do suchej pozostałości.
+
+| Przed użyciem ewaporatora należy upewnić się, że igły zostały wyczyszczone (@sec-igły-do-ewaporatora).
+
+-   Umieścić próbki w brązowych fiolkach w bloku grzewczym pod ewaporatorem azotowym, ustawić temperaturę **35 °C**.
+
+-   Otworzyć przepływ azotu.
+
+| Ciśnienie ustawić tak, aby zaobserwować niewielkie ugięcie powierzchni roztworu.
+
+-   Odparowywać do uzyskania suchej pozostałości (około **4** do **6 godzin**).
+
+### Rekonstytucja
+
+-   Dodać **2 ml** acetonu do brązowej fiolki z wykorzystaniem pipety **1000 µl**.
+
+| Postępować bardzo precyzyjnie, upewnić się, że w pipecie nie ma pęcherzyków powietrza.
+
+-   Zhomogenizować roztwór szklaną pipetą Pasteura.
+
+-   Spłukać ścianki i w miarę możliwości odwirować na *vortexie*.
+
+| Całość pigmentów musi się ponownie rozpuścić w acetonie. Może pojawić się i pozostać biały nalot.
+
+### Filtrowanie
 
 ## {{< pagebreak >}}Rejestr zmian
 
 09.12.2022, MZ -- wersja inicjalna Quarto, procedura za: Andrea Sanchini i Giulia Wienhues (Uniwersytet w Bernie).
+
+09.02.2023, MZ -- pełna wersja.
 
 Maurycy Żarczyński `r Sys.Date()`

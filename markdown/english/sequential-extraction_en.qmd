@@ -1,0 +1,158 @@
+---
+editor: visual
+format:
+  html:
+    toc: true
+    toc-title: Etapy
+    toc-depth: 4
+    embed-resources: true
+  pdf:
+    geometry: 
+    - top=20mm
+    - left=20mm
+    - bottom=20mm
+    - right=20mm
+
+
+theme:
+  light: flatly
+  dark: darkly
+---
+
+[![](images/log-ug_pl.png){fig-alt="Logo: Uniwersytet Gdański" fig-align="left" width="150"}](https://geomorfologia.ug.edu.pl)
+
+Zakład Geomorfologii i Geologii Czwartorzędu --- PROCEDURA
+
+------------------------------------------------------------------------
+
+# Ekstrakcja sekwencyjna
+
+## Roztwory ekstrahujące
+
+[Wszystkie odczynniki o czystości analitycznej (*Ultrapure*, cz. d. a.).]{.smallcaps}
+
+-   Roztwór **A**: **0.11 mol CH~3~COOH**
+
+    > **25.0 cm^3^** **lodowatego kwasu octowego (CH~3~COOH~bezw.~)** dodać do **500.0 cm^3^ wody redestylowanej (*MilliQ*)** i dopełnić do **1000.0 cm^3^**, wymieszać (**C = 0.43 mol/dm^3^**). Następnie rozcieńczyć go czterokrotnie (**4**). Otrzymany roztwór o stężeniu **C = 0.11 mol/dm^3^** wykorzystać do ekstrakcji.
+
+-   Roztwór **B**: **0.05 mol NH~2~OH·HCl**
+
+    > Rozpuścić **6.95 g chlorowodorku hydroksyloaminy (NH~2~OH·HCl)** w **900.0 cm^3^** **wody redestylowanej (*MilliQ*)** i zakwasić **stężonym kwasem azotowym (V)** do **pH = 2**. Dopełnić do **1000.0 cm^3^** i wymieszać.
+
+-   Roztwór **C**: **8.8 mol H~2~O~2~ (30%)**
+
+    > Roztwór **H~2~O~2~** o stężeniu **8.8 mol/dm^3^** (dostępny w handlu jako roztwór o stężeniu **30%**).
+
+-   Roztwór **D**: **1 mol CH~3~COONH~2~**
+
+    > Rozpuścić **77.1 g octanu amonu (CH~3~COONH~4~)** w **900.0 cm^3^** **wody redestylowanej (*MilliQ*)** i zakwasić **stężonym kwasem azotowym (V)** do **pH = 2**. Dopełnić do **1000.0 cm^3^** i wymieszać.
+
+-   Roztwory do frakcji metali, związanych z glinokrzemianami:
+
+    -   Stężony **kwas azotowy (V) (HNO~3~)**.
+
+    -   Stężony **kwas fluorowodorowy (HF)**.
+
+    -   Roztwór **kwasu azotowego (V)** o stężeniu **C = 0.1 mol/dm^3^**.
+
+## Ekstrakcja sekwencyjna
+
+-   Odważyć z dokładnością **0.001 g**, około **1.0 lub 0.5 g** osadu (w przeliczeniu na suchą masę).
+
+-   Osad przenieść do próbówki **teflonowej**.
+
+-   W każdej serii przygotować co najmniej **jedną próbę ślepą** z wykorzystaniem pustej próbówki.
+
+-   **Natychmiast** po ukończeniu jednego etapu należy przystąpić do kolejnego etapu ekstrakcji. Ekstrakcję próbek osadu i zawiesin dla uzyskania każdej z frakcji przeprowadza się w temperaturze pokojowej w ciągu **16 godzin**.
+
+### Frakcja I
+
+**Jony metali zaadsorbowane na powierzchni osadu**
+
+-   Dodać **10.0 cm^3^roztworu A**.
+
+-   Wytrząsać przez **16 godzin**.
+
+-   Odwirować przez **15 minut** w wirówce typu **MPW-340** przy **3500 RPM**.
+
+-   Roztwór zdekantować i przenieść do opisanych **próbówek polietylenowych** (PE).
+
+-   Do przygotowanego roztworu **frakcji I** dodać **100 μl** stężonego **kwasu azotowego (V)**.
+
+-   Przechowywać w lodówce do czasu analizy.
+
+### Frakcja II
+
+**Jony metali związane z tlenkami i wodorotlenkami żelaza (III) i manganu (IV)**
+
+-   Pozostały w próbówce osad przemyć **wodą redestylowaną (*MilliQ*)**, zdekantować i odrzucić roztwór wodny.
+
+-   Dodać **10.0 cm^3^roztworu B** (przygotowanego **w dniu ekstrakcji**).
+
+-   Wytrząsać przez **16 godzin**.
+
+-   Odwirować przez **15 minut** w wirówce typu **MPW-340** przy **3500 RPM**.
+
+-   Roztwór zdekantować i przenieść do opisanych **próbówek polietylenowych** (PE).
+
+-   Do przygotowanego roztworu **frakcji II** dodać **100 μl** stężonego **kwasu azotowego (V)**.
+
+-   Przechowywać w lodówce do czasu analizy.
+
+### Frakcja III
+
+**Jony metali związane z materią organiczną**
+
+-   Pozostały w próbówce osad przemyć **wodą redestylowaną (*MilliQ*)**, zdekantować i odrzucić roztwór wodny.
+
+-   Dodawać powoli, małymi porcjami **roztwór C**.
+
+    > Reakcja zachodzi **wyjątkowo** **burzliwie**. Próbówka może wymagać wielokrotnego obstukiwania w celu zagaszenia gwałtownej reakcji. Do momentu uspokojenia reakcji należy **obserwować** i **kontrolować** próbówki.
+
+-   Pozostawić na dobę **w temperaturze pokojowej**.
+
+-   Ogrzewać w bloku grzewczym przez **1 godzinę** w temperaturze **85 °C**.
+
+-   Odparować roztwór.
+
+-   Do pozostałości dodać **10.0 cm^3^roztworu D.**
+
+-   Wytrząsać przez **16 godzin**.
+
+-   Odwirować przez **15 minut** w wirówce typu **MPW-340** przy **3500 RPM**.
+
+-   Roztwór zdekantować i przenieść do opisanych **próbówek polietylenowych** (PE).
+
+-   Do przygotowanego roztworu **frakcji III** dodać **100 μl** stężonego **kwasu azotowego (V)**.
+
+-   Przechowywać w lodówce do czasu analizy.
+
+### Frakcja IV
+
+**Jony wbudowane w siatkę krystaliczną glinokrzemianów; frakcja rezydualna**
+
+-   Pozostały w próbówce osad przemyć **wodą redestylowaną (*MilliQ*)**, zdekantować i odrzucić roztwór wodny.
+
+-   Do pozostałości dodać:
+
+    -   **3 cm^3^** stężonego **kwasu azotowego (V)**.
+
+    -   **3 cm^3^** stężonego **kwasu fluorowodorowego**.
+
+-   Ogrzewać w bloku grzewczym przez **4 godziny** w temperaturze **120 °C**.
+
+-   Odparować do sucha.
+
+-   Suchą pozostałość przenieść ilościowo do probówki polietylenowej przy pomocy **kwasu azotowego o stężeniu C = 0.1 mol/dm^3^**.
+
+-   Przechowywać w lodówce do czasu analizy.
+
+## Oznaczenie koncentracji w osadach
+
+Stężenia metali w poszczególnych frakcjach oznacza się metodą **Absorbcyjnej spektrometrii atomowej** (ASA; *Atomic absorption spectroscopy (AAS)*). We współpracy z IO PAN w Sopocie wykorzystujemy spektrometr AA-6800 (Shimadzu) z podajnikiem próbek ASC-6100. AAS stosuje się technikę płomieniową (płomień: acetylen-powietrze) oraz system korekcji tła (lampę deuterową). Przed rozpoczęciem oznaczania stężeń roztwory odpowiednio rozcieńczono, przygotowując do właściwych pomiarów absorbancji na AAS.
+
+## {{< pagebreak >}}Rejestr zmian
+
+08.12.2022, MZ -- wersja inicjalna Quarto. Rozwinięcie treści.
+
+za: Jolanta Walkusz-Miotk `r Sys.Date()`

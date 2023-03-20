@@ -37,11 +37,11 @@ Zakład Geomorfologii i Geologii Czwartorzędu --- PROCEDURA
 
 -   Przenieść do tygla określoną ilość suchego i homogenicznego osadu.
 
-    | Należy starać się zachować podobną masę próbek. Od 0.5 do 1.0 g.
+    | Należy starać się zachować podobną masę próbek. Od **0.5 g** do **1.0 g**.
 
 -   Zważyć tygle z suchym osadem i zapisać masę w formularzu.
 
--   Zaprogramować piec laboratoryjny na prażenie w temperaturze 550 °C przez 4 godziny.
+-   Zaprogramować piec laboratoryjny na prażenie w temperaturze **550 °C** przez **4 godziny**.
 
 -   Wstawić przygotowane próbki do pieca i uruchomić program.
 
@@ -56,7 +56,7 @@ Zakład Geomorfologii i Geologii Czwartorzędu --- PROCEDURA
 -   Obliczyć zawartość materii organicznej (stratę na prażeniu) korzystając ze wzoru:
 
     $$
-    LOI_{550} = (MS_{105} - MS_{550}) / MS_{105} * 100
+    LOI_{550} = (MS_{105} - MS_{550}) / MS_{105} × 100
     $$
 
 gdzie:
@@ -71,9 +71,9 @@ gdzie:
 
 -   Upewnić się, że oznaczenia tygli są wyraźne. Poprawić jeśli to konieczne.
 
--   Zaprogramować piec laboratoryjny na prażenie w temperaturze 950 °C przez 2 godziny.
+-   Zaprogramować piec laboratoryjny na prażenie w temperaturze **950 °C** przez **2 godziny**.
 
--   Wstawić zważone po wyprażeniu w temperaturze 550 °C próbki ponownie do pieca i uruchomić program.
+-   Wstawić zważone po wyprażeniu w temperaturze **550 °C** próbki ponownie do pieca i uruchomić program.
 
     | Po upłynięciu zadanego czasu piec automatycznie wyłączy się.
 
@@ -88,7 +88,7 @@ gdzie:
 -   Obliczyć zawartość węglanów (stratę na prażeniu) korzystając ze wzoru:
 
     $$
-    LOI_{950} = (MS_{550} - MS_{950}) / MS_{105} * 100 * 1.36
+    LOI_{950} = (MS_{550} - MS_{950}) / MS_{105} × 100 × 1.36
     $$
 
 gdzie:

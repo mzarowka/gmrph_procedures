@@ -12,8 +12,6 @@ format:
     - left=20mm
     - bottom=20mm
     - right=20mm
-
-
 theme:
   light: flatly
   dark: darkly
@@ -31,13 +29,13 @@ Zakład Geomorfologii i Geologii Czwartorzędu --- PROCEDURA
 
 [^1]: Mortlock, R.A., Froelich, P.N., **1989**, A simple method for the rapid determination of biogenic opal in pelagic marine sediments. Deep-Sea Research. Part A: Oceanographic Research Papers 36: 1415-1426.
 
--   Najlepiej pracować na zestawie:
+-   Najlepiej pracować na zestawie sumującym sie do 40:
 
     -   32 próbki.
 
-    -   2 standardy wewnętrzne.
+    -   2 wzorce wewnętrzne.
 
-    -   5 standardów kalibracyjnych.
+    -   5 wzorców kalibracyjnych.
 
     -   1 próbka ślepa.
 
@@ -49,43 +47,55 @@ Zakład Geomorfologii i Geologii Czwartorzędu --- PROCEDURA
 
 ### Odczynniki chemiczne
 
--   Heptamolibdenian amonu (tetrahydrat): (NH~4~)6Mo~7~O~24~ · 4H~2~O.
+-   Heptamolibdenian amonu (tetrahydrat): (NH~4~)~6~Mo~7~O~24~ · 4H~2~O.
 
 -   Siarczyn sodu (Na~2~SO~3~).
 
 -   Metol (siarczan *N*-metylo-*p*-aminofenolu): C~14~H~20~N~2~O~6~S.
 
--   Dihydrat kwasu szczawiowego: H~2~C~2~O~4~·2H~2~O.
+-   Dihydrat kwasu szczawiowego: H~2~C~2~O~4~·2H~2~O lub (COOH)~2~ · 2H2O.
 
--   Stężony kwas siarkowy (xx%): HxSOx.
+-   Stężony kwas siarkowy VI (**98%**): H~2~SO~4~.
 
--   Stężony kwas solny (37%): HCl.
+-   Stężony kwas solny (**37%**): HCl.
 
 -   Węglan sodu: Na~2~CO~3~.
 
 -   Woda **redestylowana (*MilliQ*)**.
 
--   Koncentrat czyszczący **Micro-90®** (lub odpowiednik).
+-   Koncentrat czyszczący **Micro-90®** (lub Neodisher Laboclean).
+
+    | Neodisher LaboClean FLA: płynny, wysoko-alkaliczny środek o wysokim działaniu dyspergującym.
 
 ### Urządzenia
 
--   Zlewka Nalgene 2000 ml.
+-   Zlewki Nalgene:
 
--   Zlewka Nalgene 1000 ml.
+    -   1000 ml.
+
+    -   2000 ml.
 
 -   Mieszadło magnetyczne.
 
--   Sączki xxx.
+-   Sączki jakościowe.
 
--   Wirówka laboratoryjna o parametrach
+-   Wirówka laboratoryjna (3500 rpm)
+
+-   Falkony (probówki) polipropylenowe (PP) 50 ml.
 
 -   Butle szklane brązowe.
 
 -   Pojemniki i butle polietylenowe (PE).
 
+-   Fiolki scyntylacyjne **20 ml** z nakrętkami.
+
+-   Butelki Nalgene **30 ml** (reaktory) z nakrętkami.
+
 ### Pozostałe
 
--   
+-   Certyfikowany wzorzec krzemionki (SiO~2~) **1000 ppm**.
+
+-   Wewnętrzny wzorzec krzemionki (SiO~2~).
 
 ## Przygotowanie osadów
 

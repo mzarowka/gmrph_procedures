@@ -1,0 +1,372 @@
+---
+editor: visual
+lang: en
+format:
+  html:
+    toc: true
+    toc-title: Steps
+    toc-depth: 4
+    embed-resources: true
+  pdf:
+    geometry: 
+    - top=20mm
+    - left=20mm
+    - bottom=20mm
+    - right=20mm
+theme:
+  light: flatly
+  dark: darkly
+---
+
+[![](images/log-ug_pl.png){fig-alt="Logo: University of Gdansk" fig-align="left" width="150"}](https://geomorfologia.ug.edu.pl)
+
+Department of Geomorphology and Quaternary Geology
+
+------------------------------------------------------------------------
+
+# Pigment concentration measurements: spectrophotometer
+
+## Consumables and instruments
+
+### Chemical reagents
+
+-   Acetone **100%** (grade **HPLC**): solvent.
+
+-   Acetone **technical**: cleaning.
+
+-   Redistilled water **(*MilliQ*)**.
+
+-   Neodisher Laboclean.
+
+| Neodisher LaboClean FLA: liquid, highly-alkaline cleaning, dispergator agent.
+
+### Equipment
+
+-   Laboratory fume hood.
+
+::: callout-caution
+## Acetone
+
+Acetone (C~3~H~6~O) is an organic solvent requiring work under the **running fume hood**.
+
+Acetone is highly **flammable** and is an **irritant.**
+:::
+
+-   Ultrasound bath.
+
+-   Vortex shaker.
+
+-   Laboratory furnace for glassware baking.
+
+-   Laboratory oven.
+
+-   Glass beakers for acetone pippeting.
+
+-   Acetone pipette **100--1000 µl** and tips (for acetone).
+
+-   Acetone pipette **50--250 µl** and tips (for acetone).
+
+-   Sample rack.
+
+-   Volumetric flasks:
+
+    1 ml, 5 ml, 10 ml, 25 ml, 50 ml, 100 ml.
+
+### Others
+
+-   Microcuvettes **400 µl** with caps.
+
+| Hold only by the corners. Be sure there is no contamination.
+
+-   Glass Pasteur pipettes.
+
+| One-time use.
+
+-   Silicone nipple for pipettes.
+
+## Cleaning
+
+-   Clean the glassware manually with brush.
+
+-   Wash in the washing machine.
+
+| Glassware program and Neodisher Laboclean.
+
+-   Rinse with redistilled water **(MilliQ)** **3 times**.
+
+-   Clean with technical acetone.
+
+-   Close with aluminum foil (cleaned with technical acetone).
+
+-   Bake in the furnace **500 °C**.
+
+::: callout-important
+## Baking time
+
+Minimum **3 h**.
+:::
+
+### Disposal
+
+-   Acetone accordingly.
+
+-   Glass Pasteur pipettes need to be washed and recycled.
+
+## Spectrophotometry
+
+### Spectrophotometer run
+
+-   Turn on the instrument and PC.
+
+-   Wait minimum **1 h** before measurements.
+
+-   Start **UVProbe** software.
+
+-   Press `F4` and click `Connect`.
+
+-   Set parameters:
+
+    -   Range: **350** to **900 nm**.
+
+    -   Yellow button ??.
+
+    -   Method: **spectrum**.
+
+    -   Scan speed: **fast**.
+
+    -   Sampling interval: **0.1 nm**.
+
+    -   Scan mode: **Single**
+
+    -   Click `Ok`.
+
+### Blank sample and baseline
+
+#### Blank sample
+
+-   Pipette **400 µl** acetone (**100%**, **HPLC**) to cuvette.
+
+::: callout-important
+## Correct pippeting
+
+-   Check if the solvent is contaminated.
+-   Be sure there are no air bubbles in the tip.
+:::
+
+-   Close cuvette with cap.
+
+| Avoid evaporation and instrument corrosion.
+
+-   Place cuvette in the measurement cell (front one).
+
+| **V** mark on the cuvette to the side.
+
+#### Autozero (reference sample)
+
+-   Pipette **400 µl** acetone (**100%**, **HPLC**) to cuvette.
+
+::: callout-important
+## Correct pippeting
+
+-   Check if the solvent is contaminated.
+-   Be sure there are no air bubbles in the tip.
+:::
+
+-   Close cuvette with cap.
+
+| Avoid evaporation and instrument corrosion.
+
+-   Place cuvette in the reference cell (back one).
+
+| **V** mark on the cuvette to the side..
+
+-   Click `Baseline`.
+
+| After this step absorption should show zero.
+| Reference sample stays in the cell for the entire measurement series.
+
+-   Run *autozero* before each sample.
+
+### Sample measurement
+
+-   Extracts are diluted so overall absorption is between **0.2** and **1.0 abs**.
+
+Limit of quantification of the instrument is linear in this range without the use of calibration curves.
+
+#### Dilution
+
+For sample dilution use small volumetric flask. Allows remeasurement of a sample at higher dilution. Pipette directly from the prepared sample into a new cuvette.
+
+##### Example 1:10
+
+-   Shake amber vial with vortex.
+
+-   Pipette **2 × 250 µl** extract (sample) to **5 ml flask**.
+
+-   Add acetone using glass Pasteur pipette. Fill till **5 ml**.
+
+| Caution: meniscus is **concave**.
+
+-   Stir sample with glass Pasteur pipette.
+
+#### Measurement
+
+-   Using pipette transfer **400 µl** of extract into a cuvette.
+
+-   Close cuvette with cap.
+
+-   Place cuvette in the measurement cell (front one).
+
+| **V** mark on the cuvette to the side.
+
+-   Click `Start`.
+
+#### Save and export data
+
+Once analysis begins a window pops-up, where sample name can be put. After the sample analysis file needs to be **saved manually**. Otherwise data is lost.
+
+##### Save data
+
+-   Use `File > Save as > file_name`.
+
+##### Data export
+
+-   Use `Data print`.
+
+A table will appear. Copy and paste data into spreadsheet.
+
+Manually make columns wider so names are visible in full before copying.
+
+##### Data evaluation
+
+> "Although in a sedimentary natural pigment sample you have a mixture of chlorins and carotenoids, you can already tell from the sample spectra and absorption peaks what kind of pigments you have in your sample. You can even compare single standard spectra (stored on PC) with your spectra by overlaying the spectra." - Paul Zander
+
+###### Examples
+
+-   Chl a (absorption max. 430 and 663 nm)
+
+-   Chl b (absorption max. 463 and 648 nm)
+
+-   Pheophytin a (absorption max. 408 and 664nm)
+
+-   Carotenoids (420--450 nm)
+
+-   Bacteriochlorophyll a (absorption max. 364 and 770 nm)
+
+    -   Bacteriopheophytin a (absorption max. 357 and 746 nm)
+
+-   Bacteriochlorophyll b (absorption max. 373 and 795 nm)
+
+    -   Bacteriopheophytin b (absorption max. 367 and 776 nm)
+
+-   Bacteriochlorophyll c, d, e (absorption max. 434, 427, 469 and 666, 655, 654 nm)
+
+    -   Bacteriopheophytin c, d, e (absorption max. 412, 406, 435 and 666, 657, 665 nm)
+
+## Photometric calculations
+
+### Equation for Chlorophylls and Bacteriopheophytin a (needed for proxy-proxy-calibration for HSI data)
+
+### Correction of absorption values
+
+Correct the absorption values in case of absorption values below or above **0** between **720 nm** and **900 nm** in the way to scale the absorption values at around **0 abs** in this range.
+
+-   To quantify total carotenoids and chloropigments, and bacteriochloropigments are not present in sample extract, use the absorption values at **750 nm** of wavelength to correct this.
+
+-   In presence of bacteriochloropigments, find a specific wavelength of absorption above **750 nm** which you can use to scale the absorption values to zero.
+
+Procedure described in Sanchini and Grosjean (2020).
+
+### Calculation for bulk chloropigments a and Bphe a concentration from the absorption spectra
+
+Calculate concentrations from the absorption spectra using the following formula
+
+$$
+c = A_λ / (α_λ × l)
+$$
+
+where:
+
+**l**: width of the cuvettes (cm);
+
+**A~λ~**: absorbance measured at a specific wavelength;
+
+**α~λ~**: specific molar extinction coefficient equal to **88.77 × 10^-3^ × L × cm^-1^ × mg^-1^** for chloropigments a at **666 nm** (Jeffrey and Humphrey, 1975) oraz **52.855 × 10^-3^ × L × cm^-1^ × mg^-1^** for bacteriopheophytin a at **750 nm** (Fiedor et al., 2002).
+
+The result is a concentration measured in the cuvette (**mg/l**), which needs to be corrected to account for sample dilution and mass.
+
+Sample calculations are available in the spreadsheed `Spectrophotometer_calculator.xlsx`
+
+$$
+(peak\;absorption) / k × (dilution\;factor) × (sample\;mass) / (sample\;volume)
+$$
+
+where:
+
+**k**: constant, **0.080770** for chlorins with **666 nm** peak (Jeffrey and Humphrey, 1975) and **0.052855** for bacteriopheophytin peak at **750 nm** (Fiedor et al., 2002).
+
+### Calculate Chl a, b and c from absorption spectra
+
+### Calculate total carotenoids from absorption spectra
+
+#### Following Lichtenthaler and Buschmann (2001)
+
+In an extract of plant material containing carotenoids (**x + c = xanthophylls and carotenes**) in addition to Chls, **A~470~** (the carotenoid region) is determined as the sum of specific absorbances for Chl a, Chl b, and total carotenoids:
+
+-   Acetone (pure, 100%):
+
+$$
+c_{(x + c)} = (1000 × A_{470} - 1.90_{C_a} – 63.14_{C_b}) / 214
+$$
+
+-   Acetone (20% water):
+
+$$
+c_{(x + c)} = (1000 × A_{470} - 1.82_{C_a} – 85.02_{C_b}) / 198
+$$
+
+gdzie:
+
+**A~470~**: absorbcja dla długości fali **470 nm**;
+
+**C~a~**: xxx
+
+**C~b~**: xxx
+
+#### Following Guilizzoni et al. (2011); based on Züllig et al. (1981)
+
+Całkowite karotenoidy wyrażone są jako **mg TC** (total carotenoids) na gram suchej materii organicznej (**g~LOI~**).
+
+$$
+TC = ((E_{450} - 0.8 × E_{665}) × V × 10) / E^{1\%}_{1cm} × g_{LOI}
+$$
+
+gdzie:
+
+**E~xxx~**: gęstość optyczna w kuwecie o ścieżce optycznej **1 cm** (szerokość) dla długości fali **450 nm** i **665 nm**, skorygowanych o gęstość optyczną dla długości fali **750 nm**;
+
+**V**: objętość ekstraktu;
+
+**E^1%^~1cm~**: średni współczynnik ekstynkcji dla **1%** roztworu ekstraktu z osadów (wagowo) dla karotenoidów przy ścieżce optycznej (szerokość) **1 cm**. Równe **2.250** (Züllig 1981; Leavitt and Hodgson 2001);
+
+**E~450~**: główne pasmo absorbcji dla karotenoidów w zakresie widzialnym;
+
+**E~665~**: korekta na przybliżone pasmo absorbcji chlorofili i pochodnych chlorofili odpowiadające długości fali **665 nm**;
+
+**g~LOI~**: równoważnik strat na prażeniu dla mokrego osadu, obliczony na podstawie zawartości osadów i suchej masy po LOI.
+
+### Transfer function for total phosphorus 
+
+# Credits
+
+Andrea Sanchini, Giulia Wienhues and Paul Zander -- University of Bern, Switzerland.
+
+{{< pagebreak >}}
+
+# Changelog
+
+-   09.12.2022, MZ -- initial version.
+-   09.02.2023, MZ -- full version.
+-   17.03.2023, MZ -- update with filtering and callouts.
+
+Maurycy Żarczyński, Department of Geomorphology and Quaternary Geology, Gdansk
