@@ -12,8 +12,6 @@ format:
     - left=20mm
     - bottom=20mm
     - right=20mm
-
-
 theme:
   light: flatly
   dark: darkly
@@ -44,15 +42,18 @@ Upewnić się, że sprzęg działa a baterie nie są wyczerpane.
 :::
 
 -   Łącznik [U20L, U22, U24, U26](https://www.onsetcomp.com/products/replacements/coupler2-c) (używany też do termistorów),
-
--   Osłonki [DO Sensor Cap - U26-RDOB-1](https://www.onsetcomp.com/products/replacements/u26-rdob-1),
-
+-   Osłonki [DO Sensor Cap - U26-RDOB-1](https://www.onsetcomp.com/products/replacements/u26-rdob-1) wraz z akcesoriami (zafoliowany pakiet):
+    -   Osłonka (czarne etui),
+    -   O-ringi,
+    -   Smar,
+    -   Chusteczka nasączona alkoholem,
 -   Tablet terenowy GETAC,
 
 ::: callout-important
-## Bateria
+## Tablet
 
-Naładować urządzenie przed podróżą.
+-   Naładować urządzenie przed podróżą,
+-   Włączyć tablet i upewnić się, że oprogramowanie HOBOware PRO działa (instalacja ulega losowemu uszkodzeniu po niektórych aktualizacjach).
 :::
 
 -   Kabel micro-USB (w kartonie z tabletem).
@@ -60,19 +61,14 @@ Naładować urządzenie przed podróżą.
 ### Praca z czujnikiem
 
 -   Uruchomić tablet,
-
 -   Włączyć oprogramowanie ONSET HOBOware PRO,
-
 -   Podłączyć kabel USB do tabletu.
 
 #### Odczyt danych
 
 -   Po wyjęciu z wody ostrożnie usunąć taśmę z czujnika, tak aby nie uszkodzić opaski zaciskowej i obudowy,
-
 -   Odkręcić urządzenie od nakrętki mocującej do liny (osłona czujnika pod którą znajduje się złącze optyczne),
-
 -   Odkręcić białą osłonę gniazda micro-USB w sprzęgu,
-
 -   Podłączyć sprzęg do tabletu,
 
 ::: callout-note
@@ -80,7 +76,6 @@ Może być potrzebne użycie narzędzia, zakrętka łatwo się zapieka.
 :::
 
 -   Umieścić czujnik w gnieździe sprzęgu zgodnie z oznaczeniem na obudowie,
-
 -   Nacisnąć „wajchę" w celu włączenia sprzęgu,
 
 ::: callout-important
@@ -89,12 +84,9 @@ Może być potrzebne użycie narzędzia, zakrętka łatwo się zapieka.
 W trakcie pracy upewnić się, że czujnik jest odpowiednio osadzony w sprzęgu -- urządzenie łatwo się rozłącza.
 :::
 
--   Na dole okna HOBOware powinna pojawić się informacja o skomunikowaniu i rozpoznaniu czujnika U26,
-
+-   Na dole okna HOBOware powinna pojawić się informacja o skomunikowaniu z czujnikiem U26,
 -   Menu `Urządzenie > Odczyt`,
-
 -   Odczytać dane z czujnika i zapisać,
-
 -   `Plik > Zapisz jako`,
 
 ::: callout-note
@@ -103,22 +95,16 @@ W trakcie pracy upewnić się, że czujnik jest odpowiednio osadzony w sprzęgu 
 Skróty do odpowiednich folderów znajdują się na Pulpicie.
 :::
 
--   Upewnić się, że plik o rozszerzeniu **\*.hobo** został zapisany na tablecie i mozna go otworzyć z dysku,
-
+-   Upewnić się, że plik o rozszerzeniu **\*.hobo** został zapisany na tablecie i można go otworzyć z dysku,
 -   Odłączyć urządzenie.
 
 #### Wymiana osłonki
 
 -   Przygotować zestaw składający się z osłonki, o-ringów, ściereczki nasączonej alkoholem oraz smaru,
-
 -   Odkręcić zewnętrzną osłonę czujnika,
-
 -   Ostrożnie zdjąć zużytą zieloną osłonkę,
-
 -   Ostrożnie zdjąć stare o-ringi,
-
 -   Wyczyścić czujnik ściereczką nasączoną alkoholem,
-
 -   Nasmarować nacięcia na o-ringi,
 
 ::: callout-important
@@ -128,7 +114,6 @@ Należy zwrócić uwagę, aby nie zanieczyścić czujnika optycznego.
 :::
 
 -   Nałożyć ostrożnie nowe o-ringi,
-
 -   Nałożyć ostrożnie nową zieloną osłonkę, zgodnie z oznaczeniem,
 
 ::: callout-note
@@ -138,13 +123,11 @@ Spłaszczona część odpowiada złotym stykom na czujniku.
 :::
 
 -   Docisnąć osłonkę do końca,
-
 -   Zakręcić zewnętrzną osłonę czujnika.
 
 #### Uruchamianie rejestratora
 
 -   Umieścić czujnik w gnieździe sprzęgu zgodnie z oznaczeniem na obudowie,
-
 -   Nacisnąć „wajchę" w celu włączenia sprzęgu,
 
 ::: callout-note
@@ -153,35 +136,26 @@ Spłaszczona część odpowiada złotym stykom na czujniku.
 W trakcie pracy upewnić się, że czujnik jest odpowiednio osadzony w sprzęgu -- urządzenie łatwo się rozłącza.
 :::
 
--   Na dole okna HOBOware powinna pojawić się informacja o skomunikowaniu i rozpoznaniu czujnika U26,
-
--   Menu `Urządzenie > Uruchamianie`
-
+-   Na dole okna HOBOware powinna pojawić się informacja o skomunikowaniu z czujnikiem U26,
+-   Menu `Urządzenie > Uruchamianie`,
 -   Pozostawić interwał rejestrowania bez zmian (**1 h**),
-
+-   Pozostawić ustawienia kalibracji dla pełnego nasycenia i nasycenia **0 mg L^-1^**,
 -   Wybrać opóźniony start,
-
 -   Wybrać datę oraz godzinę,
 
 ::: callout-note
 ## Opóźniony start
 
-Powinny wystarczyć 2h, co da czas na obsługę pozostałych czujników.
+Minimalne opóźnienie w starcie to **2 h** (zaokrąglone do pełnych godzin w górę), co da czas na obsługę pozostałych czujników.
 :::
 
 -   Uruchomić urządzenie.
-
 -   Zanotować datę wygaśnięcia ważności osłonki oraz datę końca rejestrowania serii,
-
 -   Odłączyć urządzenie od sprzęgu.
-
 -   Przykręcić rejestrator do uchwytu mocującego do liny (osłona czujnika pod którą znajduje się złącze optyczne),
-
 -   Ułożyć urządzenie wzdłuż liny, czujnikiem optycznym skierowanym w dół,
-
 -   Zalepić urządzenie taśmą pozostawiając wolną końcówkę obudowy,
-
--   Po powrocie z terenu zapisać informacje w notesie znajdującym się w B305.
+-   Po powrocie z terenu zapisać informacje w notesie znajdującym się w gabinecie B305.
 
 {{< pagebreak >}}
 
