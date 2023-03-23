@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.263">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>pigment-bulk-measure_en</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="pigment-bulk-measure_en_files/libs/clipboard/clipboard.min.js"></script>
+<script src="pigment-bulk-measure_en_files/libs/quarto-html/quarto.js"></script>
+<script src="pigment-bulk-measure_en_files/libs/quarto-html/popper.min.js"></script>
+<script src="pigment-bulk-measure_en_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="pigment-bulk-measure_en_files/libs/quarto-html/anchor.min.js"></script>
+<link href="pigment-bulk-measure_en_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="pigment-bulk-measure_en_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="pigment-bulk-measure_en_files/libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="pigment-bulk-measure_en_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="pigment-bulk-measure_en_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="pigment-bulk-measure_en_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="pigment-bulk-measure_en_files/libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src  = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Steps</h2>
+   
+  <ul>
+  <li><a href="#pigment-concentration-measurements-spectrophotometer" id="toc-pigment-concentration-measurements-spectrophotometer" class="nav-link active" data-scroll-target="#pigment-concentration-measurements-spectrophotometer">Pigment concentration measurements: spectrophotometer</a>
+  <ul>
+  <li><a href="#consumables-and-instruments" id="toc-consumables-and-instruments" class="nav-link" data-scroll-target="#consumables-and-instruments">Consumables and instruments</a>
+  <ul class="collapse">
+  <li><a href="#chemical-reagents" id="toc-chemical-reagents" class="nav-link" data-scroll-target="#chemical-reagents">Chemical reagents</a></li>
+  <li><a href="#equipment" id="toc-equipment" class="nav-link" data-scroll-target="#equipment">Equipment</a></li>
+  <li><a href="#others" id="toc-others" class="nav-link" data-scroll-target="#others">Others</a></li>
+  </ul></li>
+  <li><a href="#cleaning" id="toc-cleaning" class="nav-link" data-scroll-target="#cleaning">Cleaning</a>
+  <ul class="collapse">
+  <li><a href="#disposal" id="toc-disposal" class="nav-link" data-scroll-target="#disposal">Disposal</a></li>
+  </ul></li>
+  <li><a href="#spectrophotometry" id="toc-spectrophotometry" class="nav-link" data-scroll-target="#spectrophotometry">Spectrophotometry</a>
+  <ul class="collapse">
+  <li><a href="#spectrophotometer-run" id="toc-spectrophotometer-run" class="nav-link" data-scroll-target="#spectrophotometer-run">Spectrophotometer run</a></li>
+  <li><a href="#blank-sample-and-baseline" id="toc-blank-sample-and-baseline" class="nav-link" data-scroll-target="#blank-sample-and-baseline">Blank sample and baseline</a>
+  <ul class="collapse">
+  <li><a href="#blank-sample" id="toc-blank-sample" class="nav-link" data-scroll-target="#blank-sample">Blank sample</a></li>
+  <li><a href="#autozero-reference-sample" id="toc-autozero-reference-sample" class="nav-link" data-scroll-target="#autozero-reference-sample">Autozero (reference sample)</a></li>
+  </ul></li>
+  <li><a href="#sample-measurement" id="toc-sample-measurement" class="nav-link" data-scroll-target="#sample-measurement">Sample measurement</a>
+  <ul class="collapse">
+  <li><a href="#dilution" id="toc-dilution" class="nav-link" data-scroll-target="#dilution">Dilution</a></li>
+  <li><a href="#measurement" id="toc-measurement" class="nav-link" data-scroll-target="#measurement">Measurement</a></li>
+  <li><a href="#save-and-export-data" id="toc-save-and-export-data" class="nav-link" data-scroll-target="#save-and-export-data">Save and export data</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#photometric-calculations" id="toc-photometric-calculations" class="nav-link" data-scroll-target="#photometric-calculations">Photometric calculations</a>
+  <ul class="collapse">
+  <li><a href="#equation-for-chlorophylls-and-bacteriopheophytin-a-needed-for-proxy-proxy-calibration-for-hsi-data" id="toc-equation-for-chlorophylls-and-bacteriopheophytin-a-needed-for-proxy-proxy-calibration-for-hsi-data" class="nav-link" data-scroll-target="#equation-for-chlorophylls-and-bacteriopheophytin-a-needed-for-proxy-proxy-calibration-for-hsi-data">Equation for Chlorophylls and Bacteriopheophytin a (needed for proxy-proxy-calibration for HSI data)</a></li>
+  <li><a href="#correction-of-absorption-values" id="toc-correction-of-absorption-values" class="nav-link" data-scroll-target="#correction-of-absorption-values">Correction of absorption values</a></li>
+  <li><a href="#calculation-for-bulk-chloropigments-a-and-bphe-a-concentration-from-the-absorption-spectra" id="toc-calculation-for-bulk-chloropigments-a-and-bphe-a-concentration-from-the-absorption-spectra" class="nav-link" data-scroll-target="#calculation-for-bulk-chloropigments-a-and-bphe-a-concentration-from-the-absorption-spectra">Calculation for bulk chloropigments a and Bphe a concentration from the absorption spectra</a></li>
+  <li><a href="#calculate-chl-a-b-and-c-from-absorption-spectra" id="toc-calculate-chl-a-b-and-c-from-absorption-spectra" class="nav-link" data-scroll-target="#calculate-chl-a-b-and-c-from-absorption-spectra">Calculate Chl a, b and c from absorption spectra</a></li>
+  <li><a href="#calculate-total-carotenoids-from-absorption-spectra" id="toc-calculate-total-carotenoids-from-absorption-spectra" class="nav-link" data-scroll-target="#calculate-total-carotenoids-from-absorption-spectra">Calculate total carotenoids from absorption spectra</a>
+  <ul class="collapse">
+  <li><a href="#following-lichtenthaler-and-buschmann-2001" id="toc-following-lichtenthaler-and-buschmann-2001" class="nav-link" data-scroll-target="#following-lichtenthaler-and-buschmann-2001">Following Lichtenthaler and Buschmann (2001)</a></li>
+  <li><a href="#following-guilizzoni-et-al.-2011-based-on-züllig-et-al.-1981" id="toc-following-guilizzoni-et-al.-2011-based-on-züllig-et-al.-1981" class="nav-link" data-scroll-target="#following-guilizzoni-et-al.-2011-based-on-züllig-et-al.-1981">Following Guilizzoni et al.&nbsp;(2011); based on Züllig et al.&nbsp;(1981)</a></li>
+  </ul></li>
+  <li><a href="#transfer-function-for-total-phosphorus" id="toc-transfer-function-for-total-phosphorus" class="nav-link" data-scroll-target="#transfer-function-for-total-phosphorus">Transfer function for total phosphorus</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#credits" id="toc-credits" class="nav-link" data-scroll-target="#credits">Credits</a></li>
+  <li><a href="#changelog" id="toc-changelog" class="nav-link" data-scroll-target="#changelog">Changelog</a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="pigment-bulk-measure_en.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+
+
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><a href="https://geomorfologia.ug.edu.pl"><img src="images/log-ug_pl.png" class="quarto-discovered-preview-image img-fluid figure-img" alt="Logo: University of Gdansk" width="150"></a></p>
+</figure>
+</div>
+<p>Department of Geomorphology and Quaternary Geology</p>
+<hr>
+<section id="pigment-concentration-measurements-spectrophotometer" class="level1">
+<h1>Pigment concentration measurements: spectrophotometer</h1>
+<section id="consumables-and-instruments" class="level2">
+<h2 class="anchored" data-anchor-id="consumables-and-instruments">Consumables and instruments</h2>
+<section id="chemical-reagents" class="level3">
+<h3 class="anchored" data-anchor-id="chemical-reagents">Chemical reagents</h3>
+<ul>
+<li><p>Acetone <strong>100%</strong> (grade <strong>HPLC</strong>): solvent.</p></li>
+<li><p>Acetone <strong>technical</strong>: cleaning.</p></li>
+<li><p>Redistilled water <strong>(<em>MilliQ</em>)</strong>.</p></li>
+<li><p>Neodisher Laboclean.</p></li>
+</ul>
+<p>Neodisher LaboClean FLA: liquid, highly-alkaline cleaning, dispergator agent.</p>
+</section>
+<section id="equipment" class="level3">
+<h3 class="anchored" data-anchor-id="equipment">Equipment</h3>
+<ul>
+<li>Laboratory fume hood.</li>
+</ul>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Acetone
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Acetone (C<sub>3</sub>H<sub>6</sub>O) is an organic solvent requiring work under the <strong>running fume hood</strong>.</p>
+<p>Acetone is highly <strong>flammable</strong> and is an <strong>irritant.</strong></p>
+</div>
+</div>
+<ul>
+<li><p>Ultrasound bath.</p></li>
+<li><p>Vortex shaker.</p></li>
+<li><p>Laboratory furnace for glassware baking.</p></li>
+<li><p>Laboratory oven.</p></li>
+<li><p>Glass beakers for acetone pippeting.</p></li>
+<li><p>Acetone pipette <strong>100–1000 µl</strong> and tips (for acetone).</p></li>
+<li><p>Acetone pipette <strong>50–250 µl</strong> and tips (for acetone).</p></li>
+<li><p>Sample rack.</p></li>
+<li><p>Volumetric flasks:</p>
+<p>1 ml, 5 ml, 10 ml, 25 ml, 50 ml, 100 ml.</p></li>
+</ul>
+</section>
+<section id="others" class="level3">
+<h3 class="anchored" data-anchor-id="others">Others</h3>
+<ul>
+<li>Microcuvettes <strong>400 µl</strong> with caps.</li>
+</ul>
+<p>Hold only by the corners. Be sure there is no contamination.</p>
+<ul>
+<li>Glass Pasteur pipettes.</li>
+</ul>
+<p>One-time use.</p>
+<ul>
+<li>Silicone nipple for pipettes.</li>
+</ul>
+</section>
+</section>
+<section id="cleaning" class="level2">
+<h2 class="anchored" data-anchor-id="cleaning">Cleaning</h2>
+<ul>
+<li><p>Clean the glassware manually with brush.</p></li>
+<li><p>Wash in the washing machine.</p></li>
+</ul>
+<p>Glassware program and Neodisher Laboclean.</p>
+<ul>
+<li><p>Rinse with redistilled water <strong>(MilliQ)</strong> <strong>3 times</strong>.</p></li>
+<li><p>Clean with technical acetone.</p></li>
+<li><p>Close with aluminum foil (cleaned with technical acetone).</p></li>
+<li><p>Bake in the furnace <strong>500 °C</strong>.</p></li>
+</ul>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Baking time
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Minimum <strong>3 h</strong>.</p>
+</div>
+</div>
+<section id="disposal" class="level3">
+<h3 class="anchored" data-anchor-id="disposal">Disposal</h3>
+<ul>
+<li><p>Acetone accordingly.</p></li>
+<li><p>Glass Pasteur pipettes need to be washed and recycled.</p></li>
+</ul>
+</section>
+</section>
+<section id="spectrophotometry" class="level2">
+<h2 class="anchored" data-anchor-id="spectrophotometry">Spectrophotometry</h2>
+<section id="spectrophotometer-run" class="level3">
+<h3 class="anchored" data-anchor-id="spectrophotometer-run">Spectrophotometer run</h3>
+<ul>
+<li><p>Turn on the instrument and PC.</p></li>
+<li><p>Wait minimum <strong>1 h</strong> before measurements.</p></li>
+<li><p>Start <strong>UVProbe</strong> software.</p></li>
+<li><p>Press <code>F4</code> and click <code>Connect</code>.</p></li>
+<li><p>Set parameters:</p>
+<ul>
+<li><p>Range: <strong>350</strong> to <strong>900 nm</strong>.</p></li>
+<li><p>Yellow button ??.</p></li>
+<li><p>Method: <strong>spectrum</strong>.</p></li>
+<li><p>Scan speed: <strong>fast</strong>.</p></li>
+<li><p>Sampling interval: <strong>0.1 nm</strong>.</p></li>
+<li><p>Scan mode: <strong>Single</strong></p></li>
+<li><p>Click <code>Ok</code>.</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="blank-sample-and-baseline" class="level3">
+<h3 class="anchored" data-anchor-id="blank-sample-and-baseline">Blank sample and baseline</h3>
+<section id="blank-sample" class="level4">
+<h4 class="anchored" data-anchor-id="blank-sample">Blank sample</h4>
+<ul>
+<li>Pipette <strong>400 µl</strong> acetone (<strong>100%</strong>, <strong>HPLC</strong>) to cuvette.</li>
+</ul>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Correct pippeting
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Check if the solvent is contaminated.</li>
+<li>Be sure there are no air bubbles in the tip.</li>
+</ul>
+</div>
+</div>
+<ul>
+<li>Close cuvette with cap.</li>
+</ul>
+<p>Avoid evaporation and instrument corrosion.</p>
+<ul>
+<li>Place cuvette in the measurement cell (front one).</li>
+</ul>
+<p><strong>V</strong> mark on the cuvette to the side.</p>
+</section>
+<section id="autozero-reference-sample" class="level4">
+<h4 class="anchored" data-anchor-id="autozero-reference-sample">Autozero (reference sample)</h4>
+<ul>
+<li>Pipette <strong>400 µl</strong> acetone (<strong>100%</strong>, <strong>HPLC</strong>) to cuvette.</li>
+</ul>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Correct pippeting
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Check if the solvent is contaminated.</li>
+<li>Be sure there are no air bubbles in the tip.</li>
+</ul>
+</div>
+</div>
+<ul>
+<li>Close cuvette with cap.</li>
+</ul>
+<p>Avoid evaporation and instrument corrosion.</p>
+<ul>
+<li>Place cuvette in the reference cell (back one).</li>
+</ul>
+<p><strong>V</strong> mark on the cuvette to the side..</p>
+<ul>
+<li>Click <code>Baseline</code>.</li>
+</ul>
+<p>After this step absorption should show zero.<br>
+Reference sample stays in the cell for the entire measurement series.</p>
+<ul>
+<li>Run <em>autozero</em> before each sample.</li>
+</ul>
+</section>
+</section>
+<section id="sample-measurement" class="level3">
+<h3 class="anchored" data-anchor-id="sample-measurement">Sample measurement</h3>
+<ul>
+<li>Extracts are diluted so overall absorption is between <strong>0.2</strong> and <strong>1.0 abs</strong>.</li>
+</ul>
+<p>Limit of quantification of the instrument is linear in this range without the use of calibration curves.</p>
+<section id="dilution" class="level4">
+<h4 class="anchored" data-anchor-id="dilution">Dilution</h4>
+<p>For sample dilution use small volumetric flask. Allows remeasurement of a sample at higher dilution. Pipette directly from the prepared sample into a new cuvette.</p>
+<section id="example-110" class="level5">
+<h5 class="anchored" data-anchor-id="example-110">Example 1:10</h5>
+<ul>
+<li><p>Shake amber vial with vortex.</p></li>
+<li><p>Pipette <strong>2 × 250 µl</strong> extract (sample) to <strong>5 ml flask</strong>.</p></li>
+<li><p>Add acetone using glass Pasteur pipette. Fill till <strong>5 ml</strong>.</p></li>
+</ul>
+<p>Caution: meniscus is <strong>concave</strong>.</p>
+<ul>
+<li>Stir sample with glass Pasteur pipette.</li>
+</ul>
+</section>
+</section>
+<section id="measurement" class="level4">
+<h4 class="anchored" data-anchor-id="measurement">Measurement</h4>
+<ul>
+<li><p>Using pipette transfer <strong>400 µl</strong> of extract into a cuvette.</p></li>
+<li><p>Close cuvette with cap.</p></li>
+<li><p>Place cuvette in the measurement cell (front one).</p></li>
+</ul>
+<p><strong>V</strong> mark on the cuvette to the side.</p>
+<ul>
+<li>Click <code>Start</code>.</li>
+</ul>
+</section>
+<section id="save-and-export-data" class="level4">
+<h4 class="anchored" data-anchor-id="save-and-export-data">Save and export data</h4>
+<p>Once analysis begins a window pops-up, where sample name can be put. After the sample analysis file needs to be <strong>saved manually</strong>. Otherwise data is lost.</p>
+<section id="save-data" class="level5">
+<h5 class="anchored" data-anchor-id="save-data">Save data</h5>
+<ul>
+<li>Use <code>File &gt; Save as &gt; file_name</code>.</li>
+</ul>
+</section>
+<section id="data-export" class="level5">
+<h5 class="anchored" data-anchor-id="data-export">Data export</h5>
+<ul>
+<li>Use <code>Data print</code>.</li>
+</ul>
+<p>A table will appear. Copy and paste data into spreadsheet.</p>
+<p>Manually make columns wider so names are visible in full before copying.</p>
+</section>
+<section id="data-evaluation" class="level5">
+<h5 class="anchored" data-anchor-id="data-evaluation">Data evaluation</h5>
+<blockquote class="blockquote">
+<p>“Although in a sedimentary natural pigment sample you have a mixture of chlorins and carotenoids, you can already tell from the sample spectra and absorption peaks what kind of pigments you have in your sample. You can even compare single standard spectra (stored on PC) with your spectra by overlaying the spectra.” - Paul Zander</p>
+</blockquote>
+<section id="examples" class="level6">
+<h6 class="anchored" data-anchor-id="examples">Examples</h6>
+<ul>
+<li><p>Chl a (absorption max. 430 and 663 nm)</p></li>
+<li><p>Chl b (absorption max. 463 and 648 nm)</p></li>
+<li><p>Pheophytin a (absorption max. 408 and 664nm)</p></li>
+<li><p>Carotenoids (420–450 nm)</p></li>
+<li><p>Bacteriochlorophyll a (absorption max. 364 and 770 nm)</p>
+<ul>
+<li>Bacteriopheophytin a (absorption max. 357 and 746 nm)</li>
+</ul></li>
+<li><p>Bacteriochlorophyll b (absorption max. 373 and 795 nm)</p>
+<ul>
+<li>Bacteriopheophytin b (absorption max. 367 and 776 nm)</li>
+</ul></li>
+<li><p>Bacteriochlorophyll c, d, e (absorption max. 434, 427, 469 and 666, 655, 654 nm)</p>
+<ul>
+<li>Bacteriopheophytin c, d, e (absorption max. 412, 406, 435 and 666, 657, 665 nm)</li>
+</ul></li>
+</ul>
+</section>
+</section>
+</section>
+</section>
+</section>
+<section id="photometric-calculations" class="level2">
+<h2 class="anchored" data-anchor-id="photometric-calculations">Photometric calculations</h2>
+<section id="equation-for-chlorophylls-and-bacteriopheophytin-a-needed-for-proxy-proxy-calibration-for-hsi-data" class="level3">
+<h3 class="anchored" data-anchor-id="equation-for-chlorophylls-and-bacteriopheophytin-a-needed-for-proxy-proxy-calibration-for-hsi-data">Equation for Chlorophylls and Bacteriopheophytin a (needed for proxy-proxy-calibration for HSI data)</h3>
+</section>
+<section id="correction-of-absorption-values" class="level3">
+<h3 class="anchored" data-anchor-id="correction-of-absorption-values">Correction of absorption values</h3>
+<p>Correct the absorption values in case of absorption values below or above <strong>0</strong> between <strong>720 nm</strong> and <strong>900 nm</strong> in the way to scale the absorption values at around <strong>0 abs</strong> in this range.</p>
+<ul>
+<li><p>To quantify total carotenoids and chloropigments, and bacteriochloropigments are not present in sample extract, use the absorption values at <strong>750 nm</strong> of wavelength to correct this.</p></li>
+<li><p>In presence of bacteriochloropigments, find a specific wavelength of absorption above <strong>750 nm</strong> which you can use to scale the absorption values to zero.</p></li>
+</ul>
+<p>Procedure described in Sanchini and Grosjean (2020).</p>
+</section>
+<section id="calculation-for-bulk-chloropigments-a-and-bphe-a-concentration-from-the-absorption-spectra" class="level3">
+<h3 class="anchored" data-anchor-id="calculation-for-bulk-chloropigments-a-and-bphe-a-concentration-from-the-absorption-spectra">Calculation for bulk chloropigments a and Bphe a concentration from the absorption spectra</h3>
+<p>Calculate concentrations from the absorption spectra using the following formula</p>
+<p><span class="math display">\[
+c = A_λ / (α_λ × l)
+\]</span></p>
+<p>where:</p>
+<p><strong>l</strong>: width of the cuvettes (cm);</p>
+<p><strong>A<sub>λ</sub></strong>: absorbance measured at a specific wavelength;</p>
+<p><strong>α<sub>λ</sub></strong>: specific molar extinction coefficient equal to <strong>88.77 × 10<sup>-3</sup> × L × cm<sup>-1</sup> × mg<sup>-1</sup></strong> for chloropigments a at <strong>666 nm</strong> (Jeffrey and Humphrey, 1975) oraz <strong>52.855 × 10<sup>-3</sup> × L × cm<sup>-1</sup> × mg<sup>-1</sup></strong> for bacteriopheophytin a at <strong>750 nm</strong> (Fiedor et al., 2002).</p>
+<p>The result is a concentration measured in the cuvette (<strong>mg/l</strong>), which needs to be corrected to account for sample dilution and mass.</p>
+<p>Sample calculations are available in the spreadsheed <code>Spectrophotometer_calculator.xlsx</code></p>
+<p><span class="math display">\[
+(peak\;absorption) / k × (dilution\;factor) × (sample\;mass) / (sample\;volume)
+\]</span></p>
+<p>where:</p>
+<p><strong>k</strong>: constant, <strong>0.080770</strong> for chlorins with <strong>666 nm</strong> peak (Jeffrey and Humphrey, 1975) and <strong>0.052855</strong> for bacteriopheophytin peak at <strong>750 nm</strong> (Fiedor et al., 2002).</p>
+</section>
+<section id="calculate-chl-a-b-and-c-from-absorption-spectra" class="level3">
+<h3 class="anchored" data-anchor-id="calculate-chl-a-b-and-c-from-absorption-spectra">Calculate Chl a, b and c from absorption spectra</h3>
+</section>
+<section id="calculate-total-carotenoids-from-absorption-spectra" class="level3">
+<h3 class="anchored" data-anchor-id="calculate-total-carotenoids-from-absorption-spectra">Calculate total carotenoids from absorption spectra</h3>
+<section id="following-lichtenthaler-and-buschmann-2001" class="level4">
+<h4 class="anchored" data-anchor-id="following-lichtenthaler-and-buschmann-2001">Following Lichtenthaler and Buschmann (2001)</h4>
+<p>In an extract of plant material containing carotenoids (<strong>x + c = xanthophylls and carotenes</strong>) in addition to Chls, <strong>A<sub>470</sub></strong> (the carotenoid region) is determined as the sum of specific absorbances for Chl a, Chl b, and total carotenoids:</p>
+<ul>
+<li>Acetone (pure, 100%):</li>
+</ul>
+<p><span class="math display">\[
+c_{(x + c)} = (1000 × A_{470} - 1.90_{C_a} – 63.14_{C_b}) / 214
+\]</span></p>
+<ul>
+<li>Acetone (20% water):</li>
+</ul>
+<p><span class="math display">\[
+c_{(x + c)} = (1000 × A_{470} - 1.82_{C_a} – 85.02_{C_b}) / 198
+\]</span></p>
+<p>gdzie:</p>
+<p><strong>A<sub>470</sub></strong>: absorbcja dla długości fali <strong>470 nm</strong>;</p>
+<p><strong>C<sub>a</sub></strong>: xxx</p>
+<p><strong>C<sub>b</sub></strong>: xxx</p>
+</section>
+<section id="following-guilizzoni-et-al.-2011-based-on-züllig-et-al.-1981" class="level4">
+<h4 class="anchored" data-anchor-id="following-guilizzoni-et-al.-2011-based-on-züllig-et-al.-1981">Following Guilizzoni et al.&nbsp;(2011); based on Züllig et al.&nbsp;(1981)</h4>
+<p>Całkowite karotenoidy wyrażone są jako <strong>mg TC</strong> (total carotenoids) na gram suchej materii organicznej (<strong>g<sub>LOI</sub></strong>).</p>
+<p><span class="math display">\[
+TC = ((E_{450} - 0.8 × E_{665}) × V × 10) / E^{1\%}_{1cm} × g_{LOI}
+\]</span></p>
+<p>gdzie:</p>
+<p><strong>E<sub>xxx</sub></strong>: gęstość optyczna w kuwecie o ścieżce optycznej <strong>1 cm</strong> (szerokość) dla długości fali <strong>450 nm</strong> i <strong>665 nm</strong>, skorygowanych o gęstość optyczną dla długości fali <strong>750 nm</strong>;</p>
+<p><strong>V</strong>: objętość ekstraktu;</p>
+<p><strong>E<sup>1%</sup><sub>1cm</sub></strong>: średni współczynnik ekstynkcji dla <strong>1%</strong> roztworu ekstraktu z osadów (wagowo) dla karotenoidów przy ścieżce optycznej (szerokość) <strong>1 cm</strong>. Równe <strong>2.250</strong> (Züllig 1981; Leavitt and Hodgson 2001);</p>
+<p><strong>E<sub>450</sub></strong>: główne pasmo absorbcji dla karotenoidów w zakresie widzialnym;</p>
+<p><strong>E<sub>665</sub></strong>: korekta na przybliżone pasmo absorbcji chlorofili i pochodnych chlorofili odpowiadające długości fali <strong>665 nm</strong>;</p>
+<p><strong>g<sub>LOI</sub></strong>: równoważnik strat na prażeniu dla mokrego osadu, obliczony na podstawie zawartości osadów i suchej masy po LOI.</p>
+</section>
+</section>
+<section id="transfer-function-for-total-phosphorus" class="level3">
+<h3 class="anchored" data-anchor-id="transfer-function-for-total-phosphorus">Transfer function for total phosphorus</h3>
+</section>
+</section>
+</section>
+<section id="credits" class="level1">
+<h1>Credits</h1>
+<p>Andrea Sanchini, Giulia Wienhues and Paul Zander – University of Bern, Switzerland.</p>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="changelog" class="level1">
+<h1>Changelog</h1>
+<ul>
+<li>09.12.2022, MZ – initial version.</li>
+<li>09.02.2023, MZ – full version.</li>
+<li>17.03.2023, MZ – update with filtering and callouts.</li>
+</ul>
+<p>Maurycy Żarczyński, Department of Geomorphology and Quaternary Geology, Gdansk</p>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

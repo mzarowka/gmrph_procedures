@@ -355,7 +355,7 @@ gdzie:
 
 **g~LOI~**: równoważnik strat na prażeniu dla mokrego osadu, obliczony na podstawie zawartości osadów i suchej masy po LOI.
 
-### Transfer function for total phosphorus 
+### Transfer function for total phosphorus
 
 # Credits
 
