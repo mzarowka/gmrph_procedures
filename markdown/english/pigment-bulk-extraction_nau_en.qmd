@@ -1,0 +1,289 @@
+---
+editor: visual
+lang: en
+format:
+  html:
+    toc: true
+    toc-title: Steps
+    toc-depth: 4
+    embed-resources: true
+  pdf:
+    geometry: 
+    - top=20mm
+    - left=20mm
+    - bottom=20mm
+    - right=20mm
+theme:
+  light: flatly
+  dark: darkly
+---
+
+The Sedimentary Records of Environmental Change Laboratory Procedure
+
+------------------------------------------------------------------------
+
+# Bulk pigment extraction from lake sediments
+
+## Consumables and equipment
+
+### Chemical reagents
+
+-   Acetone **100%** (grade **HPLC**): solvent.
+
+-   Acetone **technical**: cleaning.
+
+-   **Redistilled water (*MilliQ*)** (or substitute).
+
+-   Technical nitrogen.
+
+-   Neodisher Laboclean (or substitute).
+
+    | Neodisher LaboClean FLA: liquid, highly-alkaline cleaning, dispergator agent.
+
+### Equipment
+
+-   Laboratory fume hood.
+
+::: callout-caution
+## Acetone
+
+Acetone (C~3~H~6~O) is an organic solvent requiring work under the **running fume hood**.
+
+Acetone is highly **flammable** and is an **irritant.**
+:::
+
+-   Ultrasound bath.
+
+-   Centrifuge.
+
+-   Vortex shaker.
+
+-   Laboratory furnace for glassware baking.
+
+-   Laboratory oven.
+
+-   Freeze drier.
+
+-   Glass beakers for acetone pippeting.
+
+-   Acetone pipette **1000 µL** and tips (for acetone).
+
+-   Heating plate.
+
+-   Nitrogen evaporator.
+
+    -   Needles for N~2~ evaporator.
+
+    -   Metal rack for amber vials on the heating plate.
+
+    | For example *Turbovap* instrument.
+
+-   Racks for centrifuge tubes and amber vials.
+
+-   Analytical balance, antistatic device and stainless steel spatula.
+
+-   Ice bath.
+
+    | Plastic tray with cooling packs.
+
+### Other
+
+-   Polypropylene (PP) centrifuge tubes (falcons) **25 mL** or **50 mL** (Corning™).
+
+    | Other plastics will melt in contact with acetone.
+    | One-time use.
+
+-   Amber vials with caps **5 mL**.
+
+    | Tape the labels.
+    | Two sets are needed, for unfiltered and filtered solvent.
+
+-   Polypropylene (PP) small syringes with Luer Lock for filtering (**5 mL**).
+
+    | One-time use.
+
+-   PTFE hydrophobic filters of **0.2 μm**.
+
+    | One-time use.
+
+::: callout-important
+Always check size and fit compatibility for syringes and filters.
+:::
+
+-   Aluminum foil.
+
+-   Glass Pasteur pipettes.
+
+    | One-time use.
+
+-   Silicone nipples for pipettes.
+
+## Cleaning
+
+### Amber vials
+
+-   Put into soap water with Neodisher Laboclean for few hours.
+
+-   Wash in the washing machine.
+
+    | Glassware program and Neodisher Laboclean.
+    | If dishwasher is unavailable do it manual.
+
+-   Dry in the drying oven.
+
+-   Close with aluminum foil (cleaned with technical acetone).
+
+-   Bake in the furnace in **380 °C**.
+
+::: callout-important
+## Baking
+
+Minimum **3 h**.
+
+Never bake measurement glass.
+:::
+
+### Amber vials caps
+
+-   Rinse with tap water.
+
+-   Put into beaker filled with **technical acetone** and **redistilled water (MilliQ)** mixture (**1:1**).
+
+    -   Sonicate for **10 minutes**.
+
+-   Put into beaker filled with **technical acetone**.
+
+    -   Sonicate for **10 minutes**.
+
+-   Dry in the drying oven.
+
+    | Washing solvents can be used again. Store in the glass bottles.
+
+### Evaporator needles {#sec-igły-do-ewaporatora}
+
+-   Put into beaker filled with **technical acetone**.
+-   Sonicate **3 × 10 minutes**.
+
+### Disposal
+
+-   Acetone accordingly.
+-   PP falcons and glass Pasteur pipettes need to be washed and recycled.
+
+## Sediment preparation
+
+-   Freeze dry.
+
+    | High temperature speeds up pigment degradation.
+
+-   Loss on ignition **550 °C** or CNS to calculate organic matter.
+
+-   Weigh **0.5 g** homogenized sediments into polypropylene falcons (PP) **25 mL**.
+
+    | Clean tools with technical acetone, use antistatic device.
+    | If there is not enough material, use no less than **0.25 g**.
+    | With minimal **OM** or **TOC** concentrations weigh **1.00 g** and more if needed.
+
+-   Label falcon and cap with sample name.
+
+## Pigment extraction
+
+-   Prepare workplace, cover surfaces under the fume hood with aluminum foil cleaned with technical acetone.
+
+-   Switch off the lights whenever possible.
+
+-   Fill glass beaker with **100%** acetone.
+
+    | Don't pipette from the bottle.
+
+-   Rinse pipette with acetone.
+
+    | Pipette into waste beaker.
+
+-   Add **5 mL** of acetone to the falcon.
+
+    | pipette right, there should be no air bubbles in the tip.
+
+-   Shake with vortex for **1 minute**.
+
+-   Sonicate for **1 minute**.
+
+-   Centrifuge:
+
+    -   **10 minutes**.
+
+    -   **5000 rpm**.
+
+    | This step needs to be adjusted to the centrifuge. Lower rpm requires longer centrifugation.
+
+-   Check if supernatant is clear after centrifugation.
+
+    | If it is not clear centrifugate again.
+
+-   Remove (transfer) supernatant using glass Pasteur pipette into amber vial.
+
+    | Label amber vial accordingly.
+    | Be sure all supernatant is transferred.
+
+-   Repeat two times using **5 mL** acetone each time.
+
+-   Hold labelled Pasteur pipettes in a glass beaker between the extraction steps.
+
+    | Every amber vial and falcon has its own Pasteur pipette.
+
+-   Amber vials between extraction steps should be covered from light and stored in the ice bath.
+
+    | After **three extraction cycles**, if supernatant still has a strong color continue with **additional extraction steps**.
+    | It is important that **all samples** are prepared **the same way**.
+    | Extracts can be stored **for a few days** in the **-20 °C** temperature.
+
+## Concentration and reconstitution
+
+### Evaporation
+
+-   Set heating plate and nitrogen evaporator.
+
+-   Evaporate samples to dry residue.
+
+    | Before use be sure that needles are clean.
+
+-   Put amber vials in the rack on the heating plate set to **35 °C**.
+
+-   Open nitrogen flow.
+
+    | Set flow so small flexion of the liquid surface is visible.
+
+-   Evaporate to dry residue (around **4** to **6 h**).
+
+-   Prepare blank sample from acetone.
+
+### Reconstitution and filtering
+
+-   Add **5 mL** **100%** acetone to the amber vial #1 (unfiltered) using **1000 µL** pipette.
+
+| Be very precise, check for air bubbles in the pipette tip.
+
+-   Homogenize solution with the glass Pasteur pipette.
+-   Rinse the vial walls and *vortex*.
+
+| All pigments need to redissolve in the acetone.
+
+-   Take a **5 mL** syringe, attach the **0.2 µm** PTFE hydrophobic filter on.
+-   Pipette from the amber vial #1 (unfiltered) directly with a Pasteur pipette into the syringe.
+-   Pass the solvent through the filter into the amber vial #2 (filtered).
+-   Loose the filter from the syringe to get all solvent out.
+-   Close the vial with a cap and store at **-20 °C**.
+
+# Credits
+
+Andrea Sanchini, Giulia Wienhues and Paul Zander -- University of Bern, Switzerland.
+
+{{< pagebreak >}}
+
+# Changelog
+
+-   09.12.2022, MZ -- initial version.
+-   09.02.2023, MZ -- full version.
+-   17.03.2023, MZ -- update with filtering and callouts.
+-   27.03.2023, MZ -- NAU final version 1.
+
+maurycy.zarczynski\@ug.edu.pl
