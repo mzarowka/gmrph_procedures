@@ -1,0 +1,338 @@
+---
+editor: visual
+author: "Andrea Sanchini, Giulia Wienhues, Paul Zander, Maurycy Żarczyński"
+lang: pl
+format:
+  html:
+    toc: true
+    toc-title: Etapy
+    toc-depth: 4
+    embed-resources: true
+  pdf:
+    geometry: 
+    - top=20mm
+    - left=20mm
+    - bottom=20mm
+    - right=20mm
+theme:
+  light: flatly
+  dark: darkly
+---
+
+# Pomiar pigmentów z osadów jeziornych: metoda spektrofotometryczna
+
+## Materiały eksploatacyjne i urządzenia
+
+### Odczynniki chemiczne
+
+-   Aceton **100%** (klasa czystości **HPLC**): rozpuszczalnik.
+
+-   Aceton **techniczny**: czyszczenie naczyń i urządzeń.
+
+-   Woda **redestylowana (*MilliQ*)**.
+
+-   Azot techniczny.
+
+-   Neodisher Laboclean.
+
+    | Neodisher LaboClean FLA: płynny, wysoko-alkaliczny środek o wysokim działaniu dyspergującym.
+
+### Urządzenia
+
+-   Wyciąg laboratoryjny.
+
+::: callout-warning
+## Aceton
+
+Stężony aceton (C~3~H~6~O) to rozpuszczalnik organiczny, który wymaga pracy pod włączonym **wyciągiem laboratoryjnym**. Aceton jest wysoce **łatwopalny**. Aceton ma silne działanie **drażniące**.
+:::
+
+-   Myjka ultradźwiękowa.
+
+-   Wirówka laboratoryjna.
+
+-   Wytrząsarka typu *Vortex*.
+
+-   Piec laboratoryjny do wypiekania szkła laboratoryjnego.
+
+-   Suszarka laboratoryjna.
+
+-   Szklane zlewki do pipetowania acetonu.
+
+-   Pipeta do acetonu **100--1000 µL** i końcówki (odpowiednie do acetonu).
+
+-   Pipeta do acetonu **50--250 µL** i końcówki (odpowiednie do acetonu).
+
+-   Statywy na próbki.
+
+-   Kolby wolumetryczne (cechowane).
+
+    1 mL, 5 mL, 10 mL, 25 mL, 50 mL, 100 mL.
+
+### Pozostałe
+
+-   Mikrokuwety **400 µL** z zatyczkami.
+
+    | Kuwety łapać tylko za rogi. Upewnić się, że kuweta nie jest zanieczyszczona.
+
+-   Długie, szklane pipety Pasteura.
+
+    | Jednorazowe.
+
+-   Smoczek silikonowy do pipet.
+
+## Czyszczenie
+
+-   Wymyć ręcznie szkło laboratoryjne szczotką.
+
+-   Umyć w zmywarce laboratoryjnej.
+
+    | Program do mycia szkła i Neodisher Laboclean.
+
+-   Wypłukać wodą **redestylowaną (MilliQ)** **3 razy**.
+
+-   Wyczyścić acetonem technicznym.
+
+-   Zamknąć folią aluminiową, która uprzednio została wyczyszczona acetonem
+
+-   Wypiec w piecu w temperaturze **292 °C**.
+
+| Minimum **12 h**.
+
+### Utylizacja
+
+-   Aceton zgodnie z wymogami.
+-   Falkony i szklane pipety Pasteura muszą zostać dokładnie umyte i wyrzucone do recyclingu.
+
+## Przygotowanie urządzenia
+
+### Spektrofotometr
+
+-   Włączyć spektrofotometr i komputer.
+-   Odczekać minimum **1 h** przed pomiarami.
+-   Włączyć oprogramowanie **UVProbe**.
+-   Wcisnąć `F4` i kliknąć `Connect`.
+-   Ustawić parametry:
+    -   Zakres: **350** do **900 nm**.
+
+    -   Żółty guzik ??.
+
+    -   Method: spectrum.
+
+    -   Scan speed: fast.
+
+    -   Sampling interval: **0.1 nm**.
+
+    -   Scan mode: Single
+
+    -   `Ok`.
+
+### Próbki ślepe i linia bazowa
+
+#### Próbka ślepa (Blank)
+
+-   Dodać za pomocą pipety **400 µL** acetonu (**100%**, **HPLC**) do kuwety.
+
+| Sprawdzić czy próbka nie jest zanieczyszczona.
+| Upewnić się, że w końcówce pipety nie ma pęcherzyków powietrza.
+
+-   Zamknąć kuwetę zatyczką
+
+| Utrudnia odparowanie próbki oraz korozję urządzenia.
+
+-   Umieścić kuwetę w przedniej celi (cela pomiarowa).
+
+| Oznaczenie *V* na kuwecie powinno znajdować się z boku.
+
+#### Autozero (próbka referencyjna)
+
+-   Dodać za pomocą pipety **400 µL** acetonu (**100%**, **HPLC**) do kuwety.
+
+| Sprawdzić czy próbka nie jest zanieczyszczona.
+| Upewnić się, że w końcówce pipety nie ma pęcherzyków powietrza.
+
+-   Zamknąć kuwetę zatyczką
+
+| Utrudnia odparowanie próbki oraz korozję urządzenia.
+
+-   Umieścić kuwetę w tylnej celi (cela referencyjna).
+
+| Oznaczenie *V* na kuwecie powinno znajdować się z boku.
+
+-   Kliknąć `Baseline`
+
+| Po tym etapie wartość absorpcji powinna wskazywać zero.
+| Próbka referencyjna pozostaje w celi na czas wszystkich pomiarów.
+
+-   Wykonywać procedurę *autozero* przed pomiarem nowego ekstraktu.
+
+### Pomiar próbek
+
+-   Ekstrakty są rozcieńczone tak, aby ogólna absorpcja mieściła się między **0.2** i **1.0 abs**.
+
+W tym zakresie oznaczenie koncentracji ma charakter liniowy i nie wymaga wykorzystania krzywych kalibracyjnych.
+
+#### Rozcieńczanie
+
+Do rozcieńczania ekstraktów można wykorzystać małą kolbę miarową lub probówki Eppendorfa. Pozwala to na ponowy pomiar próbki przy wyższym rozcieńczeniu po pipetowaniu bezpośrednio z kolby lub probówki.
+
+##### Przykład 1:10
+
+-   Wymieszać brązową fiolkę z ekstraktem na *vortexie*.
+
+-   Za pomocą pipety przenieść **2 × 250 µL** ekstraktu do **kolby 5 mL**.
+
+-   Dodać aceton za pomocą szklanej pipety Pasteura do osiągnięcia **5 mL**.
+
+    | Uwaga: menisk jest **wklęsły**.
+
+-   Wymieszać roztwór szklaną pipetą.
+
+#### Pomiar
+
+-   Za pomocą pipety przenieść **400 µL** roztworu do kuwety.
+
+-   Zamknąć kuwetę zatyczką.
+
+-   Umieścić kuwetę w przedniej celi (cela pomiarowa).
+
+    | Oznaczenie *V* na kuwecie powinno znajdować się z boku.
+
+-   Kliknąć `Start`.
+
+#### Zapis i eksport danych
+
+Przy rozpoczęciu analizy pojawi się okno, w którym można wprowadzić nazwę pliku. Jednak po zakończeniu analizy każdej z próbek **trzeba zapisać plik ręcznie**. Inaczej dane zostaną utracone.
+
+##### Zapis danych
+
+`File > Save as > nazwa_pliku`
+
+##### Eksport danych
+
+`Data Print`
+
+Pojawi się tabela z danymi, które należy skopiować i wkleić do arkusza kalkulacyjnego.
+
+Należy **ręcznie** **rozszerzyć kolumny**, tak aby widoczne były pełne nazwy. W innym wypadku dane nie skopiują się odpowiednio.
+
+##### Ewaluacja danych
+
+Naturalne pigmenty to mieszanina barwników chlorofilowych i karotenoidów, jednak spektrum uzyskane z próbki pozwala na ocenę tego, jakie pigmenty są obecne w próbce.
+
+Możliwe jest porównanie spektrum standardów z otrzymanymi w trakcie analizy.
+
+###### Przykłady
+
+-   Chl-a (absorption max. 430 and 663 nm)
+-   Chl-b (absorption max. 463 and 648 nm)
+-   Pheophytin-a (absorption max. 408 and 664nm)
+-   Carotenoids (420--450 nm)
+-   Bacteriochlorophyll-a (absorption max. 364 and 770 nm)
+    -   Bacteriopheophytin-a (absorption max. 357 and 746 nm)
+-   Bacteriochlorophyll-b (absorption max. 373 and 795 nm)
+    -   Bacteriopheophytin-b (absorption max. 367 and 776 nm)
+-   Bacteriochlorophyll-c, -d, -e (absorption max. 434, 427, 469 and 666, 655, 654 nm)
+    -   Bacteriopheophytin-c, -d, -e (absorption max. 412, 406, 435 and 666, 657, 665 nm)
+
+## Obliczenia fotometryczne
+
+### Obliczenia na potrzeby kalibracji typu proxy-proxy dla danych hiperspektralnych.
+
+### Korekta wartości absorpcji
+
+Należy dokonać korekty wartości absorbcji jeśli absorbcja wynosi więcej lub mniej niż **0** pomiędzy **720 nm** i **900 nm**. Wartości przeskalować tak aby uzyskać **0** w zakresie **720** nm i **900 nm**.
+
+-   Do określenia zawartości całkowitych karotenoidów i chloropigmentów, przy absencji bakteriochloropigmentów w próbce, można wykorzystać wartości absorbcji odpowiadające długości fali **750 nm**.
+
+-   W przypadku obecności bakteriochloropigmentów w próbce, należy znaleźć odpowiednią wartość dla wybranej długości fali powyżej **750 nm** i wykorzystać do przeskalowania wyników.
+
+Procedura opisana w artykule Sanchini i Grosjean (2020).
+
+### Obliczenia całkowitych chloropigmentów-a oraz bakteriofeofityny-a ze spektrów absorpcji
+
+Koncentracje oblicza się z wykorzystaniem wzoru
+
+$$
+c = A_λ / (α_λ × l)
+$$
+
+gdzie:
+
+**l**: szerokość kuwety (cm);
+
+**A~λ~**: zmierzona absorbcja odpowiadająca wybranej długości fali;
+
+**α~λ~**: molowy współczynnik ekstynkcji wynoszący **88.77 × 10^-3^ × L × cm^-1^ × mg^-1^** dla chloropigmentów-a przy długości fali **666 nm** (Jeffrey and Humphrey, 1975) oraz **52.855 × 10^-3^ × L × cm^-1^ × mg^-1^** dla bakteriofeofityny-a przy długości fali **750 nm** (Fiedor et al., 2002).
+
+Wynik to koncentracja zmierzona w kuwecie (**mg/l**), który należy skorygować odpowiednio do rozcieńczenia oraz wagi próbki.
+
+Przykładowe obliczenia zebrane zostały w arkuszu `Spectrophotometer_calculator.xlsx`
+
+$$
+(absorbcja piku) / k × (wspóczynnik rozcieńczenia) × (waga próbki) / (obejętość ektraktu)
+$$
+
+gdzie:
+
+**k**: stała, **0.080770** dla chloropigmentów przy piku o długości fali **666 nm** (Jeffrey and Humphrey, 1975) i **0.052855** dla bakteriofeofityny przy piku dla długości fali **750 nm** (Fiedor et al., 2002).
+
+### Obliczenia choloroflu a, b i c ze spektrów absorpcji
+
+### Obliczenia całkowitych karotenoidów ze spektrów absorpcji
+
+#### Za Lichtenthaler and Buschmann (2001)
+
+W ekstrakcie materiału roślinnego zawierającym karotenoidy (**x + c = xanatofile i karoteny**) w dodatku do chlorofili, **A~470~** (region karotenoidów) oznacza się jako sumę absorbcji dla chlorofilu-a, chlorofilu-b oraz karotenoidów:
+
+-   Aceton (czysty, **100%**):
+
+$$
+c_{(x + c)} = (1000 × A_{470} - 1.90_{C_a} – 63.14_{C_b}) / 214
+$$
+
+Aceton (**20%** wody):
+
+$$
+c_{(x + c)} = (1000 × A_{470} - 1.82_{C_a} – 85.02_{C_b}) / 198
+$$
+
+gdzie:
+
+**A~470~**: absorbcja dla długości fali **470 nm**;
+
+**C~a~**: xxx
+
+**C~b~**: xxx
+
+#### Za Guilizzoni et al. (2011); na podstawie Züllig et al. (1981)
+
+Całkowite karotenoidy wyrażone są jako **mg TC** (total carotenoids) na gram suchej materii organicznej (**g~LOI~**).
+
+$$
+TC = ((E_{450} - 0.8 × E_{665}) × V × 10) / E^{1\%}_{1cm} × g_{LOI}
+$$
+
+gdzie:
+
+**E~xxx~**: gęstość optyczna w kuwecie o ścieżce optycznej **1 cm** (szerokość) dla długości fali **450 nm** i **665 nm**, skorygowanych o gęstość optyczną dla długości fali **750 nm**;
+
+**V**: objętość ekstraktu;
+
+**E^1%^~1cm~**: średni współczynnik ekstynkcji dla **1%** roztworu ekstraktu z osadów (wagowo) dla karotenoidów przy ścieżce optycznej (szerokość) **1 cm**. Równe **2.250** (Züllig 1981; Leavitt and Hodgson 2001);
+
+**E~450~**: główne pasmo absorbcji dla karotenoidów w zakresie widzialnym;
+
+**E~665~**: korekta na przybliżone pasmo absorbcji chlorofili i pochodnych chlorofili odpowiadające długości fali **665 nm**;
+
+**g~LOI~**: równoważnik strat na prażeniu dla mokrego osadu, obliczony na podstawie zawartości osadów i suchej masy po LOI.
+
+### Funkcja transferu dla fosforu całkowitego
+
+{{< pagebreak >}}
+
+## Rejestr zmian
+
+-   09.12.2022 MZ: wersja inicjalna Quarto, procedura za: Paul Zander, Andrea Sanchini i Giulia Wienhues (Uniwersytet w Bernie).
+-   09.02.2023 MZ: pełna wersja.
+-   29.05.2023 MZ: Quarto book chapter.

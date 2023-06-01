@@ -19,29 +19,38 @@ theme:
 
 [![](images/log-ug_pl.png){fig-alt="Logo: Uniwersytet Gdański" fig-align="left" width="150"}](https://geomorfologia.ug.edu.pl)
 
-Zakład Geomorfologii i Geologii Czwartorzędu --- PROCEDURA
+Katedra Geomorfologii i Geologii Czwartorzędu --- PROCEDURA
 
 ------------------------------------------------------------------------
 
-# Ekstrakcja i pomiar krzemionki biogenicznej z osadów jeziornych
+# Ekstrakcja i pomiar krzemionki biogenicznej
 
 > Ekstrakcja alkaliczna krzemionki biogenicznej (BSi) za Mortlock i Froelich (1989)[^1].
 
 [^1]: Mortlock, R.A., Froelich, P.N., **1989**, A simple method for the rapid determination of biogenic opal in pelagic marine sediments. Deep-Sea Research. Part A: Oceanographic Research Papers 36: 1415-1426.
 
--   Najlepiej pracować na zestawie sumującym sie do 40:
-
+-   Najlepiej pracować na zestawie sumującym sie do 40 sztuk:
     -   32 próbki.
 
     -   2 wzorce wewnętrzne.
 
-    -   5 wzorców kalibracyjnych.
+    -   5 wzorców kalibracyjnych SiO~2~.
 
-    -   1 próbka ślepa.
+        -   **100**, **200**, **300**, **400** oraz **500 ppm**.
 
+    -   1 próbka ślepa (blank).
 -   Nie korzystać ze szkła laboratoryjnego poza wskazanymi w procedurze wyjątkami.
-
 -   Przygotować wszystkie odczynniki przed pracą.
+
+::: callout-important
+## Uwaga
+
+-   Część odczynników ma znacząco ograniczoną stabilność sięgającą kilkunastu godzin.
+
+-   Wykorzystanie szkła może prowadzić do wymywania nadmiarowego krzemu do roztworów.
+
+-   Przed każdą serią pomiarów należy przygotować nową próbkę ślepą i roztwory wzorców.
+:::
 
 ## Materiały eksploatacyjne i urządzenia
 
@@ -55,7 +64,7 @@ Zakład Geomorfologii i Geologii Czwartorzędu --- PROCEDURA
 
 -   Dihydrat kwasu szczawiowego: H~2~C~2~O~4~·2H~2~O lub (COOH)~2~ · 2H2O.
 
--   Stężony kwas siarkowy VI (**98%**): H~2~SO~4~.
+-   Stężony kwas siarkowy (VI) (**98%**): H~2~SO~4~.
 
 -   Stężony kwas solny (**37%**): HCl.
 
@@ -63,53 +72,298 @@ Zakład Geomorfologii i Geologii Czwartorzędu --- PROCEDURA
 
 -   Woda **redestylowana (*MilliQ*)**.
 
--   Koncentrat czyszczący **Micro-90®** (lub Neodisher Laboclean).
+-   Koncentrat czyszczący **Micro-90®** (lub **Neodisher Laboclean**).
 
     | Neodisher LaboClean FLA: płynny, wysoko-alkaliczny środek o wysokim działaniu dyspergującym.
 
 ### Urządzenia
 
 -   Zlewki Nalgene:
-
-    -   1000 ml.
-
-    -   2000 ml.
-
+    -   **1000 mL** i **2000 mL**.
 -   Mieszadło magnetyczne.
-
 -   Sączki jakościowe.
+-   Wirówka laboratoryjna (**3500 rpm**)
+-   Falkony (probówki) polipropylenowe (PP) **50 mL**.
+-   Butle szklane brązowe **1** **L** do przechowywania:
+    -   Metol: roztwór podstawowy.
 
--   Wirówka laboratoryjna (3500 rpm)
+    -   Metol: roztwór roboczy.
 
--   Falkony (probówki) polipropylenowe (PP) 50 ml.
-
--   Butle szklane brązowe.
-
--   Pojemniki i butle polietylenowe (PE).
-
--   Fiolki scyntylacyjne **20 ml** z nakrętkami.
-
--   Butelki Nalgene **30 ml** (reaktory) z nakrętkami.
+    -   Molibdenian: roztwór roboczy.
+-   Pojemniki i butle polietylenowe (**PE**).
+-   Fiolki scyntylacyjne **20 mL** z nakrętkami.
+-   Butelki Nalgene **30 mL** (reaktory) z nakrętkami.
 
 ### Pozostałe
 
 -   Certyfikowany wzorzec krzemionki (SiO~2~) **1000 ppm**.
-
--   Wewnętrzny wzorzec krzemionki (SiO~2~).
+-   Wewnętrzny wzorzec.
 
 ## Przygotowanie osadów
 
--   Próbki osadów umieścić w Teflonowych pojemniczkach i zamrozić.
-
+-   Próbki osadów umieścić w pojemniczkach z tworzywa sztucznego.
 -   Wysuszyć próbki w liofilizatorze.
-
 -   Odwirować próbki w wirówce:
+    -   **10** **minut** i **3500** **rpm**.
+-   Naważyć między **40 mg** a **100 mg** osadu do czystych próbówek **PP** **50 mL**.
+    -   BSi do **5%**: **80 mg** do **100 mg**.
 
-    -   10 minut.
+    -   BSi od **5%** do **20%**: **60 mg** do **80 mg**.
 
-    -   5000 RPM.
+    -   BSi od **20%**: **40 mg** do **60 mg**.
+
+::: callout-tip
+## Uwaga
+
+Należy starać się ważyć próbki w powtarzalny sposób z niewielkim odchyleniem masy między próbkami. Zapisywać masy z możliwie wysoką dokładnością, zależnie od wagi (preferowana dokładność conajmniej do części dziesiątych mg).
+
+Co dziesiąta próbka dzielona jest na dwie części i analizowana w różnych zestawach próbek.
+:::
+
+## Usuwanie węglanów
+
+-   Dodać **5 mL** HCl **1 mol** do próbówek **PP**. Umieścić na wytrząsarce na **1 h** w pozycji poziomej.
+-   Dodać około **20 mL** wody redestylowanej tak aby we wszystkich próbówkach osiągnąć poziom **30 mL.**
+-   Wszystkie próbówki muszą być wypełnione na równi ze względu na balans masy w wirówce.
+-   Wymieszać każdą próbówkę na mieszadle vortex.
+-   Odwirówać próbki w wirówce:
+    -   **10 minut** i **3500 rpm**.
+-   Zdekantować supernatant znad osadu do zbiorczej zlewki. Ciecz powinna być przejrzysta i pozbawiona zawiesiny. Należy uważać żeby nie stracić osadu.
+
+## Usuwanie materii organicznej
+
+-   Dodać **5 mL** H~2~O~2~ **30%** do każdej próbówki. Należy zacząć ostrożnie, nie dodając na raz całej objętości H~2~O~2~.
+-   Należy obserwować reakcję i pozostawić próbki na kilka godzin (najlepiej na noc).
+-   W niektórych przypadkach konieczne jest wielokrotne dodawanie H~2~O~2~ ze względu na wysoką koncentrację materii organicznej.
+-   Pozostawiając próbi pod wyciągiem należy ostrożnie przykryć próbówki nakrętakami. Nakrętek nie należy zakręcać.
+-   W razie konieczności można przyspieszczyć reakcję przez umieszczenie próbówek w kąpieli wodnej o temperaturze **50 °C**.
+-   Po zakończeniu reakcji umieścić próbówki na wytrząsarce na **1 h**.
+-   Dodać około **20 mL** wody redestylowanej tak aby we wszystkich próbówkach osiągnąć poziom **30 mL.**
+-   Wszystkie próbówki muszą być wypełnione na równi ze względu na balans masy w wirówce.
+-   Wymieszać każdą próbówkę na mieszadle vortex.
+-   Odwirówać próbki w wirówce:
+    -   **10 minut** i **3500 rpm**.
+-   Zdekantować supernatant znad osadu do zbiorczej zlewki. Ciecz powinna być przejrzysta i pozbawiona zawiesiny. Należy uważać żeby nie stracić osadu.
 
 ## Ekstrakcja krzemionki
+
+-   Dodać **40 mL** Na~2~CO~3~ **10%** do każdej próbówki. Próbówki należy dokładnie zakręcić i wymieszać. Należy uważać na straty roztworu.
+-   Dodać **40 mL** Na~2~CO~3~ **10%** do czystej próbówki (próbka ślepa).
+-   Metalowy stojak z próbkami umieścić w suszarce ustawionej na **80 °C**. Należy nieznacznie poluzować nakrętki ze względu na deformację. Podgrzewać przez **5 h**.
+-   Po **2.** a następnie po **4. h** próbki wyjąć, zakręcić szczelnie i wymieszać, tak aby cała objętość osadu znalazła się w roztworze. Po mieszaniu poluzować nakrętki.
+-   Po **5 h** należy wyjąć próbki z suszarki, ponownie zakręcić i wymieszać tak aby cała objętość osadu znalazła się w roztworze.
+-   Odwirować próbki w wirówce:
+    -   **20 minut** i **3500 rpm**.
+-   Po odwirowaniu należy możliwie szybko przenieść przenieść część supernatantu do wcześniej oznaczonych fiolek scyntylacyjnych Zdekantować supernatant znad osadu do zbiorczej zlewki. Ciecz powinna być przejrzysta i pozbawiona zawiesiny. Należy uważać żeby nie stracić osadu. (niemal do pełna).
+-   Nie należy pozwolić na zanieczyszczenie roztworu w fiolkach przez osad.
+
+::: callout-important
+## Przerwy w procedurze
+
+-   Jeśli na którymkolwiek etapie prac przed przeniesieniem roztworu do fiolek scyntylacyjncyn zachodzi potrzeba przerwania analizy po usunięciu supernatantów koniczne jest dodanie wody redestylowanej
+-   Przed wznowieniem prac próbki należy odwirować i zdekantować. Nie można dopuścić do wysuszenia materiału.
+:::
+
+## Przygotowanie do pomiaru
+
+Należy przygotować roztwór roboczy molibdenianu i metolu odpowiedni dla ilości przygotowywanych próbek i próbek ślepych (z niewielkim zapasem, około dwie więcej). W tym celu należy wykorzystać plik z kalkulatorem.
+
+Do przygotowania roztworów roboczych potrzebne są:
+
+-   Roztwór podstawowy molibdenianu.
+-   Roztwór podstawowy metolu.
+-   Kwas szczawiowy.
+-   Kwas siarkowy (VI).
+-   Kwas solny.
+-   Przygotować arkusz do zapisu kolejności próbek, etykiet i odczytów absorbancji.
+-   Ustawić 40 fiolek scyntylacyjnych (**20 mL**) z przygotowanymi próbkami i standardami w rzędzie lub w rzędach zależnie od wolnej przestrzeni pod wyciągiem.
+-   Ustawić 40 odpowiednio oznaczonych butelek reakcyjnych (**30 mL**) w sposób ściśle odpowiadający fiolkom scyntylacyjnym - isotne jest aby nie dokonać pomyłek w ramach tak przygotowanych par.
+-   Odnotować w arkuszu etykiety butelek reakcyjnych przy odpowiednich próbkach.
+    -   PRBK-XYZ -\> scintilation NN -\> reaction NN
+-   Do każdej z butelek reakcyjnych dodać dokładnie **17.5 mL** roztworu roboczego molibdenianu.
+-   Nie zakręcać reaktorków.
+-   Przygotować pipetę i ustawić ją na **125 µL**. Przygotować końcówki do pipety (40 sztuk), do każdej próbki należy wykorzystywać nową końcówkę. Zużyte końcówki należy odrzucać do zlewki a następnie utylizować.
+-   Odkręcić wszystkie fiolki scyntylacyjne.
+
+::: callout-important
+## Uwaga
+
+Następne kroki muszą przebiegać w taki sposób, aby reakcja w każdym reaktorze zachodziła dokładnie **20 minut**. Przed pipetowaniem pierwszej próbki należy ustawić minutnik na **20 minut**.
+:::
+
+-   Za pomocą pipety przenieść roztwór z fiolki scyntylacyjnej do odpowiedniego reaktora. Kontynuować w jednostajnym tempie aż do przeniesienia wszystkich próbek.
+-   Po każdej próbce warto przesunąć fiokę tak aby mieć pewność, na której próbce skończono.
+-   Po upłynięciu **20 minut** należy rozpocząć kolejny krok zachowując podobne tempo. Dzięki temu każda próbka powinna reagować około **20 minut**.
+-   Do każdej z butelek reakcyjnych dodać dokładnie **7.5 mL** roztworu roboczego metolu
+-   Zakręcić butelki reakcyjne i ostrożnie wymieszać.
+-   Umieścić butelki reakcyjne w miejscu pozbzawionym światła (np. w szufladzie lub w szafce) na conajmniej **12 h**.
+
+## Pomiar spektrofotometryczny
+
+Pomiar błękitu molibdenowego przebiega w zakresie fali **812 nm**.
+
+-   Upewnić się, że wybrana kuweta jest czysta i sucha.
+-   Wypełnić kuwetę próbką ślepą i wykonać pomiar wartości absorbancji. Spektrofotometr Shimadzu powinien pozowlić na umieszczenie kuwety w celi referencyjnej umożliwiając *Autozero* przed każdym pomiarem.
+-   Po ustawieniu wartości tła należy przystąpić do pomiaru próbek.
+-   Po każdej próbce należy wylać ostrożnie roztwór z powrotem do butelki reakcyjnej. Następnie kuwetę należy dokładnie przpełukać conajmniej **3** razy za pomocą **wody redestylowanej**. Osuszczuć wnętrze kuwety (na przykład delikatnie obstukując ją na grubej warstwie ręczników papierowych). W razie zawilgoczenia ścian zewnętrznych należy kuwetę osuszyć **bezpyłowymi chusteczkami laboratoryjnymi**.
+-   Zacząć od pomiaru standardów **100**, **200**, **300**, **400** i **500 ppm** SiO~2~ (w tej kolejności) i odontować wartości. Następnie wykonać pomiar standardów wewnętrznych.
+-   Następnie należy przejść do pomiaru próbek. Próbki w miarę możliwości ustawić w kolejności od najjaśniejszej do najciemniejszej (wzrost koncentracji i absorbcji).
+-   W przypadku braku możliwości wykonywania autozera, po **5** lub **10** próbkach należy pownownie wykonać pomiar próbki ślepej i wyzerować urządzenie.
+-   Wszystkie próbki, których pomiar absorbacji osiągnie większą wartość niż standard **500 ppm** należy odpowiednio oznaczyć w arkuszu.
+-   Ponownie wykonać pomiar standardów.
+
+## Obliczenie koncentracji
+
+-   Wprowadzić wartości wzorców i próbki ślepej zmierzone na końcu procedury.
+-   Wykreślić dane w arkuszu kalkulacyjnym na podstawie średniej ze standardów SiO~2~ oraz próbki ślepej.
+-   Na podstawie równania regresji określić współczynnik kierunkowy.
+-   Odnotować datę i zestaw próbek (batch_ID).
+-   Standardy SiO~2~ muszą być mierzone za każdym razem, kiedy wykonywany jest pomiar nowego zestawu próbek ze względu na dryf spektrofotometru.
+
+## Czyszczenie fiolek i butelek reakcyjnych
+
+-   Wypłukać fiolki i butelki wodą redestylowaną.
+-   Dodać niewielką ilość **Micro-90®** (lub **Neodisher Laboclean**) do miski wypełnionej **wodą redestylowaną**.
+-   Zanurzuć wszystkie fiolki, butelki oraz nakrętki i upewnić się, że wszystkie są wypełnione wodą. Pozostawić na conajmniej **24 h**.
+-   Wypłukać fiolki, butelki oraz nakrętki **wodą dejonizowaną** w celu pozbycia się piany i mydlin.
+-   Umieścić fiolki, butelki oraz nakrętki w misce z czystą **wodą redestylowną** i upewnić się, że wszystkie są wypełnione wodą. Pozostawić na conajmniej **24 h**.
+-   Wylać wodę i upewnić się, że wszystkie fiolki, butelki i nakrętki są opróżnione.
+-   Umieścić fiolki, butelki oraz nakrętki w misce z czystą **wodą redestylowną** i upewnić się, że wszystkie są wypełnione wodą. Pozostawić na conajmniej **24 h**.
+-   Wylać wodę i upewnić się, że wszystkie fiolki, butelki i nakrętki są opróżnione.
+-   Umieścić fiolki, butelki oraz nakrętki w misce z czystą **wodą redestylowną** i upewnić się, że wszystkie są wypełnione wodą. Pozostawić na conajmniej **24 h**.
+-   Wylać wodę i upewnić się, że wszystkie fiolki, butelki i nakrętki są opróżnione.
+-   Po trzecim płukaniu należy osuszyć fiolki, butelki oraz nakrętki. Umieścić na ręczniku papierowym dnem do góry i pozwolić na pełne wyschnięcie.
+-   Po wysuszeniu należy zakręcić fiolki i butelki, a następnie umieścić w miejscu, w którym są przechowywane.
+
+# Roztwory
+
+## Roztwory podstawowe
+
+### Molibdenian (roztwór podstawowy)
+
+-   Przygotować zlewkę Nalgene **2000 mL** i ustawić na mieszadle magnetycznym.
+-   Dodać **1000 mL** wody redestylowanej.
+-   Odważyć **16.0 g** heptamolibdenianu amonu (tetrahydrat).
+-   Dodać ostrożnie do zlewki i poczekać do rozpuszczenia.
+-   Przechowywać w szczelnie zakręconej **butelki polietylenowej (PE)** zdala od światła.
+
+::: callout-important
+## Uwaga
+
+Roztwór jest stabilny przez czas nieokreślony, ale w przypadku wystąpienia białego nalotu lub zmiany koloru w kierunku niebieskiego należy roztwór utylizować (nie wykorzystywać do analizy).
+:::
+
+### Siarczyn metolu (roztwór podstawowy)
+
+-   Przygotować zlewkę Nalgene **1000 mL** i ustawić na mieszadle magnetycznym.
+-   Dodać **1000 mL** wody redestylowanej.
+-   Odważyć **10.0 g** metolu (siarczan N-metylo-p-aminofenolu).
+-   Dodać ostrożnie do zlewki i poczekać do rozpuszczenia.
+-   Przygotować statyw, lejek, sączek jakościowy i **brązową butelkę 1 L**.
+-   Stopniowo przefiltrować przez sączek umieszczony w lejku do **brązowej butelki 1 L**.
+-   Przechowywać w **brązowej butelce** i opisać datą przygotowania roztworu.
+
+::: callout-important
+## Uwaga
+
+Roztwór jest stabilny przez około **1** do **2 miesięcy**. Po tym czasie należy roztwór utylizować (nie wykorzystywać do analizy).
+:::
+
+### Kwas szczawiowy (roztwór roboczy)
+
+-   Przygotować zlewkę Nalgene **2000 mL** i ustawić na mieszadle magnetycznym.
+-   Dodać **1000 mL** wody redestylowanej.
+-   Odważyć **60.0 g** dihydratu kwasu szczawiowego.
+-   Przechowywać w szczelnie zakręconej **butelki polietylenowej (PE)** zdala od światła.
+
+::: callout-important
+## Uwaga
+
+Roztwór jest stabilny przez czas nieokreślony.
+:::
+
+### Kwas siarkowy (VI) (roztwór roboczy)
+
+-   Powoli dodać **280 mL** stężonego kwasu siarkowego (VI) do **720 mL** wody redestylowanej.
+
+::: callout-warning
+## Uwaga
+
+Reakcja silnie egzotermiczna. Pod żadnym pozorem nie wykonywać w odwrotnej kolejności.
+:::
+
+### Kwas solny (roztwór podstawowy)
+
+-   Powoli dodać **83 mL** stężonego kwasu solnego do **917 mL** wody redestylowanej.
+
+### Węglan sodu 10% (roztwór podstawowy)
+
+-   Rozpuścić w zlewce ustawionej na mieszadle magnetycznym taką ilość Na~2~CO~3~ aby **masa** Na~2~CO~3~ stanowiła **10%** **objętości** wody wyrażonej w **mL**. Wykorzystywać wodę redestylowaną.
+
+::: callout-tip
+## Tip
+
+**1000 mL** roztworu: **1000 mL** wody redestylowanej i **100 g** Na~2~CO~3~.
+:::
+
+## Roztwory robocze
+
+### Molibdenian (roztwór roboczy)
+
+-   Przygotować roztwory podstawowe:
+    -   Molibdenian (roztwór podstawowy).
+
+    -   Kwas solny (roztwór podstawowy).
+
+    -   Woda redestylowana.
+-   Przygotować roztwór w propocji **1:1:5**.
+
+::: callout-important
+## Uwaga
+
+Roztwór stabilny przez maksymalnie **12 h**. Przechowywać w **butelce polietylenowej (PE)** zdala od światła.
+:::
+
+### Metol (roztwór roboczy)
+
+-   Przygotować roztwory podstawowe:
+    -   Metol (roztwór podstawowy).
+
+    -   Kwas szczawiowy (roztwór podstawowy).
+
+    -   Kwas siarkowy (VI) (roztwór podstawowy).
+-   Przygotować roztwór w proporcji **1:1:1**.
+
+::: callout-important
+## Uwaga
+
+Roztwór stabilny przez maksymalnie **6 h**. Przygotowywać bezpośrednio przed wykorzystaniem.
+:::
+
+## Roztwory wzorców
+
+Odczynniki:
+
+-   Roztwór Na~2~CO~3~ **20%**.
+-   Woda redestylowana.
+-   Wzorzec SiO~2~ **1000 ppm**.
+
+Roztwór Na~2~CO~3~ przygotować relatywnie do instrukcji dla roztworu **10%**.
+
+-   100 ppm
+    -   Wymieszać **10 ml** roztworu Na~2~CO~3~ **20%**, **8 mL** wody redestylowanej i **2 mL** wzorca SiO~2~ **1000 ppm**.
+-   200 ppm
+    -   Wymieszać **10 ml** roztworu Na~2~CO~3~ **20%**, **6 mL** wody redestylowanej i **4 mL** wzorca SiO~2~ **1000 ppm**.
+-   300 ppm
+    -   Wymieszać **10 ml** roztworu Na~2~CO~3~ **20%**, **4 mL** wody redestylowanej i **6 mL** wzorca SiO~2~ **1000 ppm**.
+-   400 ppm
+    -   Wymieszać **10 ml** roztworu Na~2~CO~3~ **20%**, **2 mL** wody redestylowanej i **8 mL** wzorca SiO~2~ **1000 ppm**.
+-   500 ppm
+    -   Wymieszać **10 ml** roztworu Na~2~CO~3~ **20%**, **0 mL** wody redestylowanej i **10 mL** wzorca SiO~2~ **1000 ppm**.
+
+# Uwagi
+
+W przypadku odczytu powyżej **50%** BSi należy sprawdzić osad pod mikroskopem. Jeśli widać znaczący udział okryw okrzemek, należy przygotować kolejną próbkę o mniejszej masie.
 
 ## {{< pagebreak >}}Rejestr zmian
 

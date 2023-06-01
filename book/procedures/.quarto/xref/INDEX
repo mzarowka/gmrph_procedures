@@ -1,0 +1,92 @@
+{
+  "index.qmd": {
+    "index.html": "f00c63b3"
+  },
+  "intro.qmd": {
+    "intro.html": "83ce790f"
+  },
+  "summary.qmd": {
+    "summary.html": "a86c789d"
+  },
+  "references.qmd": {
+    "references.html": "2fc05071"
+  },
+  "biogenic-silica-bulk-extraction_pl.qmd": {
+    "biogenic-silica-bulk-extraction_pl.html": "b6a1cb33"
+  },
+  "bathymetry_pl.qmd": {
+    "bathymetry_pl.html": "9cbc2df2"
+  },
+  "cns_sample-preparation_pl.qmd": {
+    "cns_sample-preparation_pl.html": "713596e9"
+  },
+  "cns_standard-samples_pl.qmd": {
+    "cns_standard-samples_pl.html": "f86e89f9"
+  },
+  "cns_procedure-extended_pl.qmd": {
+    "cns_procedure-extended_pl.html": "46493b30"
+  },
+  "cns_tic-inorganic-carbon-solitic_pl.qmd": {
+    "cns_tic-inorganic-carbon-solitic_pl.html": "34074dc0"
+  },
+  "tic-inorganic-carbon-scheibler_pl.qmd": {
+    "tic-inorganic-carbon-scheibler_pl.html": "39625f6e"
+  },
+  "core-photographs-manual_pl.qmd": {
+    "core-photographs-manual_pl.html": "6b7bae5c"
+  },
+  "exo_sonde-ph-maintenance_pl.qmd": {
+    "exo_sonde-ph-maintenance_pl.html": "e6a25641"
+  },
+  "freeze-drying_pl.qmd": {
+    "freeze-drying_pl.html": "92eb2bce"
+  },
+  "gamma-nitrogen-sample_pl.qmd": {
+    "gamma-nitrogen-sample_pl.html": "4205d2a4"
+  },
+  "gamma-report_pl.qmd": {
+    "gamma-report_pl.html": "2523443c"
+  },
+  "hco3-titration_pl.qmd": {
+    "hco3-titration_pl.html": "c88816f1"
+  },
+  "hyperspectral-scanning_pl.qmd": {
+    "hyperspectral-scanning_pl.html": "4a7230fb"
+  },
+  "logger_oxygen_pl.qmd": {
+    "logger_oxygen_pl.html": "573ff10c"
+  },
+  "loss-on-ignition_pl.qmd": {
+    "loss-on-ignition_pl.html": "3acd55d0"
+  },
+  "mineral-matter_pl.qmd": {
+    "mineral-matter_pl.html": "19188ce0"
+  },
+  "n_total-p_total_pl.qmd": {
+    "n_total-p_total_pl.html": "3579e854"
+  },
+  "pb210-alpha_pl.qmd": {
+    "pb210-alpha_pl.html": "78a0bc9a"
+  },
+  "pigment-bulk-extraction_pl.qmd": {
+    "pigment-bulk-extraction_pl.html": "2e2e55ce"
+  },
+  "pigment-bulk-measure_pl.qmd": {
+    "pigment-bulk-measure_pl.html": "2ea47ab1"
+  },
+  "sequential-extraction_pl.qmd": {
+    "sequential-extraction_pl.html": "57359226"
+  },
+  "smear-slides_pl.qmd": {
+    "smear-slides_pl.html": "230f29cc"
+  },
+  "thin-section-scanning_pl.qmd": {
+    "thin-section-scanning_pl.html": "ff0ee43c"
+  },
+  "thin-section-slabs_pl.qmd": {
+    "thin-section-slabs_pl.html": "4d19f9b1"
+  },
+  "water-content_bulk-density_pl.qmd": {
+    "water-content_bulk-density_pl.html": "177c7ed7"
+  }
+}

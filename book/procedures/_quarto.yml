@@ -1,0 +1,52 @@
+project:
+  type: book
+
+book:
+  title: "Procedury"
+  subtitle: "Katedra Geomorfologii i Geologii Czwartorzędu"
+  author: "Maurycy Żarczyński"
+  chapters:
+    - index.qmd
+    - part: "Prace terenowe"
+      chapters:
+        - bathymetry_pl.qmd
+        - logger_oxygen_pl.qmd
+        - exo_sonde-ph-maintenance_pl.qmd
+    - part: "Prace laboratoryjne"
+      chapters:
+        - cns_sample-preparation_pl.qmd
+        - cns_standard-samples_pl.qmd
+        - cns_procedure-extended_pl.qmd
+        - cns_tic-inorganic-carbon-solitic_pl.qmd
+        - tic-inorganic-carbon-scheibler_pl.qmd
+        - biogenic-silica-bulk-extraction_pl.qmd
+        - core-photographs-manual_pl.qmd
+        - freeze-drying_pl.qmd
+        - gamma-nitrogen-sample_pl.qmd
+        - gamma-report_pl.qmd
+        - hco3-titration_pl.qmd
+        - hyperspectral-scanning_pl.qmd
+        - loss-on-ignition_pl.qmd
+        - mineral-matter_pl.qmd
+        - n_total-p_total_pl.qmd
+        - pb210-alpha_pl.qmd
+        - pigment-bulk-extraction_pl.qmd
+        - pigment-bulk-measure_pl.qmd
+        - sequential-extraction_pl.qmd
+        - smear-slides_pl.qmd
+        - thin-section-scanning_pl.qmd
+        - thin-section-slabs_pl.qmd
+        - water-content_bulk-density_pl.qmd
+  language: pl
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    lang: pl
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+

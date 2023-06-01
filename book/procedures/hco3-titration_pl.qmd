@@ -1,0 +1,72 @@
+---
+editor: visual
+author: "Alicja Bonk"
+format:
+  html:
+    toc: true
+    toc-title: Etapy
+    toc-depth: 4
+    embed-resources: true
+  pdf:
+    geometry: 
+    - top=20mm
+    - left=20mm
+    - bottom=20mm
+    - right=20mm
+theme:
+  light: flatly
+  dark: darkly
+---
+
+# Określanie HCO~3~^-^
+
+Metoda miareczkowania.
+
+## Miareczkowanie
+
+-   Nalać **100 ml** próbki do zlewki szklanej.
+
+-   Uzupełnić titrant w biurecie:
+
+    | **0.1 mol HCl**.
+
+-   Przygotować mieszadło magnetyczne i mieszadełko (rdzeń).
+
+-   Przygotować **oranż metylowy**.
+
+-   Umieścić mieszadełko (rdzeń) w zlewce.
+
+-   Dodać **1 kroplę** **oranżu metylowego**.
+
+-   Napompować biuretę:
+
+    | Zasłonić otwór ręką i przytrzymać. Zwolnić po przekroczeniu górnej kreski.
+
+-   Ostrożnie miareczkować aż do zmiany barwy przez otwarcie zaworu.
+
+-   Odczytać i zpaisać wartość z podziałki biurety.
+
+    | Poniżej wartości **5**, kreski na biurecie są przesunięte.
+
+-   Spuścić titrant z biurety.
+
+-   Obliczyć koncentrację wodorowęglanów ze wzoru:
+
+    $$
+    HCO_3^- = x * 61.016
+    $$
+
+gdzie:
+
+**HCO3-**: koncentracja wodorowęglanów (mg/l);
+
+**x**: miareczkowana ilość HCl odczytana z biurety;
+
+**61.016**: stała przeliczeniowa.
+
+{{< pagebreak >}}
+
+## Rejestr zmian
+
+-   07.12.2022 MZ: wersja inicjalna Quarto. Rozwinięcie treści.
+-   28.05.2023 MZ: Quarto book chapter.
