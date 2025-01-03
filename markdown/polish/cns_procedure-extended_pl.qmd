@@ -21,7 +21,7 @@ theme:
 
 [![](images/log-ug_pl.png){fig-alt="Logo: Uniwersytet Gdański" fig-align="left" width="150"}](https://geomorfologia.ug.edu.pl)
 
-Zakład Geomorfologii i Geologii Czwartorzędu --- PROCEDURA
+Katedra Geomorfologii i Geologii Czwartorzędu --- PROCEDURA
 
 ------------------------------------------------------------------------
 
@@ -103,7 +103,7 @@ Pole TCD powinno przestać migać i pokazywać wartość powinna wynosić około
 
         | Próbki powinny być możliwie blisko spodziewanego zakresu analitycznego.
 
-    -   2--3 × wzorzec jako **day factor**.
+    -   **2--3** × wzorzec jako **day factor**.
 
 -   Wybór metody **dozowania O~2~**:
 
